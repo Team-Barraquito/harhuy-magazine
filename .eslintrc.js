@@ -34,7 +34,6 @@ module.exports = {
     "no-shadow": ["error"],
     "no-unused-vars": ["warn"],
     yoda: ["error", "never"],
-    "max-len": ["error"],
     "max-lines": ["error"],
     "max-lines-per-function": ["error", 60],
     "max-nested-callbacks": ["error", 5],
@@ -64,6 +63,14 @@ module.exports = {
     eqeqeq: ["error", "always"],
     "no-new-func": ["error"],
     "comma-dangle": ["error", "always-multiline"],
+    "vue/max-len": ["error", {
+      "code": 80,
+      "template": 95,
+      "tabwidth": 2,
+      "comments": 80,
+      "ignoreUrls": true,
+      "IgnoreHTMLAttributeValues": true
+    }]
   },
 
   overrides: [
