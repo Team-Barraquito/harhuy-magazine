@@ -4,6 +4,7 @@
     "autoprefixer": true,
     "cssnano":  {
       "preset": "default"
-    }
+    },
+    tailwindcss: true
   }
 }
