@@ -17,6 +17,7 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    "max-len": ["off"],
     indent: ["error", 2],
     semi: ["error", "always"],
     quotes: ["error", "double", { allowTemplateLiterals: true }],
@@ -66,10 +67,17 @@ module.exports = {
     "vue/max-len": ["error", {
       "code": 80,
       "template": 95,
-      "tabwidth": 2,
+      "tabWidth": 2,
       "comments": 80,
+      "ignorePattern": "",
+      "ignoreComments": false,
+      "ignoreTrailingComments": false,
       "ignoreUrls": true,
-      "IgnoreHTMLAttributeValues": true
+      "ignoreStrings": false,
+      "ignoreTemplateLiterals": false,
+      "ignoreRegExpLiterals": false,
+      "ignoreHTMLAttributeValues": true,
+      "ignoreHTMLTextContents": false,
     }]
   },
 
