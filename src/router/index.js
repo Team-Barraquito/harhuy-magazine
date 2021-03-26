@@ -20,6 +20,12 @@ const routes = [
      */
     component: () => import(/* WebpackChunk: "about" */ "../views/About.vue"),
   },
+
+  {
+    path: "/menu",
+    name: "Menu",
+    component: () => import("../views/GiantMenu.vue"),
+  },
 ];
 
 const router = new VueRouter({
