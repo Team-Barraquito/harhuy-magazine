@@ -10,6 +10,10 @@ module.exports = {
       {
         1: "1px",
       },
+      height: {
+        112: "28rem",
+        128: "31rem",
+      },
     },
   },
   variants: {
