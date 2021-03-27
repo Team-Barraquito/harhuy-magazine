@@ -19,7 +19,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
   .vertical-line {
     border-left: 1px solid black;
     height: 50px;
