@@ -16,6 +16,34 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-stroke-1 {
+ -webkit-text-stroke-width: 1px;
+}
+
+.text-stroke-2 {
+ -webkit-text-stroke-width: 2px;
+}
+
+.text-stroke-3 {
+ -webkit-text-stroke-width: 3px;
+}
+
+.text-stroke-4 {
+ -webkit-text-stroke-width: 4px;
+}
+
+.text-stroke-5 {
+ -webkit-text-stroke-width: 5px;
+}
+
+.text-stroke-color-black {
+  -webkit-text-stroke-color: black;
+}
+
+.text-stroke-color-white{
+  -webkit-text-stroke-color: white;
+}
+
 @font-face {
   font-family: "Monument Extended";
   src: url(./assets/fonts/MonumentExtended-Regular.otf),
