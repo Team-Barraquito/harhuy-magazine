@@ -26,6 +26,17 @@ const routes = [
     name: "Menu",
     component: () => import("../views/GiantMenu.vue"),
   },
+
+  {
+    path: "/aboutUs",
+    name: "AboutUs",
+    component: () => import("../views/AboutUs.vue"),
+  },
+  {
+    path: "/ContactUs",
+    name: "ContactUs",
+    component: () => import("../views/ContactUs.vue"),
+  },
 ];
 
 const router = new VueRouter({
