@@ -23,9 +23,9 @@
   <!-- end top zone -->
   <!-- middle zone -->
     <div class="w-full h-128 grid grid-cols-1 grid-rows-3">
-      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase stroke">El proyecto</a></div>
-      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase stroke">Contacto</a></div>
-      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase stroke">Planes de subscripción</a></div>
+      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">El proyecto</a></div>
+      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Contacto</a></div>
+      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Planes de subscripción</a></div>
     </div>
   <!-- end middle zone -->
   <!-- bottom zone-->
@@ -45,11 +45,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
- div .stroke {
-  color: transparent;
-  -webkit-text-stroke: 4px black;
-}
  /* Falta rellenar on hover */
 </style>
