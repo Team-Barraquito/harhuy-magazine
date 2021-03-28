@@ -1,0 +1,63 @@
+{
+  "numberOfItems":6,
+  "items":[
+    {
+      "name":"Harhuy Tee Logo White",
+      "isInStock":true,
+      "rating":4,
+      "photos":{
+        "front":"../assets/images/harhuyTeeLogoWhite"
+      }
+    },
+    {
+      "name": "Harhuy Tee Logo Yellow",
+      "isInStock": false,
+      "rating": 5,
+      "photos": {
+        "front": "../assets/images/harhuyTeeLogoYellow"
+      }
+    },
+    {
+      "name": "Harhuy Mug Logo Black",
+      "isInStock": false,
+      "rating": 4.5,
+      "photos": {
+        "front": "../assets/images/harhuyMugLogoBlack"
+      }
+    },
+    {
+      "name": "Harhuy Mug Logo Yellow",
+      "isInStock": true,
+      "rating": 3.5,
+      "photos": {
+        "front": "../assets/images/harhuyMugLogoYellow"
+      }
+    },
+    {
+      "name": "Harhuy Tote Bag",
+      "isInStock": true,
+      "rating": 5,
+      "photos": {
+        "front": "../assets/images/harhuyToteBag",
+        "side": "../assets/images/harhuyToteBagSide",
+        "holded": "../assets/images/harhuyToteBagHolded"
+      }
+    },
+    {
+      "name": "Harhuy Mag February Ed",
+      "isInStock": false,
+      "rating": 5,
+      "photos": {
+        "front": "../assets/images/harhuyMagFebruary"
+      }
+    },
+    {
+      "name": "Harhuy Mag March Ed",
+      "isInStock": false,
+      "rating": 5,
+      "photos": {
+        "front": "../assets/images/harhuyMagMarch"
+      }
+    }
+  ]
+}
