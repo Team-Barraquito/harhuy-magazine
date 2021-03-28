@@ -1,4 +1,5 @@
 <template>
+<!-- TODO ajustar tamaño de pantalla -->
   <div class="w-screen h-screen bg-harhuy">
     <circular-cursor> </circular-cursor>
     <div class="top-zone overflow-hidden w-screen h-28 grid grid-rows-1 grid-cols-3">
@@ -29,8 +30,23 @@
     </div>
   <!-- end middle zone -->
   <!-- bottom zone-->
-    <div>
-
+    <div class=" w-full h-20 flex">
+      <div class="w-9/12 flex">
+        <div class="uppercase w-1/3 flex justify-center items-center"><a target="_blank" rel="noopener noreferrer">instagram</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center"><a href="#" target="_blank">facebook</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center"><a href="#" target="_blank" >twitter</a></div>
+      </div>
+      <div class="w-3/12 flex justify-center items-center">
+          <!-- TODO preguntarle a manz como unirlo en un contenedor-->
+        <div class="h-full w-1/2 flex justify-end items-center p-2">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="uppercase"> contact us </a>
+        </div>
+        <div class="h-full w-1/2 flex  items-center">
+          <svg id="arrow" viewBox="0 0 61 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M55.1324 28.6798L55.1098 28.6573L36.8042 46.9629L31.8544 42.0132L46.8676 27H0V20H46.4526L31.4023 4.94975L36.3521 0L60.0822 23.7301L55.1324 28.6798Z" fill="black"/>
+          </svg>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -47,5 +63,9 @@ export default {
 
 <style scoped>
 
+#arrow {
+  height: 1.5rem;
+  width: 1.5rem;
+}
  /* Falta rellenar on hover */
 </style>
