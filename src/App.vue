@@ -46,9 +46,9 @@
 
 @font-face {
   font-family: "Monument Extended";
-  src: url(./assets/fonts/MonumentExtended-Regular.otf),
-       url(./assets/fonts/MonumentExtended-Regular.woff),
-       url(./assets/fonts/MonumentExtended-Regular.woff2);
+  src: url(./assets/fonts/MonumentExtended-Regular.woff),
+       url(./assets/fonts/MonumentExtended-Regular.woff2),
+       url(./assets/fonts/MonumentExtended-Regular.otf);
 }
 
 #app {
