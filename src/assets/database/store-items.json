@@ -5,58 +5,65 @@
       "name":"Harhuy Tee Logo White",
       "isInStock":true,
       "rating":4,
+      "precio": 11,
       "photos":{
-        "front":"../assets/images/harhuyTeeLogoWhite"
+        "front":"../assets/images/harhuyTeeLogoWhite.jpg"
       }
     },
     {
       "name": "Harhuy Tee Logo Yellow",
       "isInStock": false,
       "rating": 5,
+      "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyTeeLogoYellow"
+        "front": "../assets/images/harhuyTeeLogoYellow.jpg"
       }
     },
     {
       "name": "Harhuy Mug Logo Black",
       "isInStock": false,
       "rating": 4.5,
+      "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyMugLogoBlack"
+        "front": "../assets/images/harhuyMugLogoBlack.jpg"
       }
     },
     {
       "name": "Harhuy Mug Logo Yellow",
       "isInStock": true,
       "rating": 3.5,
+      "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyMugLogoYellow"
+        "front": "../assets/images/harhuyMugLogoYellow.jpg"
       }
     },
     {
       "name": "Harhuy Tote Bag",
       "isInStock": true,
       "rating": 5,
+      "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyToteBag",
-        "side": "../assets/images/harhuyToteBagSide",
-        "holded": "../assets/images/harhuyToteBagHolded"
+        "front": "../assets/images/harhuyToteBag.jpg",
+        "side": "../assets/images/harhuyToteBagSide.jpg",
+        "holded": "../assets/images/harhuyToteBagHolded.jpg"
       }
     },
     {
       "name": "Harhuy Mag February Ed",
       "isInStock": false,
       "rating": 5,
+      "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyMagFebruary"
+        "front": "../assets/images/harhuyMagFebruary.jpg"
       }
     },
     {
       "name": "Harhuy Mag March Ed",
       "isInStock": false,
       "rating": 5,
+      "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyMagMarch"
+        "front": "../assets/images/harhuyMagMarch.jpg"
       }
     }
   ]
