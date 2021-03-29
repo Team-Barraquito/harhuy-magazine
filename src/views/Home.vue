@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/images/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- TODO cambiar Etiquetas componente a Pascal Case-->
+    <StoreItem v-for="(item, index) of this.items" :key="index" :item="item" >  </StoreItem>
   </div>
 </template>
 
 <script>
+
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import StoreItem from "@/components/StoreItem.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    StoreItem,
+  },
+  data () {
+    return {
+      items: [],
+    };
+  },
+  methods: {
+    setItems () {
+      const storeItems = require("../assets/database/store-items.json");
+      this.items = storeItems.items;
+    },
+  },
+  mounted () {
+    this.setItems();
   },
 };
 </script>
