@@ -1,17 +1,17 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <TopBar> </TopBar>
+    <OpenCloseButton> </OpenCloseButton>
   </div>
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
+import OpenCloseButton from "@/components/OpenCloseButton.vue";
 
 export default {
   name: "About",
   components: {
-    TopBar,
+    OpenCloseButton,
   },
 };
 </script>
