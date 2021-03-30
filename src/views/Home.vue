@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- TODO cambiar Etiquetas componente a Pascal Case-->
     <StoreItem v-for="(item, index) of this.items" :key="index" :item="item" >  </StoreItem>
   </div>
 </template>
