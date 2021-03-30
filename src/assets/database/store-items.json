@@ -27,16 +27,7 @@
       "photos": {
         "front": "../assets/images/harhuyMugLogoBlack.jpg"
       }
-    },
-    {
-      "name": "Harhuy Mug Logo Yellow",
-      "isInStock": true,
-      "rating": 3.5,
-      "precio": 11,
-      "photos": {
-        "front": "../assets/images/harhuyMugLogoYellow.jpg"
-      }
-    },
+    }, 
     {
       "name": "Harhuy Tote Bag",
       "isInStock": true,
