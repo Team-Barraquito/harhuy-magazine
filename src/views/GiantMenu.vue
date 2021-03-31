@@ -1,6 +1,6 @@
 <template>
 <!-- TODO ajustar tamaño de pantalla -->
-  <div class="w-screen h-screen bg-harhuy">
+  <div class="w-screen h-screen bg-harhuy menu">
     <circular-cursor> </circular-cursor>
     <div class="top-zone overflow-hidden w-screen h-28 grid grid-rows-1 grid-cols-3">
       <!-- fixear -->
@@ -24,9 +24,9 @@
   <!-- end top zone -->
   <!-- middle zone -->
     <div class="w-full h-128 grid grid-cols-1 grid-rows-3">
-      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">El proyecto</a></div>
-      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Contacto</a></div>
-      <div class="flex justify-center items-center"><a href="#" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Planes de subscripción</a></div>
+      <div class="flex justify-center items-center"><router-link to="/aboutUs" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">El proyecto</router-link></div>
+      <div class="flex justify-center items-center"><router-link to="/contactUs" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Contacto</router-link></div>
+      <div class="flex justify-center items-center"><router-link to="/suscripcion" class="text-7xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Planes de subscripción</router-link></div>
     </div>
   <!-- end middle zone -->
   <!-- bottom zone-->
