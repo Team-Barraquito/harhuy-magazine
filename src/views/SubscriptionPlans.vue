@@ -1,21 +1,20 @@
 <template>
-  <div class="home">
+  <div class="subscription">
     <TopBar> </TopBar>
     <SideMenu> </SideMenu>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import TopBar from "@/components/TopBar.vue";
 import SideMenu from "@/components/SideMenu.vue";
-
 export default {
-  name: "Home",
+  name: "SubscriptionPlans",
   components: {
     TopBar,
     SideMenu,
   },
+
 };
 </script>
 

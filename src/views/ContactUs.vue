@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 <div>
   <div class="flex flex-column">
   <div class="flex flex-row">
@@ -41,12 +42,24 @@
     </div>
   </div>
 </div>
+=======
+<div class="contact">
+  <TopBar> </TopBar>
+  <SideMenu> </SideMenu>
+>>>>>>> jose
 </div>
 </template>
 
 <script>
+import TopBar from "@/components/TopBar.vue";
+import SideMenu from "@/components/SideMenu.vue";
+
 export default {
   name: "ContactUs",
+  components: {
+    TopBar,
+    SideMenu,
+  },
 };
 </script>
 
