@@ -1,6 +1,6 @@
 <template>
   <div class="relative text-black">
-    <img :src="item.photos.front" :alt=item.name>
+    <img :src="getSource" :alt=item.name>
     <div class="absolute bottom-2 left-2 text-xs"> {{ item.name }}</div>
   </div>
 </template>
@@ -17,9 +17,12 @@ export default {
       photos: Object,
     },
   },
-  /* Require here object photos */
-  mounted () {
-    console.log(this.$props.item.photos.front);
+
+  computed: {
+    getSource () {
+      const frontPath = this.$props.item.photos.front;
+      return require("../assets/images" + frontPath);
+    },
   },
 };
 </script>
