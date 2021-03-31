@@ -7,7 +7,7 @@
       "rating":4,
       "precio": 11,
       "photos":{
-        "front":"../assets/images/harhuyTeeLogoWhite.jpg"
+        "front":"/harhuyTeeLogoWhite.jpg"
       }
     },
     {
@@ -16,7 +16,7 @@
       "rating": 5,
       "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyTeeLogoYellow.jpg"
+        "front": "/harhuyTeeLogoYellow.jpg"
       }
     },
     {
@@ -25,7 +25,7 @@
       "rating": 4.5,
       "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyMugLogoBlack.jpg"
+        "front": "/harhuyMugLogoBlack.jpg"
       }
     }, 
     {
@@ -34,9 +34,9 @@
       "rating": 5,
       "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyToteBag.jpg",
-        "side": "../assets/images/harhuyToteBagSide.jpg",
-        "holded": "../assets/images/harhuyToteBagHolded.jpg"
+        "front": "/harhuyToteBag.jpg",
+        "side": "/harhuyToteBagSide.jpg",
+        "holded": "/harhuyToteBagHolded.jpg"
       }
     },
     {
@@ -45,7 +45,7 @@
       "rating": 5,
       "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyMagFebruary.jpg"
+        "front": "/harhuyMagFebruary.jpg"
       }
     },
     {
@@ -54,7 +54,7 @@
       "rating": 5,
       "precio": 11,
       "photos": {
-        "front": "../assets/images/harhuyMagMarch.jpg"
+        "front": "/harhuyMagMarch.jpg"
       }
     }
   ]
