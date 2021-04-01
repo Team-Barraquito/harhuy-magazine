@@ -57,5 +57,31 @@
         "front": "/harhuyMagMarch.jpg"
       }
     }
-  ]
+  ],
+  "featuredItems": {
+    "February": {
+      "name": "Harhuy Mag February Ed",
+      "isInStock": false,
+      "rating": 5,
+      "precio": 11,
+      "photo": "/harhuyMagFebruary.jpg"
+    },
+
+    "March": {
+      "name": "Harhuy Mag March Ed",
+      "isInStock": false,
+      "rating": 5,
+      "precio": 11,
+      "photo": "/harhuyMagMarch.jpg"
+    },
+
+    "April": {
+      "name": "Harhuy Mag April Ed",
+      "isInStock": false,
+      "rating": 5,
+      "precio": 11,
+      "photo": "/harhuyMagApril.jpg",
+      "description": "Revista edición 05/04/21 Feat Dawaira 17x24 cm 45 páginas"
+    }
+  }
 }
