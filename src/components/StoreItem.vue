@@ -1,5 +1,5 @@
 <template>
-  <div @click="clicked"  class="relative text-black">
+  <div @click="goToProductSheet"  class="relative text-black">
     <img :src="getSource" :alt=item.name>
     <div class="absolute bottom-2 left-2 text-xs"> {{ item.name }}</div>
   </div>
@@ -7,10 +7,11 @@
 
 <script>
 export default {
-  name: "StoreItem",
+  // Todo se puede cambiar el prop por data
   props: {
     item: {
       name: String,
+      urlName: String,
       isInStock: Boolean,
       rating: Number,
       price: Number,
@@ -18,10 +19,8 @@ export default {
     },
   },
   methods: {
-    clicked () {
-      console.log("pinxaste");
-      const itemRoute = this.$props.item.name.replaceAll(" ", "");
-      this.$router.push(`/store/${itemRoute}`);
+    goToProductSheet () {
+      this.$router.push({ path: `/store/${this.$props.item.urlName}` });
     },
   },
 
