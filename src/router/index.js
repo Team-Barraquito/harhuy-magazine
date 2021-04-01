@@ -25,7 +25,7 @@ const routes = [
 
   {
     path: "/store/:name",
-    name: `e`,
+    name: "Producto",
     component: () => import("../views/ProductSheet"),
   },
 
