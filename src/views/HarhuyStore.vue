@@ -7,6 +7,9 @@
       </div>
       <div class="content flex flex-col">
         <StoreFeaturedItem> </StoreFeaturedItem>
+        <div class="grid grid-rows-2 grid-cols-3">
+          <StoreItem v-for="(item, index) in items" :key="index" :item="item"> </StoreItem>
+        </div>
       </div>
     </div>
   </div>
@@ -15,7 +18,7 @@
 <script>
 import TopBar from "@/components/TopBar.vue";
 import SideMenu from "@/components/SideMenu.vue";
-// Import StoreItem from "@/components/StoreItem.vue";
+import StoreItem from "@/components/StoreItem.vue";
 import StoreFeaturedItem from "@/components/StoreFeaturedItem.vue";
 
 export default {
@@ -24,6 +27,12 @@ export default {
     TopBar,
     SideMenu,
     StoreFeaturedItem,
+    StoreItem,
+  },
+  computed: {
+    items () {
+      return this.$store.state.items;
+    },
   },
 };
 
