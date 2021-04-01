@@ -39,6 +39,7 @@ export default {
     },
     setData () {
       const currentMonth = this.getMonth();
+      // TODO usar getter
       this.itemData = this.$store.state.featuredItems[`${currentMonth}`];
     },
     getPhoto () {
