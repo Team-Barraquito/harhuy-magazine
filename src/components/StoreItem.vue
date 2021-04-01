@@ -1,5 +1,5 @@
 <template>
-  <div class="relative text-black">
+  <div @click="clicked"  class="relative text-black">
     <img :src="getSource" :alt=item.name>
     <div class="absolute bottom-2 left-2 text-xs"> {{ item.name }}</div>
   </div>
@@ -15,6 +15,13 @@ export default {
       rating: Number,
       price: Number,
       photos: Object,
+    },
+  },
+  methods: {
+    clicked () {
+      console.log("pinxaste");
+      const itemRoute = this.$props.item.name.replaceAll(" ", "");
+      this.$router.push(`/store/${itemRoute}`);
     },
   },
 
