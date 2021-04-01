@@ -15,6 +15,11 @@ export default new Vuex.Store({
   },
   actions: {
   },
+  getters: {
+    items: (state) => (name) => {
+      return state.items.find((item) => item.urlName === name);
+    },
+  },
   modules: {
   },
 });
