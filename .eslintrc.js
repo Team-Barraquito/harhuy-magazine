@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-
+  
   env: {
     node: true,
   },
@@ -65,20 +65,20 @@ module.exports = {
     "no-new-func": ["error"],
     "comma-dangle": ["error", "always-multiline"],
     "vue/max-len": ["error", {
-      "code": 80,
-      "template": 95,
-      "tabWidth": 2,
-      "comments": 80,
-      "ignorePattern": "",
-      "ignoreComments": false,
-      "ignoreTrailingComments": false,
-      "ignoreUrls": true,
-      "ignoreStrings": false,
-      "ignoreTemplateLiterals": false,
-      "ignoreRegExpLiterals": false,
-      "ignoreHTMLAttributeValues": true,
-      "ignoreHTMLTextContents": false,
-    }]
+      code: 80,
+      template: 95,
+      tabWidth: 2,
+      comments: 80,
+      ignorePattern: "",
+      ignoreComments: false,
+      ignoreTrailingComments: false,
+      ignoreUrls: true,
+      ignoreStrings: false,
+      ignoreTemplateLiterals: false,
+      ignoreRegExpLiterals: false,
+      ignoreHTMLAttributeValues: true,
+      ignoreHTMLTextContents: false,
+    }],
   },
 
   overrides: [
