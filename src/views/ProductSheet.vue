@@ -30,8 +30,8 @@
           <QuantitySelector> </QuantitySelector>
           <div class="flex mt-4 justify-around">
           <!-- Cada boton es un compo -->
-          <button class="border-black border-2 ">Añadir al carrito </button>
-          <button class="border-black border-2 bg-black text-white"> Pagar con Paypal </button>
+          <AddToCartButton> </AddToCartButton>
+          <PayPalButton> </PayPalButton>
           </div>
         </div>
         <!-- Final botones-->
@@ -62,6 +62,8 @@
 import TopBar from "@/components/TopBar.vue";
 import SideMenu from "@/components/SideMenu.vue";
 import QuantitySelector from "@/components/QuantitySelector.vue";
+import AddToCartButton from "@/components/AddToCartButton.vue";
+import PayPalButton from "@/components/PayPalButton.vue";
 
 export default {
   name: "ProductSheet",
@@ -69,6 +71,8 @@ export default {
     TopBar,
     SideMenu,
     QuantitySelector,
+    AddToCartButton,
+    PayPalButton,
   },
   data () {
     return {
