@@ -1,7 +1,7 @@
 <template>
 <!-- TODO ajustar tamaño de pantalla -->
   <div class="w-screen h-screen bg-harhuy menu">
-    <circular-cursor> </circular-cursor>
+    <CircularCursor id="customCursor"> </CircularCursor>
     <div class="top-zone overflow-hidden w-screen h-28 grid grid-rows-1 grid-cols-3">
       <!-- fixear -->
       <div class="flex justify-start items-start">
@@ -58,10 +58,28 @@ export default {
   components: {
     CircularCursor,
   },
+  methods: {
+    moveCustomCursor (event) {
+      const cursor = this.$el.querySelector("#customCursor");
+      cursor.style.top = event.pageY + "px";
+      cursor.style.left = event.pageX + "px";
+    },
+  },
+
+  mounted () {
+    this.$el.addEventListener("mousemove", this.moveCustomCursor);
+  },
+
+  destroyed () {
+    this.$el.removeEventListener("mousemove", this.moveCustomCursor);
+  },
 };
 </script>
 
 <style scoped>
+* {
+  cursor: none;
+}
 
 #arrow {
   height: 1.5rem;
