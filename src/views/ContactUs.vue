@@ -65,7 +65,7 @@ export default {
 </script>
 
 <style scoped>
-  body{
-    background-color: black;
+  button {
+    outline: 0;
   }
 </style>
