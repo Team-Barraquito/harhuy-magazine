@@ -1,0 +1,175 @@
+{
+  "numberOfCategories": 5,
+  "categories": {
+    "music": [
+      {
+        "name": "Highkili",
+        "urlName": "Highkili",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+
+      {
+        "name": "Wos Las Palmas",
+        "urlName": "WosLasPalmas",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+
+      {
+        "name": "Abhir Hathi",
+        "urlName": "AbhirHathi",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+
+      {
+        "name": "Ana Guerra",
+        "urlName": "AnaGuerra",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+
+      {
+        "name": "Sara Socas",
+        "urlName": "SaraSocas",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+
+      {
+        "name": "Eva Ruíz",
+        "urlName": "EvaRuiz",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+
+      {
+        "name": "Maikel Delacalle",
+        "urlName": "Maikel Delacalle",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Daniela Garsal",
+        "urlName": "DanielaGarsal",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+        {
+          "name": "Della Du",
+          "urlName": "DellaDu",
+          "description": "aaaaa",
+          "lastContent": "aaaaaaa",
+          "events": {
+            "January": {"1": "eEEEAE" },
+            "February": {"1": "ewewe"}
+          },
+          "photos": {
+            "front": "..",
+            "side": "..",
+            "back": ".."
+          }
+       }
+    ],
+    "photography": [
+      {
+
+      }
+    ],
+    "illustration": [
+      {
+        
+      }
+    ],
+    "design": [
+      {
+        "name": "Marc Phillipe Guerin",
+        "urlName": "MarcPhillipeGuerin",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      }
+    ]
+  }
+}

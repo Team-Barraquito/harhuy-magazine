@@ -1,10 +1,13 @@
 <template>
-  <div id="app">
+  <div id="app" class="antialiased">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/menu"> Menu </router-link> |
+      <router-link to="/aboutUs"> About Us </router-link> |
+      <router-link to="/contactUs"> Contact Us </router-link> |
+      <router-link to="/store"> Tienda </router-link>
     </div>
-    <router-view/>
+    <router-view class="w-full"/>
   </div>
 </template>
 
@@ -13,9 +16,43 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-stroke-1 {
+ -webkit-text-stroke-width: 1px;
+}
+
+.text-stroke-2 {
+ -webkit-text-stroke-width: 2px;
+}
+
+.text-stroke-3 {
+ -webkit-text-stroke-width: 3px;
+}
+
+.text-stroke-4 {
+ -webkit-text-stroke-width: 4px;
+}
+
+.text-stroke-5 {
+ -webkit-text-stroke-width: 5px;
+}
+
+.text-stroke-color-black {
+  -webkit-text-stroke-color: black;
+}
+
+.text-stroke-color-white{
+  -webkit-text-stroke-color: white;
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url(./assets/fonts/MonumentExtended-Regular.woff),
+       url(./assets/fonts/MonumentExtended-Regular.woff2),
+       url(./assets/fonts/MonumentExtended-Regular.otf);
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Monument Extended";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;

@@ -1,17 +1,16 @@
 <template>
-  <div class="home">
-    <TopBar> </TopBar>
-    <SideMenu> </SideMenu>
-  </div>
+<div class="contact">
+  <TopBar> </TopBar>
+  <SideMenu> </SideMenu>
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
 import TopBar from "@/components/TopBar.vue";
 import SideMenu from "@/components/SideMenu.vue";
 
 export default {
-  name: "Home",
+  name: "ContactUs",
   components: {
     TopBar,
     SideMenu,
