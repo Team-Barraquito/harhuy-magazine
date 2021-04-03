@@ -20,6 +20,7 @@ import TopBar from "@/components/TopBar.vue";
 import SideMenu from "@/components/SideMenu.vue";
 import StoreItem from "@/components/StoreItem.vue";
 import StoreFeaturedItem from "@/components/StoreFeaturedItem.vue";
+import { mapState } from "vuex";
 
 export default {
   name: "HarhuyStore",
@@ -30,9 +31,7 @@ export default {
     StoreItem,
   },
   computed: {
-    items () {
-      return this.$store.state.items;
-    },
+    ...mapState(["items"]),
   },
 };
 
