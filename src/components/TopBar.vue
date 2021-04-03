@@ -2,8 +2,17 @@
   <div class=" flex justify-between w-screen h-60 bg-black">
 
     <!-- left zone -->
-    <div class="w-96 h-full bg-pink-400 flex flex-col">
-      <div class="w-28 h-full bg-red-500"></div>
+    <div class="w-96 h-full flex flex-col">
+      <div class="w-28 h-full flex justify-center">
+         <button @click=goToMenu class="mt-6">
+    <!-- TODO mejorar el rotate que esta changa -->
+          <svg class="mb-8" width="82" height="24" viewBox="0 0 82 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="3.5" x2="63.5211" y2="3.5" stroke="white" stroke-width="7"/>
+            <line x1="18.479" y1="19.7773" x2="82.0001" y2="19.7773" stroke="white" stroke-width="7"/>
+          </svg>
+          <div class="text-harhuy uppercase font-bold rotate menu "> menú</div>
+        </button>
+      </div>
     </div>
 
     <!-- middle zone -->
@@ -50,6 +59,11 @@
 <script>
 export default {
   name: "TopBar",
+  methods: {
+    goToMenu () {
+      this.$router.push("/menu");
+    },
+  },
 
 };
 </script>
@@ -59,6 +73,9 @@ export default {
    fill: white;
    height: 30px;
    width: 30px;
+  }
+  .rotate {
+  transform: rotate(270deg);
   }
 
 </style>

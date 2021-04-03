@@ -3,61 +3,94 @@
   "items":[
     {
       "name":"Harhuy Tee Logo White",
+      "urlName": "HarHuyTeeLogoWhite",
       "isInStock":true,
       "rating":4,
+      "price": 11,
       "photos":{
-        "front":"../assets/images/harhuyTeeLogoWhite"
+        "front":"/harhuyTeeLogoWhite.jpg"
       }
     },
     {
       "name": "Harhuy Tee Logo Yellow",
+      "urlName": "HarHuyTeeLogoYellow",
       "isInStock": false,
       "rating": 5,
+      "price": 11,
       "photos": {
-        "front": "../assets/images/harhuyTeeLogoYellow"
+        "front": "/harhuyTeeLogoYellow.jpg"
       }
     },
     {
       "name": "Harhuy Mug Logo Black",
+      "urlName": "HarHuyMugLogoBlack",
       "isInStock": false,
       "rating": 4.5,
+      "price": 11,
       "photos": {
-        "front": "../assets/images/harhuyMugLogoBlack"
+        "front": "/harhuyMugLogoBlack.jpg"
       }
-    },
-    {
-      "name": "Harhuy Mug Logo Yellow",
-      "isInStock": true,
-      "rating": 3.5,
-      "photos": {
-        "front": "../assets/images/harhuyMugLogoYellow"
-      }
-    },
+    }, 
     {
       "name": "Harhuy Tote Bag",
+      "urlName": "HarHuyToteBag",
       "isInStock": true,
       "rating": 5,
+      "price": 11,
       "photos": {
-        "front": "../assets/images/harhuyToteBag",
-        "side": "../assets/images/harhuyToteBagSide",
-        "holded": "../assets/images/harhuyToteBagHolded"
+        "front": "/harhuyToteBag.jpg",
+        "side": "/harhuyToteBagSide.jpg",
+        "holded": "/harhuyToteBagHolded.jpg"
       }
     },
     {
       "name": "Harhuy Mag February Ed",
+      "urlName": "HarHuyMagLogoFebruaryEd",
       "isInStock": false,
       "rating": 5,
+      "price": 11,
       "photos": {
-        "front": "../assets/images/harhuyMagFebruary"
+        "front": "/harhuyMagFebruary.jpg"
       }
     },
     {
       "name": "Harhuy Mag March Ed",
+      "urlName": "HarHuyMagMarchEd",
       "isInStock": false,
       "rating": 5,
+      "price": 11,
       "photos": {
-        "front": "../assets/images/harhuyMagMarch"
+        "front": "/harhuyMagMarch.jpg"
       }
     }
-  ]
+  ],
+  "featuredItems": {
+    "February": {
+      "name": "Harhuy Mag February Ed",
+      "urlName": "HarHuyMagLogoFebruaryEd",
+      "isInStock": false,
+      "rating": 5,
+      "price": 11,
+      "photo": "/harhuyMagFebruary.jpg"
+    },
+
+    "March": {
+      "name": "Harhuy Mag March Ed",
+      "urlName": "HarHuyMagMarchEd",
+      "isInStock": false,
+      "rating": 5,
+      "price": 11,
+      "photo": "/harhuyMagMarch.jpg"
+    },
+
+    "April": {
+      "name": "Harhuy Mag April Ed",
+      "urlName": "HarHuyMagLogoAprilEd",
+      "isInStock": false,
+      "rating": 5,
+      "price": 11,
+      "photo": "/harhuyMagApril.jpg",
+      "description": "Revista edición 05/04/21 Feat Dawaira 17x24 cm 45 páginas"
+    }
+  }
 }
