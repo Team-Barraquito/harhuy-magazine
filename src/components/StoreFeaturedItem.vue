@@ -11,12 +11,16 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 export default {
   name: "StoreFeaturedItem",
   data () {
     return {
       itemData: {},
     };
+  },
+  computed: {
+    ...mapState(["featuredItems"]),
   },
   methods: {
     getMonth () {
@@ -39,8 +43,7 @@ export default {
     },
     setData () {
       const currentMonth = this.getMonth();
-      // TODO usar getter
-      this.itemData = this.$store.state.featuredItems[`${currentMonth}`];
+      this.itemData = this.featuredItems[`${currentMonth}`];
     },
     getPhoto () {
       const photoPath = this.itemData.photo;
