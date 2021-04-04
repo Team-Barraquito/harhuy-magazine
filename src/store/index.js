@@ -63,6 +63,9 @@ export default new Vuex.Store({
     cartItems: (state) => {
       return state.cart;
     },
+    numberOfCartItems: (state) => {
+      return state.cart.length;
+    },
   },
   modules: {
   },
