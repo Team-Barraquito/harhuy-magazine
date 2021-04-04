@@ -40,6 +40,7 @@ const routes = [
     name: "About Us",
     component: () => import("../views/AboutUs.vue"),
   },
+
   {
     path: "/contactUs",
     name: "Contact Us",
@@ -51,6 +52,37 @@ const routes = [
     name: "Suscripción",
     component: () => import("../views/SubscriptionPlans.vue"),
   },
+
+  {
+    path: "/illustration",
+    name: "Ilustración",
+    component: () => import("../views/Illustration.vue"),
+  },
+
+  {
+    path: "/photography",
+    name: "Fotografía",
+    component: () => import("../views/Photography.vue"),
+  },
+
+  {
+    path: "/music",
+    name: "Música",
+    component: () => import("../views/Music.vue"),
+  },
+
+  {
+    path: "/video",
+    name: "Vídeo",
+    component: () => import("../views/Video.vue"),
+  },
+
+  {
+    path: "/desing",
+    name: "Diseño",
+    component: () => import("../views/Desing.vue"),
+  },
+
 ];
 
 const router = new VueRouter({
