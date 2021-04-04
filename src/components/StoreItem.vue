@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  // Todo se puede cambiar el prop por data
+  name: "StoreItem",
   props: {
     item: {
       name: String,
