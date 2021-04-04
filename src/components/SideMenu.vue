@@ -2,13 +2,13 @@
 <div class="w-32 flex flex-col items-center ml-2">
   <router-link to="/ilustracion" class="uppercase"> ilustración</router-link>
   <div class="vertical-line"></div>
-  <router-link to="/ilustracion" class="uppercase"> fotografía</router-link>
+  <router-link to="/photography" class="uppercase"> fotografía</router-link>
   <div class="vertical-line"></div>
-  <router-link to="/ilustracion" class="uppercase"> música</router-link>
+  <router-link to="/music" class="uppercase"> música</router-link>
   <div class="vertical-line"></div>
-  <router-link to="/ilustracion" class="uppercase"> vídeo</router-link>
+  <router-link to="/video" class="uppercase"> vídeo</router-link>
   <div class="vertical-line"></div>
-  <router-link to="/ilustracion" class="uppercase"> diseño</router-link>
+  <router-link to="/desing" class="uppercase"> diseño</router-link>
   <div class="vertical-line last"></div>
 </div>
 </template>
