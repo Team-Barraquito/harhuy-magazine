@@ -9,7 +9,9 @@
       "rating":4,
       "price": 11,
       "photos":{
-        "front":"/harhuyTeeLogoWhite.jpg"
+        "front":"/harhuyTeeLogoWhite.jpg",
+        "closeup": "/harhuyTeeLogoWhiteClose.jpg",
+        "wear": "/harhuyTeeLogoWhiteWear.jpg"
       }
     },
     {
@@ -20,17 +22,21 @@
       "rating": 5,
       "price": 11,
       "photos": {
-        "front": "/harhuyTeeLogoYellow.jpg"
+        "front": "/harhuyTeeLogoYellow.jpg",
+        "closeup": "/harhuyTeeLogoYellowClose.jpg",
+        "wear": "/harhuyTeeLogoYellowWear.jpg"
       }
     },
     {
-      "name": "Harhuy Mug Logo Black",
-      "urlName": "HarHuyMugLogoBlack",
+      "name": "Harhuy Tote Bag Landscape",
+      "urlName": "HarHuyToteBagLandscape",
       "isInStock": false,
       "rating": 4.5,
       "price": 11,
       "photos": {
-        "front": "/harhuyMugLogoBlack.jpg"
+        "front": "/harhuyToteBagLandscape.jpg",
+        "close": "/harhuyToteBagLandscapeClose.jpg",
+        "wear": "/harhuyToteBagLandscapeWear.jpg"
       }
     }, 
     {
@@ -41,8 +47,8 @@
       "price": 11,
       "photos": {
         "front": "/harhuyToteBag.jpg",
-        "side": "/harhuyToteBagSide.jpg",
-        "holded": "/harhuyToteBagHolded.jpg"
+        "close": "/harhuyToteBagClose.jpg",
+        "wear": "/harhuyToteBagHolded.jpg"
       }
     },
     {
@@ -52,7 +58,9 @@
       "rating": 5,
       "price": 11,
       "photos": {
-        "front": "/harhuyMagFebruary.jpg"
+        "front": "/harhuyMagFebruary.jpg",
+        "close": "/harhuyMagFebruaryClose.jpg",
+        "opened": "/harhuyMagFebruaryOpened.jpg"
       }
     },
     {
@@ -62,7 +70,9 @@
       "rating": 5,
       "price": 11,
       "photos": {
-        "front": "/harhuyMagMarch.jpg"
+        "front": "/harhuyMagMarch.jpg",
+        "close": "/harhuyMagMarchClose.jpg",
+        "opened": "/harhuyMagMarchOpened.jpg"
       }
     }
   ],
