@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import StoreBadge from "@/components/StoreBadge.vue";
+import StoreBadge from "@/components/StoreBadge/StoreBadge.vue";
 
 export default {
   name: "TopBar",

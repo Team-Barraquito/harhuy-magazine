@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import DecreaseButton from "@/components/DecreaseButton.vue";
-import IncreaseButton from "@/components/IncreaseButton.vue";
+import DecreaseButton from "@/components/DecreaseButton/DecreaseButton.vue";
+import IncreaseButton from "@/components/IncreaseButton/IncreaseButton.vue";
 import { mapState } from "vuex";
 
 export default {
