@@ -30,7 +30,7 @@
             </div>
             <div class="mb-4">
               <label for="message"></label>
-              <p> <textarea name="user_message" placeholder="Escriba su mensaje" class="block text-white font-bold mb-2 text-white text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3"></textarea></p>
+              <p> <textarea name="user_message" placeholder="Escriba su mensaje" class="block text-white font-bold mb-2 text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3"></textarea></p>
             </div>
             <div class="flex justify-center">
               <input type="checkbox" id="terms" name="terms">
@@ -55,8 +55,9 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
+
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import emailjs from "emailjs-com";
 import VueRecaptcha from "vue-recaptcha";
 

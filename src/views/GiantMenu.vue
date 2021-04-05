@@ -1,15 +1,16 @@
 <template>
 <!-- TODO ajustar tamaño de pantalla -->
-  <div class="w-screen h-screen bg-harhuy menu">
-    <circular-cursor> </circular-cursor>
+  <div class="w-screen h-screen bg-harhuy menu"  @mousemove="moveCustomCursor">
+    <CircularCursor id="customCursor"> </CircularCursor>
     <div class="top-zone overflow-hidden w-screen h-28 grid grid-rows-1 grid-cols-3">
       <!-- fixear -->
       <div class="flex justify-start items-start">
-        <button class="cross-button">
+        <button @click=goToBefore>
           <svg width="44" height="55" viewBox="0 0 44 55" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(0.699963 0.709914 -0.704254 0.714266 0 7.21875)" stroke="black" stroke-width="7"/>
             <line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(-0.699963 0.709914 0.704254 0.714266 43.8906 7.33984)" stroke="black" stroke-width="7"/>
           </svg>
+          <div class="text-black uppercase font-bold rotate menu "> close</div>
         </button>
       </div>
       <div class="flex items-center justify-center">
@@ -52,20 +53,47 @@
 </template>
 
 <script>
-import CircularCursor from "@/components/CircularCursor.vue";
+import CircularCursor from "@/components/CircularCursor/CircularCursor.vue";
+
 export default {
   name: "GiantMenu",
   components: {
     CircularCursor,
   },
+
+  methods: {
+    moveCustomCursor (event) {
+      const cursor = this.$el.querySelector("#customCursor");
+      cursor.style.top = event.pageY + "px";
+      cursor.style.left = event.pageX + "px";
+    },
+    goToBefore () {
+      this.$router.go(-1);
+    },
+  },
+
+  mounted () {
+    this.$el.addEventListener("mousemove", this.moveCustomCursor);
+  },
+
+  destroyed () {
+    this.$el.removeEventListener("mousemove", this.moveCustomCursor);
+  },
 };
 </script>
 
 <style scoped>
+* {
+  cursor: none;
+}
 
 #arrow {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.rotate {
+  transform: rotate(270deg);
 }
  /* Falta rellenar on hover */
 </style>

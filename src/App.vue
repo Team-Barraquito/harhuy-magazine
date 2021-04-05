@@ -1,13 +1,14 @@
 <template>
-  <div id="app">
+  <div id="app" class="antialiased">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/menu"> Menu </router-link> |
       <router-link to="/aboutUs"> About Us </router-link> |
       <router-link to="/contactUs"> Contact Us </router-link> |
-      <router-link to="/store"> Tienda </router-link>
+      <router-link to="/store"> Tienda </router-link> |
+      <router-link to="/cart"> Carrito </router-link>
     </div>
-    <router-view/>
+    <router-view class="w-full"/>
   </div>
 </template>
 
@@ -52,8 +53,7 @@
 }
 
 #app {
-  font-family: "Monument Extended", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: "Monument Extended";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
