@@ -7,8 +7,8 @@
 
 <script>
 // @ is an alias to /src
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
 
 export default {
   name: "Home",

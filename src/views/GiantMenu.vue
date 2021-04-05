@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import CircularCursor from "@/components/CircularCursor.vue";
+import CircularCursor from "@/components/CircularCursor/CircularCursor.vue";
 
 export default {
   name: "GiantMenu",

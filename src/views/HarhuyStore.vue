@@ -16,10 +16,10 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
-import StoreItem from "@/components/StoreItem.vue";
-import StoreFeaturedItem from "@/components/StoreFeaturedItem.vue";
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import StoreItem from "@/components/StoreItem/StoreItem.vue";
+import StoreFeaturedItem from "@/components/StoreFeaturedItem/StoreFeaturedItem.vue";
 import { mapState } from "vuex";
 
 export default {

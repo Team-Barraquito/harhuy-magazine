@@ -31,7 +31,7 @@
           <div class="flex mt-4 justify-around">
           <!-- Cada boton es un compo -->
            <button @click=addToCart(itemData) class="w-72  h-14 border-2 border-black"> Añadir al carrito </button>
-          <PayPalButton> </PayPalButton>
+           <button class="w-72 h-14 border-2 border-black text-white bg-black" > Pagar con Paypal </button>
           </div>
         </div>
         <!-- Final botones-->
@@ -59,10 +59,9 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
-import QuantitySelector from "@/components/QuantitySelector.vue";
-import PayPalButton from "@/components/PayPalButton.vue";
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import QuantitySelector from "@/components/QuantitySelector/QuantitySelector.vue";
 import { mapGetters, mapActions } from "vuex";
 
 // TODO deshabilitar botones si no hay stock
@@ -73,7 +72,6 @@ export default {
     TopBar,
     SideMenu,
     QuantitySelector,
-    PayPalButton,
   },
   data () {
     return {
