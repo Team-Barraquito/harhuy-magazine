@@ -84,7 +84,7 @@ export default {
       this.itemData = this.items(this.$route.params.name);
     },
     getPhoto (photo) {
-      return require("../assets/images" + photo);
+      return require("../assets/images/store" + photo);
     },
     ...mapActions(["addToCart", "resetQuantity"]),
   },
