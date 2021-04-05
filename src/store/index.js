@@ -19,7 +19,7 @@ export default new Vuex.Store({
       state.itemQuantity += 1;
     },
     restar (state) {
-      state.itemQuantity -= 1;
+      if (state.itemQuantity > 0) { state.itemQuantity -= 1; }
     },
 
     pushToCart (state, item) {
