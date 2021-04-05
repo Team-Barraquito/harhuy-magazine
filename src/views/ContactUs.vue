@@ -15,28 +15,31 @@
           </p>
         </div>
         <div class="w-full max-w-xs">
-          <form action="/" class="bg-black pt-6">
+          <form action="/" class="bg-black pt-6" @submit.prevent="sendEmail">
             <div class="mb-4">
               <label for="name"> </label>
-              <input type="text" placeholder="Nombre" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline placeholder-grey-50" id="name">
+              <input type="text" placeholder="Nombre" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline placeholder-grey-50" name="user_name">
             </div>
             <div class="mb-4">
               <label for="tel" > </label>
-              <input type="tel" placeholder="Teléfono" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="tel">
+              <input type="tel" placeholder="Teléfono" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="user_pho">
             </div>
             <div class="mb-4">
               <label for="email"></label>
-              <input type="text" placeholder="Correo Electrónico" class="shadow text-xs appareance-none border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="username">
+              <input type="text" placeholder="Correo Electrónico" class="shadow text-xs appareance-none border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="user_email">
             </div>
             <div class="mb-4">
               <label for="message"></label>
-              <p> <textarea name="mensaje" placeholder="Escriba su mensaje" class="block text-white font-bold mb-2 text-white text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3" id="message"></textarea></p>
+              <p> <textarea name="user_message" placeholder="Escriba su mensaje" class="block text-white font-bold mb-2 text-white text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3"></textarea></p>
             </div>
             <div class="flex justify-center">
               <input type="checkbox" id="terms" name="terms">
               <label for="" class="text-white text-xss ml-2">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
             </div>
             <div class="mt-3 w-4/12 h-4/12">
+              <div>
+                <VueRecaptcha sitekey ="6LeEBJsaAAAAAIGOz44t3i4HgBHk3ASI__atgfvd" :loadRecaptchaScript="true" />
+              </div>
               <button type="submit" id="submit">
                   <svg height="46.96" width="60.08" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="m55.132 28.68-.022-.023-18.306 18.306-4.95-4.95L46.868 27H0v-7h46.453L31.403 4.95 36.352 0l23.73 23.73-4.95 4.95z" fill="#fff"/>
@@ -54,12 +57,34 @@
 <script>
 import TopBar from "@/components/TopBar.vue";
 import SideMenu from "@/components/SideMenu.vue";
+import emailjs from "emailjs-com";
+import VueRecaptcha from "vue-recaptcha";
 
 export default {
   name: "ContactUs",
   components: {
     TopBar,
     SideMenu,
+    VueRecaptcha,
+  },
+  methods: {
+    sendEmail: (e) => {
+      emailjs
+        .sendForm(
+          "service_u2mtyo9", // Service_ID
+          "template_q57wtp3", // TEMPLATE_ID
+          e.target,
+          "user_TDfy9kT2AvP7k4H3VwTOC", // USER_ID
+        )
+        .then(
+          (result) => {
+            console.log("ENVIADO", result.status, result.text);
+          },
+          (error) => {
+            console.log("NO ENVIADO", error);
+          },
+        );
+    },
   },
 };
 </script>
