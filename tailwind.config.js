@@ -22,6 +22,9 @@ module.exports = {
         128: "31rem",
         large: "31.25rem",
       },
+      fontSize: {
+        xss: "0.1rem",
+      },
     },
   },
   variants: {

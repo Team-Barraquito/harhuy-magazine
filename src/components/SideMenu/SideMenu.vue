@@ -1,5 +1,5 @@
 <template>
-<div class="w-32 flex flex-col items-center ml-2">
+<div class="w-32 flex flex-col items-center ml-2 mr-2">
   <router-link to="/ilustracion" class="uppercase"> ilustración</router-link>
   <div class="vertical-line"></div>
   <router-link to="/photography" class="uppercase"> fotografía</router-link>
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+// TODO  Añadir PROP para que se ajuste el color a la pagina
 export default {
   name: "SideMenu",
 };
