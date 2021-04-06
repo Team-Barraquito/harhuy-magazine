@@ -8,8 +8,7 @@ const renderVuex = () => {
 
 it("Can add 1 to current itemQuantity state", async () => {
   const { getByRole } = renderVuex();
-  const itemQuantity = store.state.itemQuantity;
   await fireEvent.click(getByRole("button"));
 
-  expect(itemQuantity).toEqual(1);
+  expect(store.state.itemQuantity).toEqual(1);
 });
