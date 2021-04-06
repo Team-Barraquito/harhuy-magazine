@@ -56,8 +56,8 @@
 
 <script>
 
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import emailjs from "emailjs-com";
 import VueRecaptcha from "vue-recaptcha";
 
