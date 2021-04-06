@@ -15,25 +15,25 @@
           </p>
         </div>
         <div class="w-full max-w-xs">
-          <form action="/" class="bg-black pt-6" @submit.prevent="sendEmail">
+          <form class="bg-black pt-6" @submit.prevent="sendAndReset">
             <div class="mb-4">
               <label for="name"> </label>
-              <input type="text" placeholder="Nombre" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline placeholder-grey-50" name="user_name">
+              <input type="text" placeholder="Nombre" v-model = "name" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline placeholder-grey-50" name="user_name" required>
             </div>
             <div class="mb-4">
               <label for="tel" > </label>
-              <input type="tel" placeholder="Teléfono" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="user_pho">
+              <input type="tel" placeholder="Teléfono" v-model = "pho" class="shadow appareance-none text-xs border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="user_pho">
             </div>
             <div class="mb-4">
               <label for="email"></label>
-              <input type="text" placeholder="Correo Electrónico" class="shadow text-xs appareance-none border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="user_email">
+              <input type="text" placeholder="Correo Electrónico" v-model = "email" class="shadow text-xs appareance-none border border-white bg-black rounded-2xl w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="user_email" required>
             </div>
             <div class="mb-4">
               <label for="message"></label>
-              <p> <textarea name="user_message" placeholder="Escriba su mensaje" class="block text-white font-bold mb-2 text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3"></textarea></p>
+              <p> <textarea name="user_message" placeholder="Escriba su mensaje" v-model = "message" class="block text-white font-bold mb-2 text-white text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3" required></textarea></p>
             </div>
             <div class="flex justify-center">
-              <input type="checkbox" id="terms" name="terms">
+              <input type="checkbox" id="terms" name="terms" required>
               <label for="" class="text-white text-xss ml-2">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
             </div>
             <div class="mt-3 w-4/12 h-4/12">
@@ -62,6 +62,14 @@ import emailjs from "emailjs-com";
 import VueRecaptcha from "vue-recaptcha";
 
 export default {
+  data () {
+    return {
+      name: "",
+      pho: "",
+      email: "",
+      message: "",
+    };
+  },
   name: "ContactUs",
   components: {
     TopBar,
@@ -69,7 +77,13 @@ export default {
     VueRecaptcha,
   },
   methods: {
-    sendEmail: (e) => {
+    resetInput () {
+      this.name = "";
+      this.pho = "";
+      this.email = "";
+      this.message = "";
+    },
+    sendEmail: (e) => { // Ahora, e.target funcionaría
       emailjs
         .sendForm(
           "service_u2mtyo9", // Service_ID
@@ -78,16 +92,21 @@ export default {
           "user_TDfy9kT2AvP7k4H3VwTOC", // USER_ID
         )
         .then(
-          (result) => {
-            console.log("ENVIADO", result.status, result.text);
+          () => {
+            alert("¡Enviado! recibirá una respuesta por nuestra parte");
           },
           (error) => {
-            console.log("NO ENVIADO", error);
+            alert("NO ENVIADO", error);
           },
         );
     },
+    sendAndReset (e) { // Le pasamos e
+      this.sendEmail(e); // Enviamos e
+      this.resetInput();
+    },
   },
 };
+
 </script>
 
 <style scoped>
