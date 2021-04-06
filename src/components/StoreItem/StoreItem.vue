@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  // Todo se puede cambiar el prop por data
+  name: "StoreItem",
   props: {
     item: {
       name: String,
@@ -27,7 +27,7 @@ export default {
   computed: {
     getSource () {
       const frontPath = this.$props.item.photos.front;
-      return require("../assets/images" + frontPath);
+      return require("../../assets/images/store" + frontPath);
     },
   },
 };

@@ -30,8 +30,8 @@
           <QuantitySelector> </QuantitySelector>
           <div class="flex mt-4 justify-around">
           <!-- Cada boton es un compo -->
-          <AddToCartButton> </AddToCartButton>
-          <PayPalButton> </PayPalButton>
+           <button @click=addToCart(itemData) class="w-72  h-14 border-2 border-black"> Añadir al carrito </button>
+           <button class="w-72 h-14 border-2 border-black text-white bg-black" > Pagar con Paypal </button>
           </div>
         </div>
         <!-- Final botones-->
@@ -59,11 +59,12 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
-import QuantitySelector from "@/components/QuantitySelector.vue";
-import AddToCartButton from "@/components/AddToCartButton.vue";
-import PayPalButton from "@/components/PayPalButton.vue";
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import QuantitySelector from "@/components/QuantitySelector/QuantitySelector.vue";
+import { mapGetters, mapActions } from "vuex";
+
+// TODO deshabilitar botones si no hay stock
 
 export default {
   name: "ProductSheet",
@@ -71,29 +72,34 @@ export default {
     TopBar,
     SideMenu,
     QuantitySelector,
-    AddToCartButton,
-    PayPalButton,
   },
   data () {
     return {
       itemData: {},
     };
   },
+
   methods: {
     getData () {
-      this.itemData = this.$store.getters.items(this.$route.params.name);
+      this.itemData = this.items(this.$route.params.name);
     },
     getPhoto (photo) {
-      return require("../assets/images" + photo);
+      return require("../assets/images/store" + photo);
     },
+    ...mapActions(["addToCart", "resetQuantity"]),
   },
+
   computed: {
+    ...mapGetters(["items"]),
+
     price () {
       return this.itemData.price + "€";
     },
   },
+
   beforeMount () {
     this.getData();
+    this.resetQuantity();
   },
 };
 </script>

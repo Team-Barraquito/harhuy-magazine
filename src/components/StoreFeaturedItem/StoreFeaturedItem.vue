@@ -47,7 +47,7 @@ export default {
     },
     getPhoto () {
       const photoPath = this.itemData.photo;
-      return require("../assets/images" + photoPath);
+      return require("../../assets/images/store" + photoPath);
     },
   },
   beforeMount () {

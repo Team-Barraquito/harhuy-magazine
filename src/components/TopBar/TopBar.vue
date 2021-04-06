@@ -34,7 +34,7 @@
       <div class="w-full h-2/4 flex justify-start items-center">
       <a href="#" class="p-2 uppercase text-harhuy" target="_blank">Agenda</a>
       <a href="#" class="p-2 uppercase text-harhuy" target="_blank">Tienda</a>
-      <a href="#" class="p-2 uppercase text-transparent text-stroke-1 text-stroke-color-white" target="_blank">US / ES</a>
+      <StoreBadge> </StoreBadge>
       </div>
       <!-- end of first right zone -->
 
@@ -57,8 +57,13 @@
 </template>
 
 <script>
+import StoreBadge from "@/components/StoreBadge/StoreBadge.vue";
+
 export default {
   name: "TopBar",
+  components: {
+    StoreBadge,
+  },
   methods: {
     goToMenu () {
       this.$router.push("/menu");

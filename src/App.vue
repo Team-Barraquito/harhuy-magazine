@@ -5,7 +5,8 @@
       <router-link to="/menu"> Menu </router-link> |
       <router-link to="/aboutUs"> About Us </router-link> |
       <router-link to="/contactUs"> Contact Us </router-link> |
-      <router-link to="/store"> Tienda </router-link>
+      <router-link to="/store"> Tienda </router-link> |
+      <router-link to="/cart"> Carrito </router-link>
     </div>
     <router-view class="w-full"/>
   </div>
