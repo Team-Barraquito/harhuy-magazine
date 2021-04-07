@@ -40,7 +40,7 @@
       <div class="w-3/12 flex justify-center items-center">
           <!-- TODO preguntarle a manz como unirlo en un contenedor-->
         <div class="h-full w-1/2 flex justify-end items-center p-2">
-        <a href="#" target="_blank" rel="noopener noreferrer" class="uppercase"> contact us </a>
+        <router-link to="/contactUs" class="uppercase"> contact us </router-link>
         </div>
         <div class="h-full w-1/2 flex  items-center">
           <svg id="arrow" viewBox="0 0 61 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import CircularCursor from "@/components/CircularCursor.vue";
+import CircularCursor from "@/components/CircularCursor/CircularCursor.vue";
 
 export default {
   name: "GiantMenu",
