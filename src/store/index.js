@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
 const productDatabase = require("../assets/database/store-items.json");
+const artistsDatabase = require("../assets/database/artists.json");
 
 // TODO change names to mutations and check other things
 
@@ -12,6 +13,12 @@ export default new Vuex.Store({
     items: productDatabase.items,
     featuredItems: productDatabase.featuredItems,
     itemQuantity: 0,
+    illustrationArtists: artistsDatabase.categories.illustration,
+    photographyArtists: artistsDatabase.categories.photography,
+    musicArtists: artistsDatabase.categories.music,
+    videoArtists: artistsDatabase.categories.video,
+    desingArtists: artistsDatabase.categories.design,
+
   },
 
   mutations: {
