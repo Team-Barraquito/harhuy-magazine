@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <TopBar> </TopBar>
-    <div :style="backgroundImg">
+    <div class="bg-image">
       <div class="container flex w-screen" :style="image">
         <div class="nav-container">
           <SideMenu> </SideMenu>
@@ -43,5 +43,7 @@ export default {
 </script>
 
 <style scoped>
-
+.bg-image {
+  background-image: url ("/assets/images/index/index-background.jpg");
+}
 </style>

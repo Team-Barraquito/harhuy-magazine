@@ -1,12 +1,12 @@
 <template>
   <div class="subscription">
     <TopBar> </TopBar>
-    <div class="container flex w-screen">
+    <div class="flex object-contain">
       <SideMenu> </SideMenu>
-      <div class="flex justify-center items-center w-70%">
-        <PlanCard> </PlanCard>
-        <PlanCard> </PlanCard>
-        <PlanCard> </PlanCard>
+      <div class="box-border flex flex-wrap justify-center items-center object-contain overflow-hidden">
+        <PlanCard title="Plan Premium Plus" price="14,99€"> </PlanCard>
+        <PlanCard title="Plan Plus" price="10,99€"> </PlanCard>
+        <PlanCard title="Suscripción Revista" price="8,99€"> </PlanCard>
       </div>
     </div>
 
