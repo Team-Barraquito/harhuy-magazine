@@ -220,7 +220,7 @@
         "urlName": "DanielCascales",
         "sociaMedia": "@danicascales",
         "description": "Daniel Cascales (Almería, 1991) compagina su amor por la fotografía y la naturaleza con su trabajo en la industria audiovisual como editor y realizador. La serie de fotografías que presenta en Merkarte están precedidas por un libro de fotografía sobre la geología volcánica del parque natural de Cabo de Gata en Almería.",
-          "lastContent": "volcán",
+        "lastContent": "volcán",
         "events": {
           "January": {
             "1": "eEEEAE"
@@ -240,7 +240,7 @@
         "urlName": "LeoAmaya",
         "sociaMedia": "@l3oamaya",
         "description": "Es un tinerfeño que empieza a interesarse por la fotografía desde jóven. Estudió un curso de fotografía en la escuela EFTI en Madrid. Mientras tanto trabajo como fotógrafo de bodas en una empresa en la misma ciudad llamada Liven Photaghy. Actualmente reside en Tenerife, y siempre busca nuevos proyectos mientras estudia Animación en la escuela Fernando Estévez.",
-          "lastContent": "teide",
+        "lastContent": "teide",
         "events": {
           "January": {
             "1": "eEEEAE"
@@ -280,7 +280,7 @@
         "urlName": "JuanjoPérez",
         "sociaMedia": "@juanjoprz92",
         "description": "Juanjo Pérez (La Laguna, 1992), es estudiante de Ingeniería Informática, fotógrafo y videógrafo. Descubre la fotografía en el verano de 2016 y desde entonces continúa aprendiendo de manera autodidacta. Para él cada foto cuenta una historia, por ello intenta siempre reflejar las emociones de lo que ve.",
-          "lastContent": "blondi",
+        "lastContent": "blondi",
         "events": {
           "January": {
             "1": "eEEEAE"
@@ -294,7 +294,41 @@
           "side": "..",
           "back": ".."
         }
-      }
+      },
+
+      {
+        "name": "Adrián Medina",
+        "urlName": "AdrianMedina",
+        "sociaMedia" : "@_adriimgz",
+        "description": "Adrián Medina es un fotógrafo español que se ha visto interesado en la fotografía desde muy joven. No es un profesional pero lo considera como Hobbie, sus Fotografías se centran en paisajes y diseños que se encuentra en el dia a dia. Es un chico creativo con mucha imaginación a la hora de fotografiar con ganas de seguir aprendiendo.",
+        "lastContent": "caminar",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+          },
+
+          "photos": {
+            "front": "..",
+            "side": "..",
+            "back": ".."
+          }
+        },
+        {
+          "name": "Pedro Hernández Rodriguez",
+          "urlName": "PedroHernándezRodriguez",
+          "sociaMedia" : "@rincones_de_canarias",
+          "description": "A los dieciséis años tuve la oportunidad de trabajar y vivir en el Parque Nacional del Teide. Aquí empezó mi fascinación por el paisaje, la naturaleza, los cambios de luz, aunque nunca como para reflejarlo a través de la fotografía.",
+          "lastContent": "senderismo",
+          "events": {
+            "January": {"1": "eEEEAE" },
+            "February": {"1": "ewewe"}
+          },
+          "photos": {
+            "front": "..",
+            "side": "..",
+            "back": ".."
+          }
+        }
     ],
     "illustration": [
       {
@@ -611,6 +645,152 @@
           "February": {
             "1": "ewewe"
           }
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      }
+    ],
+    "video": [
+      {
+        "name": "María Abenia",
+        "urlName": "MaríaAbenia",
+        "sociaMedia" : "@maria_abenia",
+        "description": "Nacida en Zaragoza (España) en 1985, María Abenia trabajó como profesora de primaria durante ocho años antes de decidirse a dejar de fumar y comprar su primera cámara. Tras un largo viaje, se trasladó a Madrid y se matriculó en un programa de Fotografía Documental en Blankpaper School. Una vez finalizados esos estudios, se traslada a Barcelona y se incorpora a un posgrado de Dirección de Cine en la ESCAC. Una vez finalizada, prosiguió sus estudios con un máster en Teoría del Cine y del Audiovisual en la Universidad Pompeu Fabra, también en la ciudad de Barcelona.",
+        "lastContent": "creadorasDelpresente",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Denis García",
+        "urlName": "DenisGarcía",
+        "sociaMedia" : "@dennisgarciavisual",
+        "description": "Es un Filmaker y director de fotografia, que ha participado en grandiosos cortometrajes como por ejemplo El milagro de Paula y ha dirijido videoclips de Simón salinas.",
+        "lastContent": "elMilagroDePaula",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Sara Glezmar",
+        "urlName": "SaraGlezmar",
+        "sociaMedia" : "@sara.glezmar",
+        "description": "Sara González Martín es una artista visual de España dedicada principalmente a la creación de trabajos fotográficos y videográficos, pero apasionado por cualquier forma de expresión artística. Colores, fragilidad, fantasía y concepto son los elementos que mejor describen su trabajo.",
+        "lastContent": "noNecesitoElMarParaAhogarme",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Alejandro Villanueva",
+        "urlName": "AlejandroVillanueva",
+        "sociaMedia" : "@alejandro.ville",
+        "description": "Alejandro Villanueva es un Cineasta canario además de cámarografo que ha rodado cortometrajes como por ejemplo MIRAME basada en las islas canarias.",
+        "lastContent": "mirame",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Edu Filming Theory",
+        "urlName": "EduFilmingTheory",
+        "sociaMedia" : "@edufilmingtheory.es",
+        "description": "Productor de videos y proveedor de servicios, editor y etalonaje con base en Canarias.",
+        "lastContent": "eduFilmingTheory",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Aarón Barreiro",
+        "urlName": "AarónBarreiro",
+        "sociaMedia" : "@aaron.vibes",
+        "description": "Aarón Barreiro es un Filmaker canario que se dedica a hacer cortometrajes y videoclips. Es el productor y camarógrafo de varios videos uno de los mas destacados MIRAME.",
+        "lastContent": "queSiempreNosGananLasGanas",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Juan Carlos Fresnadillo",
+        "urlName": "JuanCarlosFresnadillo",
+        "sociaMedia" : "@juancarlosfresnadillo",
+        "description": "Juan Carlos Fresnadillo nacío el 05 de diciembre de 1967 en Santa Cruz de Tenerife. Es un guionista y director de cine español. En 1985, Fresnadillo se trasladó a Madrid desde su ciudad natal. Estudio Sociología en la Universidad Complutense. Comenzó los estudios de fotografía y cine en la Escuela Universitaria de Artes TAI, y realizó sus primeros pinitos en los cortometrajes. ",
+        "lastContent": "intacto-1",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "David Cánovas",
+        "urlName": "DavidCánovas",
+        "sociaMedia" : "@DavidCánovas",
+        "description": "David Cánovas es un director y realizador de televisión canario. Nació en Santa Cruz de Tenerife de 1971. Estudió en la facultad de Ciencias de la Información de la Universidad Complutense de Madrid en la misma clase que Alejandro Amenábar y Mateo Gil entre otros. A su vuelta a Tenerife empieza a trabajar en televisiones locales, mientras realiza sus primeros cortos con cierto éxito local.",
+        "lastContent": "el-intruso",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Alba González de Molina",
+        "urlName": "AlbaGonzálezDeMolina",
+        "sociaMedia" : "@agonzalezdemolina",
+        "description": "Alba González de Molina nació en Las Palmas de Gran Canaria en 1989. Comenzó sus andanzas en el mundo del cine social en el 2012 codirigiendo su primer largometraje documental ‘Stop! con Blanca Ordóñez de Tena. De ahí surgió el Colectivo La Semilla, asociación formada por seis mujeres que comienzan a crear cine como herramienta de transformación social.",
+        "lastContent": "julie",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
         },
         "photos": {
           "front": "..",
