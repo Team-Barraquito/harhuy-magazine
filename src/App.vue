@@ -1,13 +1,5 @@
 <template>
   <div id="app" class="antialiased">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/menu"> Menu </router-link> |
-      <router-link to="/aboutUs"> About Us </router-link> |
-      <router-link to="/contactUs"> Contact Us </router-link> |
-      <router-link to="/store"> Tienda </router-link> |
-      <router-link to="/cart"> Carrito </router-link>
-    </div>
     <router-view class="w-full"/>
   </div>
 </template>
@@ -68,7 +60,7 @@
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+a.router-link-exact-active {
   color: #42b983;
 }
 </style>
