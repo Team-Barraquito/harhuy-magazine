@@ -1,6 +1,6 @@
 <template>
 <!-- TODO ajustar tamaño de pantalla -->
-  <div class="w-screen h-screen bg-harhuy menu"  @mousemove="moveCustomCursor">
+  <div class="w-screen h-screen bg-harhuy menu overflow-hidden"  @mousemove="moveCustomCursor">
     <CircularCursor id="customCursor"> </CircularCursor>
     <div class="top-zone overflow-hidden w-screen h-28 grid grid-rows-1 grid-cols-3">
       <!-- fixear -->
@@ -18,8 +18,7 @@
       </div>
       <!-- Fixear -->
       <div class="flex justify-end">
-        <div class="w-20 h-1/4"><a class="p-2" href="#">Tienda</a></div>
-        <div class="w-24 h-1/4"><a class="p-2"  href="#">Us \ es</a></div>
+        <div class="w-20 h-1/4"><router-link to="/store" class="p-3C">Tienda</router-link></div>
       </div>
     </div>
   <!-- end top zone -->
