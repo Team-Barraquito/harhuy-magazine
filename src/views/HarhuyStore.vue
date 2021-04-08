@@ -7,7 +7,7 @@
       </div>
       <div class="content flex flex-col items-end ">
         <StoreFeaturedItem> </StoreFeaturedItem>
-        <div class="grid grid-rows-2 grid-cols-3">
+        <div class="grid grid-rows-2 grid-cols-3 gap-4">
           <StoreItem v-for="(item, index) in items" :key="index" :item="item"> </StoreItem>
         </div>
       </div>
@@ -16,10 +16,10 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
-import StoreItem from "@/components/StoreItem.vue";
-import StoreFeaturedItem from "@/components/StoreFeaturedItem.vue";
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import StoreItem from "@/components/StoreItem/StoreItem.vue";
+import StoreFeaturedItem from "@/components/StoreFeaturedItem/StoreFeaturedItem.vue";
 import { mapState } from "vuex";
 
 export default {
