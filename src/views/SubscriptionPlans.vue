@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import SideMenu from "@/components/SideMenu.vue";
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import PlanCard from "@/components/PlanCard.vue";
 
 export default {
