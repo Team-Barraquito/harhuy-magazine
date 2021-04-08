@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="antialiased">
-    <router-view class="w-full"/>
+    <router-view class="w-screen"/>
   </div>
 </template>
 
