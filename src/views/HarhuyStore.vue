@@ -5,9 +5,9 @@
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-      <div class="content flex flex-col">
+      <div class="content flex flex-col items-end ">
         <StoreFeaturedItem> </StoreFeaturedItem>
-        <div class="grid grid-rows-2 grid-cols-3">
+        <div class="grid grid-rows-2 grid-cols-3 gap-4">
           <StoreItem v-for="(item, index) in items" :key="index" :item="item"> </StoreItem>
         </div>
       </div>

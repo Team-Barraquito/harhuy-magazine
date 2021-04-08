@@ -8,8 +8,12 @@
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -17,15 +21,18 @@
           "back": ".."
         }
       },
-
       {
         "name": "Wos Las Palmas",
         "urlName": "WosLasPalmas",
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -33,15 +40,18 @@
           "back": ".."
         }
       },
-
       {
         "name": "Abhir Hathi",
         "urlName": "AbhirHathi",
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -49,15 +59,18 @@
           "back": ".."
         }
       },
-
       {
         "name": "Ana Guerra",
         "urlName": "AnaGuerra",
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -65,15 +78,18 @@
           "back": ".."
         }
       },
-
       {
         "name": "Sara Socas",
         "urlName": "SaraSocas",
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -81,15 +97,18 @@
           "back": ".."
         }
       },
-
       {
         "name": "Eva Ruíz",
         "urlName": "EvaRuiz",
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -97,15 +116,18 @@
           "back": ".."
         }
       },
-
       {
         "name": "Maikel Delacalle",
         "urlName": "MaikelDelacalle",
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -119,8 +141,12 @@
         "description": "aaaaa",
         "lastContent": "aaaaaaa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -128,134 +154,171 @@
           "back": ".."
         }
       },
-        {
-          "name": "Della Du",
-          "urlName": "DellaDu",
-          "description": "aaaaa",
-          "lastContent": "aaaaaaa",
-          "events": {
-            "January": {"1": "eEEEAE" },
-            "February": {"1": "ewewe"}
+      {
+        "name": "Della Du",
+        "urlName": "DellaDu",
+        "description": "aaaaa",
+        "lastContent": "aaaaaaa",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
           },
-          "photos": {
-            "front": "..",
-            "side": "..",
-            "back": ".."
+          "February": {
+            "1": "ewewe"
           }
-       }
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      }
     ],
     "photography": [
       {
-          "name": "Iván Sáez Schwartz",
-          "urlName": "IvánSáezSchwartz",
-          "sociaMedia" : "@ivan.saez.schwartz",
-          "description": "Iván Sáez Schwartz es un músico profesional (violista) natural de la isla de Tenerife que en la actualidad se encuentra entre Canarias y Holanda, pero que
-           desarrolla su actividad musical profesional por todo el continente europeo.
-          
-           Iván siempre se ha interesado por otros medios de expresión complementarios a la música y es ahí donde surge su  pasión por la fotografía. SUele decantarse por la fotografía en blanco y negro
-           ya que considera que en ocasiones el color puede distraer. Se considera un fotógrafo de todo un poco, e intenta retratar su realidad lo más parecida a lo que él la ve",
-          "lastContent": "sabina-1",
-          "events": {
-            "January": {"1": "eEEEAE" },
-            "February": {"1": "ewewe"}
+        "name": "Iván Sáez Schwartz",
+        "urlName": "IvánSáezSchwartz",
+        "socialMedia": "@ivan.saez.schwartz",
+        "description": "Iván Sáez Schwartz es un músico profesional (violista) natural de la isla de Tenerife que en la actualidad se encuentra entre Canarias y Holanda, pero que desarrolla su actividad musical profesional por todo el continente europeo. Iván siempre se ha interesado por otros medios de expresión complementarios a la música y es ahí donde surge su  pasión por la fotografía. SUele decantarse por la fotografía en blanco y negro ya que considera que en ocasiones el color puede distraer. Se considera un fotógrafo de todo un poco, e intenta retratar su realidad lo más parecida a lo que él la ve",
+        "lastContent": "sabina-1",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
           },
-          "photos": {
-            "front": "..",
-            "side": "..",
-            "back": ".."
+          "February": {
+            "1": "ewewe"
           }
         },
-
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
       {
         "name": "Cristina Delgado",
         "urlName": "CristinaDelgado",
-        "sociaMedia" : "@criswalroscllg",
-        "description": "Cristina Delgado estudia y se gradúa como Maestra de Educación Infantil, pero es en la fotografia y el diseño gráfico donde encuentra
-        su verdadera vocación.siempre intenta transmitir sensación de tranquilidad. Le gusta pensar en su arte como un lugar de refugio en el que sentirse a salvo y en paz.
-        
-        Todas sus obras han sido realizadas enteramente por ella, desde la fotografía hasta el vestuario y edición de las fotos. No cuenta con un equipo profesional, pero disfruta
-        muchísimo de todo el proceso que conlleva cada obra; se siente afortunada de poder materializar sus ideas y convertirlas en arte.",
-         "lastContent": "water",
-          "events": {
-            "January": {"1": "eEEEAE" },
-            "February": {"1": "ewewe"}
+        "socialMedia": "@criswalroscllg",
+        "description": "Cristina Delgado estudia y se gradúa como Maestra de Educación Infantil, pero es en la fotografia y el diseño gráfico donde encuentra su verdadera vocación.siempre intenta transmitir sensación de tranquilidad. Le gusta pensar en su arte como un lugar de refugio en el que sentirse a salvo y en paz. Todas sus obras han sido realizadas enteramente por ella, desde la fotografía hasta el vestuario y edición de las fotos. No cuenta con un equipo profesional, pero disfruta muchísimo de todo el proceso que conlleva cada obra; se siente afortunada de poder materializar sus ideas y convertirlas en arte.",
+        "lastContent": "water",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
           },
-          "photos": {
-            "front": "..",
-            "side": "..",
-            "back": ".."
+          "February": {
+            "1": "ewewe"
           }
         },
-
-        {
-          "name": "Daniel Cascales",
-          "urlName": "DanielCascales",
-          "sociaMedia" : "@danicascales",
-          "description": "Daniel Cascales (Almería, 1991) compagina su amor por la fotografía y la naturaleza
-           con su trabajo en la industria audiovisual como editor y realizador.
-          
-           La serie de fotografías que presenta en Merkarte están precedidas por un libro de fotografía sobre la
-           geología volcánica del parque natural de Cabo de Gata en Almería.",
-          "lastContent": "volcán",
-          "events": {
-            "January": {"1": "eEEEAE" },
-            "February": {"1": "ewewe"}
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Daniel Cascales",
+        "urlName": "DanielCascales",
+        "socialMedia": "@danicascales",
+        "description": "Daniel Cascales (Almería, 1991) compagina su amor por la fotografía y la naturaleza con su trabajo en la industria audiovisual como editor y realizador. La serie de fotografías que presenta en Merkarte están precedidas por un libro de fotografía sobre la geología volcánica del parque natural de Cabo de Gata en Almería.",
+        "lastContent": "volcán",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
           },
-          "photos": {
-            "front": "..",
-            "side": "..",
-            "back": ".."
+          "February": {
+            "1": "ewewe"
           }
         },
-
-        {
-          "name": "Leo Amaya",
-          "urlName": "LeoAmaya",
-          "sociaMedia" : "@l3oamaya",
-          "description": "Es un tinerfeño que empieza a interesarse por la fotografía desde jóven. Estudió un curso de fotografía en la escuela EFTI en madrid.
-           Mientras tanto trabajo como fotógrafo de bodas en una empresa en la misma ciudad llamada Liven Photaghy
-           
-           Actualmente reside en Tenerife, y siempre busca nuevos proyectos mientras estudia Animación en la escuela Fernando Estévez.",
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Leo Amaya",
+        "urlName": "LeoAmaya",
+        "socialMedia": "@l3oamaya",
+        "description": "Es un tinerfeño que empieza a interesarse por la fotografía desde jóven. Estudió un curso de fotografía en la escuela EFTI en Madrid. Mientras tanto trabajo como fotógrafo de bodas en una empresa en la misma ciudad llamada Liven Photaghy. Actualmente reside en Tenerife, y siempre busca nuevos proyectos mientras estudia Animación en la escuela Fernando Estévez.",
+        "lastContent": "teide",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Saioa Arellano",
+        "urlName": "SaioaArellano",
+        "socialMedia": "@saiochampi",
+        "description": "Saioa, estudió fotografía en la EASD Fernando Estévez. El trabajo que realiza viene inspirado por lo cotidiano, aquello que dejamos de apreciar por que funcionamos a un ritmo frenético, por la naturalidad de lo mismo que, más que inspirarle, le apasiona. Saioa entiende la fotografía como aquel momento efímero que es, y no vuelve. Aquella luz que marca el camino, la sombra necesaria para crear contraste pero que si miras al día siguiente, ya no es igual.",
           "lastContent": "teide",
-          "events": {
-            "January": {"1": "eEEEAE" },
-            "February": {"1": "ewewe"}
+        "events": {
+          "January": {
+            "1": "eEEEAE"
           },
-          "photos": {
-            "front": "..",
-            "side": "..",
-            "back": ".."
+          "February": {
+            "1": "ewewe"
           }
         },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Juanjo Pérez",
+        "urlName": "JuanjoPérez",
+        "socialMedia": "@juanjoprz92",
+        "description": "Juanjo Pérez (La Laguna, 1992), es estudiante de Ingeniería Informática, fotógrafo y videógrafo. Descubre la fotografía en el verano de 2016 y desde entonces continúa aprendiendo de manera autodidacta. Para él cada foto cuenta una historia, por ello intenta siempre reflejar las emociones de lo que ve.",
+        "lastContent": "blondi",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
 
-        {
-          "name": "Saioa Arellano",
-          "urlName": "SaioaArellano",
-          "sociaMedia" : "@saiochampi",
-          "description": "Saioa, estudió fotografía en la EASD Fernando Estévez. El trabajo que realiza viene inspirado por lo cotidiano, aquello que dejamos de apreciar
-          por que funcionamos a un ritmo frenético, por la naturalidad de lo mismo que, más que inspirarle, le apasiona.
-          
-          Saioa entiende la fotografía como aquel momento efímero que es, y no vuelve. Aquella luz que marca el camino, la sombra necesaria para crear contraste pero que si
-          miras al día siguiente, ya no es igual.",
-          "lastContent": "teide",
-          "events": {
-            "January": {"1": "eEEEAE" },
-            "February": {"1": "ewewe"}
+      {
+        "name": "Adrián Medina",
+        "urlName": "AdrianMedina",
+        "socialMedia" : "@_adriimgz",
+        "description": "Adrián Medina es un fotógrafo español que se ha visto interesado en la fotografía desde muy joven. No es un profesional pero lo considera como Hobbie, sus Fotografías se centran en paisajes y diseños que se encuentra en el dia a dia. Es un chico creativo con mucha imaginación a la hora de fotografiar con ganas de seguir aprendiendo.",
+        "lastContent": "caminar",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
           },
-          "photos": {
-            "front": "..",
-            "side": "..",
-            "back": ".."
-          }
-        },
 
+          "photos": {
+            "front": "..",
+            "side": "..",
+            "back": ".."
+          }
+        },
         {
-          "name": "Juanjo Pérez",
-          "urlName": "JuanjoPérez",
-          "sociaMedia" : "@juanjoprz92",
-          "description": "Juanjo Pérez (La Laguna, 1992), es estudiante de Ingeniería Informática, fotógrafo y videógrafo. Descubre la fotografía en el verano de 2016 y desde entonces continúa aprendiendo de manera autodidacta. Para él cada foto cuenta una historia,
-           por ello intenta siempre reflejar las emociones de lo que ve.",
-          "lastContent": "blondi",
+          "name": "Pedro Hernández Rodriguez",
+          "urlName": "PedroHernándezRodriguez",
+          "socialMedia" : "@rincones_de_canarias",
+          "description": "A los dieciséis años tuve la oportunidad de trabajar y vivir en el Parque Nacional del Teide. Aquí empezó mi fascinación por el paisaje, la naturaleza, los cambios de luz, aunque nunca como para reflejarlo a través de la fotografía.",
+          "lastContent": "senderismo",
           "events": {
             "January": {"1": "eEEEAE" },
             "February": {"1": "ewewe"}
@@ -265,45 +328,42 @@
             "side": "..",
             "back": ".."
           }
-        },
+        }
     ],
     "illustration": [
       {
         "name": "Irene Morales",
         "urlName": "IreneMorales",
-        "sociaMedia" : "@irene_moralm",
-        "description": "Irene Morales, nacida el 2 de junio de 1998 en Las Palmas de Gran Canaria, está en el mundo del arte desde pequeña, debido a sus estudios musicales desde los 5 años
-         hasta los 18. Inicia su interés por las artes gráficas desde la entrada a la E.S.O decidiendo, desde el 3º año de este, hacer el bachillerato artístico en la Escuela de Arte y Diseño
-         Superior de Gran Canaria.
-         Desde finales del año 2018 en adelante, realiza exposiciones colectivas, empezando por sus primeras en el Craft Gastrobar Coffee de La Laguna, siguiendo por la Asociación del Tanque
-         por el Tank Festival en Santa Cruz y, finalmente en la exposición realizada en la Universidad de La Laguna por la XXIII edición del premio de Pintura Nacional de Enrique Lite 2019,
-         donde obtiene el 3º premio.",
+        "socialMedia": "@irene_moralm",
+        "description": "Irene Morales, nacida el 2 de junio de 1998 en Las Palmas de Gran Canaria, está en el mundo del arte desde pequeña, debido a sus estudios musicales desde los 5 años hasta los 18. Inicia su interés por las artes gráficas desde la entrada a la E.S.O decidiendo, desde el 3º año de este, hacer el bachillerato artístico en la Escuela de Arte y Diseño Superior de Gran Canaria. Desde finales del año 2018 en adelante, realiza exposiciones colectivas, empezando por sus primeras en el Craft Gastrobar Coffee de La Laguna, siguiendo por la Asociación del Tanque por el Tank Festival en Santa Cruz y, finalmente en la exposición realizada en la Universidad de La Laguna por la XXIII edición del premio de Pintura Nacional de Enrique Lite 2019, donde obtiene el 3º premio.",
         "lastContent": "simbiosis",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
-          "front": "..",
+          "front": "/",
           "side": "..",
           "back": ".."
         }
       },
-
       {
         "name": "Gabopatapalo",
         "urlName": "Gabopatapalo",
-        "sociaMedia" : "@gabopatapaloart",
-        "description": "Gabopatapalo nace en la ciudad de Quito-Ecuador. En 2005 emigra a Tenerife y en 2006 empieza a cursar el
-         bachillerato artístico en la Escuela Superior de Arte y Diseño Fernando Estévez de Tenerife.
-
-         Dos años después, en la misma escuela, realiza el Ciclo Formativo de Grado Superior de Ilustración para luego completar
-         sus estudios artísticos en la Universidad de la Laguna en la Facultad Bellas Artes. Hoy en día se dedica al mundo del
-         arte corporal y la ilustración artística.",
+        "socialMedia": "@gabopatapaloart",
+        "description": "Gabopatapalo nace en la ciudad de Quito-Ecuador. En 2005 emigra a Tenerife y en 2006 empieza a cursar el bachillerato artístico en la Escuela Superior de Arte y Diseño Fernando Estévez de Tenerife. Dos años después, en la misma escuela, realiza el Ciclo Formativo de Grado Superior de Ilustración para luego completar sus estudios artísticos en la Universidad de la Laguna en la Facultad Bellas Artes. Hoy en día se dedica al mundo del arte corporal y la ilustración artística.",
         "lastContent": "mamaQuilla",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -311,22 +371,19 @@
           "back": ".."
         }
       },
-
       {
         "name": "José Benot Brito Ángel",
         "urlName": "JoseBenotBritoAngel",
-        "sociaMedia" : "@jauront_art",
-        "description": "José Benot Brito Ángel nació el 22 de Enero de 1997 en Santa Cruz de Tenerife, ha participado en una exposición conjunta
-        “Tú en el alto balcón” de 2020 en IES La Laboral comisariada por Javier Sicilia y Abrahman Riverón.
-        
-        Estudió toda su infancia en el colegio Pureza de María donde comenzó su faceta artística dibujando a escondidas en horario de clase.
-        Actualmente está cursando el cuarto año del grado de Bellas Artes en la Universidad de La Laguna donde ha trabajado diferentes estilos artísticos
-        como la pintura, la escultura y el grabado, pero es con la ilustración con la que más se identifica, siendo el grafito y la tinta los principales
-        protagonistas.",
+        "socialMedia": "@jauront_art",
+        "description": "José Benot Brito Ángel nació el 22 de Enero de 1997 en Santa Cruz de Tenerife, ha participado en una exposición conjunta 'Tú en el alto balcón' de 2020 en IES La Laboral comisariada por Javier Sicilia y Abrahman Riverón. Estudió toda su infancia en el colegio Pureza de María donde comenzó su faceta artística dibujando a escondidas en horario de clase. Actualmente está cursando el cuarto año del grado de Bellas Artes en la Universidad de La Laguna donde ha trabajado diferentes estilos artísticos como la pintura, la escultura y el grabado, pero es con la ilustración con la que más se identifica, siendo el grafito y la tinta los principales protagonistas.",
         "lastContent": "grizzly",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -334,20 +391,19 @@
           "back": ".."
         }
       },
-      
       {
         "name": "Sofía de Tomás",
         "urlName": "SofiaDeTomás",
-        "sociaMedia" : "@sofiadetomas.art",
-        "description": "Sofía de Tomás, nace en Tenerife, Islas Canarias, donde estudia Bellas Artes en la Universidad de La Laguna.
-         Siempre recuerda estar dibujando, pintando o inventando alguna cosa para entretenerse. 
-
-        Desde pequeña, además de la pintura se interesa mucho por el mar y las olas. El surf se convierte en otra de sus grandes
-        aficiones, llegando a competir en campeonatos locales, nacionales e incluso mundiales.",
+        "socialMedia": "@sofiadetomas.art",
+        "description": "Sofía de Tomás, nace en Tenerife, Islas Canarias, donde estudia Bellas Artes en la Universidad de La Laguna. Siempre recuerda estar dibujando, pintando o inventando alguna cosa para entretenerse. Desde pequeña, además de la pintura se interesa mucho por el mar y las olas. El surf se convierte en otra de sus grandes aficiones, llegando a competir en campeonatos locales, nacionales e incluso mundiales.",
         "lastContent": "atardeciendo",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -355,18 +411,19 @@
           "back": ".."
         }
       },
-
       {
         "name": "Paula Ramos",
         "urlName": "PaulaRamos",
-        "sociaMedia" : "@pololartx",
-        "description": "Pololartx es el nombre artístico de Paula Ramos y su vida entorno al mundo del arte empieza a girar cuando ingresa en la Escuela de Arte de Diseño Superior Fernando Estévez, es ahí donde
-        comienza a experimentar su potencial artístico.
-        Seguidamente, se matricula en la carrera de Bellas Artes de la Universidad de La Laguna en el comienzo del curso 2016, donde cursa actualmente el cuarto y último año de carrera, en la rama de pintura.",
+        "socialMedia": "@pololartx",
+        "description": "Pololartx es el nombre artístico de Paula Ramos y su vida entorno al mundo del arte empieza a girar cuando ingresa en la Escuela de Arte de Diseño Superior Fernando Estévez, es ahí donde comienza a experimentar su potencial artístico. Seguidamente, se matricula en la carrera de Bellas Artes de la Universidad de La Laguna en el comienzo del curso 2016, donde cursa actualmente el cuarto y último año de carrera, en la rama de pintura.",
         "lastContent": "sentimientosEscondidos",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -374,21 +431,19 @@
           "back": ".."
         }
       },
-
       {
         "name": "Hector Mar",
         "urlName": "HectorMar",
-        "sociaMedia" : "@hhectprmar",
-        "description": "Héctor Mar (1997) Nace y reside en la isla de Tenerife. 
-
-         A través de la pintura, se aferra a esta disciplina y la convierte en su herramienta para
-         “desnaturalizar” los objetos, elementos, escenas que se encuentra en los itinerarios de su vida y sus experiencias personales. 
-        
-         Llevado al soporte del cuadro muestra sus anotaciones y enmiendas en el amplio sentido del transcurso atemporal.",
+        "socialMedia": "@hhectprmar",
+        "description": "Héctor Mar (1997) Nace y reside en la isla de Tenerife.  A través de la pintura, se aferra a esta disciplina y la convierte en su herramienta para 'desnaturalizar' los objetos, elementos, escenas que se encuentra en los itinerarios de su vida y sus experiencias personales. Llevado al soporte del cuadro muestra sus anotaciones y enmiendas en el amplio sentido del transcurso atemporal.",
         "lastContent": "últimamente",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -396,24 +451,19 @@
           "back": ".."
         }
       },
-
       {
         "name": "Gloria Brito de Heer",
         "urlName": "GloriaBritoDeHeer",
-        "sociaMedia" : "@gdeheer",
-        "description": "Gloria Brito de Heer, es una Artista Visual canaria nacida en el año 1992 en S/C de Tenerife. Ha realizado Bachillerato
-         de Artes en la Escuela de Arte y Superior de Diseño Fernando Estévez y a continuación estudios Universitarios en La Facultad de Bellas
-         Artes de la Universidad de La Laguna.
-
-         Su trabajo se centra en el estudio del cuerpo como medio de expresión y conducto emocional a través de técnicas pictóricas empleadas sobre
-         soporte de papel y tinta china, mayormente.
-         
-         Ha participado en diferentes exposiciones colectivas realizadas en Santa Cruz de Tenerife y en el Programa Merkarte para Jóvenes Artistas
-         emergentes durante cuatro años consecutivos.",
+        "socialMedia": "@gdeheer",
+        "description": "Gloria Brito de Heer, es una Artista Visual canaria nacida en el año 1992 en S/C de Tenerife. Ha realizado Bachillerato de Artes en la Escuela de Arte y Superior de Diseño Fernando Estévez y a continuación estudios Universitarios en La Facultad de Bellas Artes de la Universidad de La Laguna. Su trabajo se centra en el estudio del cuerpo como medio de expresión y conducto emocional a través de técnicas pictóricas empleadas sobre soporte de papel y tinta china, mayormente. Ha participado en diferentes exposiciones colectivas realizadas en Santa Cruz de Tenerife y en el Programa Merkarte para Jóvenes Artistas emergentes durante cuatro años consecutivos.",
         "lastContent": "elsa",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -421,38 +471,41 @@
           "back": ".."
         }
       },
-
       {
         "name": "Pablo Falcón",
         "urlName": "PabloFalcón",
-        "sociaMedia" : "@bloms.95",
-        "description": "Pablo Falcón es un artista plástico nacido en Tenerife en 1995, graduado en Bellas Artes en la Universidad de La laguna e interesado en la representación de la
-         figura a través de la pintura acrílica y demás técnicas.
-         Normalmente sus obras se centran en la figura humana acompañadas por diferentes representaciones de cuadros o esculturas relacionadas con la historia del arte, todo ello a partir
-         de fondos oscuros y colores muy saturados, utilizando varios materiales compuestos entre sí.",
+        "socialMedia": "@bloms.95",
+        "description": "Pablo Falcón es un artista plástico nacido en Tenerife en 1995, graduado en Bellas Artes en la Universidad de La laguna e interesado en la representación de la figura a través de la pintura acrílica y demás técnicas. Normalmente sus obras se centran en la figura humana acompañadas por diferentes representaciones de cuadros o esculturas relacionadas con la historia del arte, todo ello a partir de fondos oscuros y colores muy saturados, utilizando varios materiales compuestos entre sí.",
         "lastContent": "círculo/1",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
           "side": "..",
           "back": ".."
         }
-      },
+      }
     ],
     "design": [
       {
         "name": "La Grammateus",
         "urlName": "LaGrammateus",
-        "sociaMedia" : "@lagrammateus",
-        "description": "Paula Blanco, de nombre artístico La grammateus, se dedica a la caligrafía y a la rotulacion tradicional
-        la apasionan las letras y por ello intenta que sus diseños combinen la parte más tradicional de creación tipográfica con la vertiente más comoda.",
+        "socialMedia": "@lagrammateus",
+        "description": "Paula Blanco, de nombre artístico La grammateus, se dedica a la caligrafía y a la rotulacion tradicional la apasionan las letras y por ello intenta que sus diseños combinen la parte más tradicional de creación tipográfica con la vertiente más comoda.",
         "lastContent": "pala",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -460,17 +513,18 @@
           "back": ".."
         }
       },
-  
       {
         "name": "Marc Phillipe Guerin",
         "urlName": "MarcPhillipeGuerin",
-        "description": "Este joven diseñador de 32 años nacido en Alicante y criado desde niño en Tenerife, logró alzarse con el segundo premio del certamen con su coleccion DEEP ROSE. Es
-        maquillador y estilista de profesión. Dice que la moda y el arte las ha llevado innatas en la sangre, y recuerda que su infancia jugaba con las muñecas de su hermana. Es la primera
-        vez que participa en un certamen de nuevas promesas del diseño, al cual optó en la edición anterior aunque sin la suerte de quedar entre los finalistas.",
+        "description": "Este joven diseñador de 32 años nacido en Alicante y criado desde niño en Tenerife, logró alzarse con el segundo premio del certamen con su coleccion DEEP ROSE. Es maquillador y estilista de profesión. Dice que la moda y el arte las ha llevado innatas en la sangre, y recuerda que su infancia jugaba con las muñecas de su hermana. Es la primera vez que participa en un certamen de nuevas promesas del diseño, al cual optó en la edición anterior aunque sin la suerte de quedar entre los finalistas.",
         "lastContent": "deepRose",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -481,13 +535,16 @@
       {
         "name": "Gabriela Hernandez",
         "urlName": "GabrielaHernandez",
-        "sociaMedia" : "@unsollcited",
-        "description": "Diseñador gráfico autónomo con formación en arquitectura. Creando identidades sistemáticas
-         y experiencias de marca inmersivas. Ofreciendo un enfoque estético diverso desde una perspectiva contemporánea.",
+        "socialMedia": "@unsollcited",
+        "description": "Diseñador gráfico autónomo con formación en arquitectura. Creando identidades sistemáticas y experiencias de marca inmersivas. Ofreciendo un enfoque estético diverso desde una perspectiva contemporánea.",
         "lastContent": "petitJardí",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -495,18 +552,19 @@
           "back": ".."
         }
       },
-
       {
         "name": "Oscar Lorenzo",
         "urlName": "OscarLorenzo",
-        "sociaMedia" : "@oscar__lorenzo",
-        "description": "Diseñador gráfico Freelance residente en Tenerife, Islas Canarias.
-         Óscar se formó en Delineación y en Gráfica Publicitaria en la Escuela de Artes Fernando Estévez,
-         y cuenta a sus espaldas con más de diez años de experiencia en el sector publicitario.",
+        "socialMedia": "@oscar__lorenzo",
+        "description": "Diseñador gráfico Freelance residente en Tenerife, Islas Canarias. Óscar se formó en Delineación y en Gráfica Publicitaria en la Escuela de Artes Fernando Estévez, y cuenta a sus espaldas con más de diez años de experiencia en el sector publicitario.",
         "lastContent": "romería",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -517,12 +575,16 @@
       {
         "name": "Irina Leston",
         "urlName": "IrinaLeston",
-        "sociaMedia" : "@irina_leston",
+        "socialMedia": "@irina_leston",
         "description": "xxxxx",
         "lastContent": "xxxxx",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -530,16 +592,19 @@
           "back": ".."
         }
       },
-
       {
         "name": "Alejandro Pérez",
         "urlName": "AlejandroPérez",
-        "sociaMedia" : "@creando_apelo",
+        "socialMedia": "@creando_apelo",
         "description": "xxxxx",
         "lastContent": "xxxxx",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -547,16 +612,19 @@
           "back": ".."
         }
       },
-
       {
         "name": "Studio Gabbbah",
         "urlName": "StudioGabbbah",
-        "sociaMedia" : "@studiogabbbah",
+        "socialMedia": "@studiogabbbah",
         "description": "Jovén Diseñador gráfico & fotografía",
         "lastContent": "xxxxx",
         "events": {
-          "January": {"1": "eEEEAE" },
-          "February": {"1": "ewewe"}
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
         },
         "photos": {
           "front": "..",
@@ -564,13 +632,34 @@
           "back": ".."
         }
       },
-
       {
         "name": "Iris Pérez",
         "urlName": "IrisPérez",
-        "sociaMedia" : "@i.ps.dsgn",
+        "socialMedia": "@i.ps.dsgn",
         "description": "Diseño de moda e Ilustración",
         "lastContent": "xxxxx",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      }
+    ],
+    "video": [
+      {
+        "name": "María Abenia",
+        "urlName": "MaríaAbenia",
+        "socialMedia" : "@maria_abenia",
+        "description": "Nacida en Zaragoza (España) en 1985, María Abenia trabajó como profesora de primaria durante ocho años antes de decidirse a dejar de fumar y comprar su primera cámara. Tras un largo viaje, se trasladó a Madrid y se matriculó en un programa de Fotografía Documental en Blankpaper School. Una vez finalizados esos estudios, se traslada a Barcelona y se incorpora a un posgrado de Dirección de Cine en la ESCAC. Una vez finalizada, prosiguió sus estudios con un máster en Teoría del Cine y del Audiovisual en la Universidad Pompeu Fabra, también en la ciudad de Barcelona.",
+        "lastContent": "creadorasDelpresente",
         "events": {
           "January": {"1": "eEEEAE" },
           "February": {"1": "ewewe"}
@@ -581,6 +670,134 @@
           "back": ".."
         }
       },
+      {
+        "name": "Denis García",
+        "urlName": "DenisGarcía",
+        "socialMedia" : "@dennisgarciavisual",
+        "description": "Es un Filmaker y director de fotografia, que ha participado en grandiosos cortometrajes como por ejemplo El milagro de Paula y ha dirijido videoclips de Simón salinas.",
+        "lastContent": "elMilagroDePaula",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Sara Glezmar",
+        "urlName": "SaraGlezmar",
+        "socialMedia" : "@sara.glezmar",
+        "description": "Sara González Martín es una artista visual de España dedicada principalmente a la creación de trabajos fotográficos y videográficos, pero apasionado por cualquier forma de expresión artística. Colores, fragilidad, fantasía y concepto son los elementos que mejor describen su trabajo.",
+        "lastContent": "noNecesitoElMarParaAhogarme",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Alejandro Villanueva",
+        "urlName": "AlejandroVillanueva",
+        "socialMedia" : "@alejandro.ville",
+        "description": "Alejandro Villanueva es un Cineasta canario además de cámarografo que ha rodado cortometrajes como por ejemplo MIRAME basada en las islas canarias.",
+        "lastContent": "mirame",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Edu Filming Theory",
+        "urlName": "EduFilmingTheory",
+        "socialMedia" : "@edufilmingtheory.es",
+        "description": "Productor de videos y proveedor de servicios, editor y etalonaje con base en Canarias.",
+        "lastContent": "eduFilmingTheory",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Aarón Barreiro",
+        "urlName": "AarónBarreiro",
+        "socialMedia" : "@aaron.vibes",
+        "description": "Aarón Barreiro es un Filmaker canario que se dedica a hacer cortometrajes y videoclips. Es el productor y camarógrafo de varios videos uno de los mas destacados MIRAME.",
+        "lastContent": "queSiempreNosGananLasGanas",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Juan Carlos Fresnadillo",
+        "urlName": "JuanCarlosFresnadillo",
+        "socialMedia" : "@juancarlosfresnadillo",
+        "description": "Juan Carlos Fresnadillo nacío el 05 de diciembre de 1967 en Santa Cruz de Tenerife. Es un guionista y director de cine español. En 1985, Fresnadillo se trasladó a Madrid desde su ciudad natal. Estudio Sociología en la Universidad Complutense. Comenzó los estudios de fotografía y cine en la Escuela Universitaria de Artes TAI, y realizó sus primeros pinitos en los cortometrajes. ",
+        "lastContent": "intacto-1",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "David Cánovas",
+        "urlName": "DavidCánovas",
+        "socialMedia" : "@DavidCánovas",
+        "description": "David Cánovas es un director y realizador de televisión canario. Nació en Santa Cruz de Tenerife de 1971. Estudió en la facultad de Ciencias de la Información de la Universidad Complutense de Madrid en la misma clase que Alejandro Amenábar y Mateo Gil entre otros. A su vuelta a Tenerife empieza a trabajar en televisiones locales, mientras realiza sus primeros cortos con cierto éxito local.",
+        "lastContent": "el-intruso",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Alba González de Molina",
+        "urlName": "AlbaGonzálezDeMolina",
+        "socialMedia" : "@agonzalezdemolina",
+        "description": "Alba González de Molina nació en Las Palmas de Gran Canaria en 1989. Comenzó sus andanzas en el mundo del cine social en el 2012 codirigiendo su primer largometraje documental ‘Stop! con Blanca Ordóñez de Tena. De ahí surgió el Colectivo La Semilla, asociación formada por seis mujeres que comienzan a crear cine como herramienta de transformación social.",
+        "lastContent": "julie",
+        "events": {
+          "January": {"1": "eEEEAE" },
+          "February": {"1": "ewewe"}
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      }
     ]
   }
 }
