@@ -3,7 +3,7 @@
     <TopBar> </TopBar>
     <div class="flex object-contain">
       <SideMenu> </SideMenu>
-      <div class="box-border flex flex-wrap justify-center items-center object-contain overflow-hidden">
+      <div class="box-border flex flex-wrap justify-center items-center overflow-hidden">
         <PlanCard title="Plan Premium Plus" price="14,99€"> </PlanCard>
         <PlanCard title="Plan Plus" price="10,99€"> </PlanCard>
         <PlanCard title="Suscripción Revista" price="8,99€"> </PlanCard>
@@ -16,7 +16,7 @@
 <script>
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
-import PlanCard from "@/components/PlanCard.vue";
+import PlanCard from "@/components/PlanCard/PlanCard.vue";
 
 export default {
   name: "SubscriptionPlans",

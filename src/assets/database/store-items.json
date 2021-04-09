@@ -6,8 +6,8 @@
       "urlName": "HarHuyTeeLogoWhite",
       "isInStock":true,
       "size": "L",
-      "rating":4,
-      "price": 11,
+      "rating": 4.9,
+      "price": 15,
       "photos":{
         "front":"/harhuyTeeLogoWhite.jpg",
         "closeup": "/harhuyTeeLogoWhiteClose.jpg",
@@ -20,7 +20,7 @@
       "isInStock": false,
       "size": "M",
       "rating": 5,
-      "price": 11,
+      "price": 15,
       "photos": {
         "front": "/harhuyTeeLogoYellow.jpg",
         "closeup": "/harhuyTeeLogoYellowClose.jpg",
@@ -31,8 +31,8 @@
       "name": "Harhuy Tote Bag Landscape",
       "urlName": "HarHuyToteBagLandscape",
       "isInStock": false,
-      "rating": 4.5,
-      "price": 11,
+      "rating": 4.7,
+      "price": 9,
       "photos": {
         "front": "/harhuyToteBagLandscape.jpg",
         "close": "/harhuyToteBagLandscapeClose.jpg",
@@ -43,8 +43,8 @@
       "name": "Harhuy Tote Bag",
       "urlName": "HarHuyToteBag",
       "isInStock": true,
-      "rating": 5,
-      "price": 11,
+      "rating": 4.7,
+      "price": 9,
       "photos": {
         "front": "/harhuyToteBag.jpg",
         "close": "/harhuyToteBagClose.jpg",

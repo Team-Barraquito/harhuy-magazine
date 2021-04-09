@@ -3,9 +3,9 @@
     <router-link to="/error404"> Hola mundo</router-link>
     <TopBar> </TopBar>
     <div class="bg-image">
-      <div class="container flex w-screen" :style="image">
+      <div class="flex w-screen">
         <div class="nav-container">
-          <SideMenu> </SideMenu>
+          <SideMenu :color=textColor> </SideMenu>
         </div>
 
         <div class="content flex flex-col items-end justify-center w-screen">
@@ -34,9 +34,7 @@ export default {
   },
   data () {
     return {
-      backgroundImg: {
-        backgroundImage: "@/assets/images/index/index-background.jpg",
-      },
+      textColor: "white",
     };
   },
 };
@@ -45,6 +43,6 @@ export default {
 
 <style scoped>
 .bg-image {
-  background-image: url ("/assets/images/index/index-background.jpg");
+  background-image: url(../assets/images/index/index-background.jpg);
 }
 </style>

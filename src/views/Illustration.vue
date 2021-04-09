@@ -7,9 +7,7 @@
       </div>
       <div class="container flex justify-between pr-20 pl-20">
         <div class="column w-96 h-full bg-red-500 grid gap-3 justify-items-center">
-          <div class="item"></div>
-          <div class="item"></div>
-          <div class="item"></div>
+        <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist />
         </div>
         <div class="column w-96 h-full bg-red-500 grid gap-12 justify-items-center pt-14">
           <div class="item"></div>
@@ -30,18 +28,36 @@
 <script>
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import ShowcaseArtist from "@/components/ShowcaseArtist/ShowcaseArtist.vue";
 import { mapState } from "vuex";
 
 export default {
   name: "Illustration",
+  data () {
+    return {
+      firstThree: [],
+      secondThree: [],
+      thirdThree: [],
+    };
+  },
   components: {
     TopBar,
     SideMenu,
+    ShowcaseArtist,
   },
   computed: {
     ...mapState(["illustrationArtists"]),
   },
-
+  methods: {
+    setArraysContent () {
+      this.firstThree = this.illustrationArtists.slice(0, 3);
+      this.secondThree = this.illustrationArtists.slice(3, 6);
+      this.thirdThree = this.illustrationArtists.slice(6);
+    },
+  },
+  beforeMount () {
+    this.setArraysContent();
+  },
 };
 </script>
 
