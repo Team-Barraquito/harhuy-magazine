@@ -2,14 +2,16 @@
   <div class=" flex justify-between w-screen h-60 bg-black">
 
     <!-- left zone -->
-    <div class="w-96 h-full flex flex-col">
-      <div class="w-3/12 h-full flex justify-center items-center">
-         <button @click=goToMenu class=" pl-1 h-3/5 grid grid-cols-1 grid-rows-2 gap-x-0 gap-y-0">
+    <div class="w-32 h-auto flex flex-col m-10 overflow-hidden justify-center items-center">
+      <div class=" h-full flex justify-center items-center">
+         <button @click=goToMenu class=" h-full flex flex-col items-center justify-center text-xs">
           <svg class="" width="82" height="24" viewBox="0 0 82 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line y1="3.5" x2="63.5211" y2="3.5" stroke="white" stroke-width="7"/>
-            <line x1="18.479" y1="19.7773" x2="82.0001" y2="19.7773" stroke="white" stroke-width="7"/>
+            <line y1="3.5" x2="63.5211" y2="3.5" stroke="white" stroke-width="6"/>
+            <line x1="18.479" y1="19.7773" x2="82.0001" y2="19.7773" stroke="white" stroke-width="6"/>
           </svg>
-          <div class="text-harhuy uppercase font-semibold rotate w-full h-5"> menú</div>
+          <div class="h-1/2 w-auto flex justify-center items-center m-2">
+            <div class=" text-harhuy uppercase font-semibold rotate w-full  align-buttom text-center font-bold m-0"> menú</div>
+          </div>
         </button>
       </div>
     </div>
@@ -62,7 +64,7 @@ export default {
 
 <style scoped>
   .rotate {
-  transform: rotate(270deg);
+    transform: rotate(270deg);
   }
 
 </style>
