@@ -48,30 +48,6 @@ const routes = [
   },
 
   {
-    path: "/suscripcion",
-    name: "Suscripción",
-    component: () => import("../views/SubscriptionPlans.vue"),
-  },
-
-  {
-    path: "/error404",
-    name: "error404",
-    component: () => import("../views/Error404.vue"),
-  },
-
-  {
-    path: "/sucess",
-    name: "sucess",
-    component: () => import("../views/Sucess.vue"),
-  },
-
-  {
-    path: "/denied",
-    name: "denied",
-    component: () => import("../views/Denied.vue"),
-  },
-
-  {
     path: "/illustration",
     name: "Ilustración",
     component: () => import("../views/Illustration.vue"),
@@ -99,6 +75,30 @@ const routes = [
     path: "/design",
     name: "Diseño",
     component: () => import("../views/Design.vue"),
+  },
+
+  {
+    path: "/suscripcion",
+    name: "Suscripción",
+    component: () => import("../views/SubscriptionPlans.vue"),
+  },
+
+  {
+    path: "/error404",
+    name: "Error",
+    component: () => import("../views/Error404.vue"),
+  },
+
+  {
+    path: "/sucess",
+    name: "Sucess",
+    component: () => import("../views/Sucess.vue"),
+  },
+
+  {
+    path: "/denied",
+    name: "Denied",
+    component: () => import("../views/Denied.vue"),
   },
 ];
 
