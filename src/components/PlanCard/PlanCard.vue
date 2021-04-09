@@ -47,7 +47,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .card-container {
-  width: 100%;
+  width: auto;
   display: grid;
   grid-template-areas: all;
   justify-content: center;
