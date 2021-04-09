@@ -2,8 +2,14 @@
   <div @click="goToProductSheet"  class="prueba relative text-black">
     <img :src="getSource" :alt=item.name>
     <div class="absolute bottom-2 left-2 text-xs"> {{ item.name }}</div>
-    <div class="overlay absolute bottom-0 left-0 right-0 bg-blue-300 overflow-hidden w-full h-0">
-      <div class="text whitespace-nowrap text-white overflow-hidden absolute text-xl top-1/2 left-1/2">prueba</div>
+    <div class="overlay absolute bottom-0 left-0 right-0 bg-harhuy overflow-hidden w-full h-0">
+      <div class="text whitespace-nowrap text-black overflow-hidden absolute text-xl top-1/2 left-1/2">
+        <ul>
+          <li> {{ item.price}}€</li>
+          <li v-if=item.isInStock> En stock 😃</li>
+          <li v-else> No hay stock 😣</li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>

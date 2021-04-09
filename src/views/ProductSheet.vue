@@ -1,7 +1,7 @@
 <template>
   <div>
     <TopBar> </TopBar>
-    <div class="flex">
+    <div class="flex w-screen">
       <SideMenu> </SideMenu>
       <!-- inicio contenedor fotos -->
       <div class="images-container flex flex-col ml-10">
@@ -13,7 +13,7 @@
       <div class="info-container w-128">
         <!-- Inicio estrellas y stock -->
         <div class="stars-and-stock flex bg-yellow-400 w-full h-auto">
-          <div class="stars flex w-1/2 justify-end items-center"> Aqui van las estrellas </div>
+          <div class="stars flex w-1/2 justify-end items-center"> <star-rating :rating="itemData.rating" :starStyle="style"> </star-rating>  </div>
           <div v-if=itemData.isInStock class="text-stock flex w-1/2 justify-end items-center"> En stock </div>
           <div v-else class="text-red-700"> Sin stock </div>
         </div>
@@ -62,6 +62,7 @@
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import QuantitySelector from "@/components/QuantitySelector/QuantitySelector.vue";
+import StarRating from "vue-dynamic-star-rating";
 import { mapGetters, mapActions } from "vuex";
 
 // TODO deshabilitar botones si no hay stock
@@ -72,10 +73,17 @@ export default {
     TopBar,
     SideMenu,
     QuantitySelector,
+    StarRating,
   },
   data () {
     return {
       itemData: {},
+      style: {
+        fullStarColor: "#ed8a19",
+        emptyStarColor: "#737373",
+        starWidth: 30,
+        starHeight: 30,
+      },
     };
   },
 
@@ -87,6 +95,10 @@ export default {
       return require("../assets/images/store" + photo);
     },
     ...mapActions(["addToCart", "resetQuantity"]),
+
+    setRating () {
+      this.config.rating = this.itemData.rating;
+    },
   },
 
   computed: {

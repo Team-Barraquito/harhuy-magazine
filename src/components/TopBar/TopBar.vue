@@ -3,14 +3,13 @@
 
     <!-- left zone -->
     <div class="w-96 h-full flex flex-col">
-      <div class="w-28 h-full flex justify-center bg-green-400">
-         <button @click=goToMenu class="flex items-center flex-col">
-    <!-- TODO mejorar el rotate que esta changa -->
+      <div class="w-3/12 h-full flex justify-center items-center">
+         <button @click=goToMenu class=" pl-1 h-3/5 grid grid-cols-1 grid-rows-2 gap-x-0 gap-y-0">
           <svg class="" width="82" height="24" viewBox="0 0 82 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="3.5" x2="63.5211" y2="3.5" stroke="white" stroke-width="7"/>
             <line x1="18.479" y1="19.7773" x2="82.0001" y2="19.7773" stroke="white" stroke-width="7"/>
           </svg>
-          <div class="text-harhuy uppercase font-bold rotate menu "> menú</div>
+          <div class="text-harhuy uppercase font-semibold rotate w-full h-5"> menú</div>
         </button>
       </div>
     </div>
@@ -23,8 +22,8 @@
       </svg>
       </div>
       <div class="w-full h-2/4 flex flex-col justify-center items-center text-white">
-      <div class="w-full h-2/4 uppercase font-extrabold text-6xl flex justify-center items-center">{{ $route.name }}</div>
-      <div class="w-full h-2/4 uppercase flex justify-end "> nº / 0424 </div>
+      <div class="w-full h-2/4 uppercase font-extrabold text-5xl flex justify-center items-center">{{ $route.name }}</div>
+      <div class="w-4/5 h-2/4 uppercase flex justify-end "> nº / 0424 </div>
       </div>
     </div>
     <!-- end of middle zone -->
@@ -62,11 +61,6 @@ export default {
 </script>
 
 <style scoped>
-  #lens {
-   fill: white;
-   height: 30px;
-   width: 30px;
-  }
   .rotate {
   transform: rotate(270deg);
   }

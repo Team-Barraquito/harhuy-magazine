@@ -2,15 +2,15 @@
 <!-- TODO ajustar tamaño de pantalla -->
   <div class="w-screen h-screen bg-harhuy menu overflow-hidden"  @mousemove="moveCustomCursor">
     <CircularCursor id="customCursor"> </CircularCursor>
-    <div class="top-zone overflow-hidden w-screen h-28 grid grid-rows-1 grid-cols-3">
+    <div class="top-zone overflow-hidden w-screen h-361 grid grid-rows-1 grid-cols-3">
       <!-- fixear -->
       <div class="flex justify-start items-start">
-        <button @click=goToBefore>
+        <button @click=goToBefore class="h-full grid grid-cols-1 grid-rows-2 gap-x-2 gap-y-2 bg-pink-400">
           <svg width="44" height="55" viewBox="0 0 44 55" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(0.699963 0.709914 -0.704254 0.714266 0 7.21875)" stroke="black" stroke-width="7"/>
             <line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(-0.699963 0.709914 0.704254 0.714266 43.8906 7.33984)" stroke="black" stroke-width="7"/>
           </svg>
-          <div class="text-black uppercase font-bold rotate menu "> close</div>
+          <div class="text-black uppercase font-bold rotate w-full h-5"> close</div>
         </button>
       </div>
       <div class="flex items-center justify-center">
