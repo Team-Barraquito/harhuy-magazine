@@ -82,7 +82,6 @@ const routes = [
     name: "Diseño",
     component: () => import("../views/Design.vue"),
   },
-
 ];
 
 const router = new VueRouter({

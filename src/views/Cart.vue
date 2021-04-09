@@ -30,7 +30,7 @@ export default {
     ...mapActions(["removeFromCart"]),
     getSource (item) {
       const frontPath = item.photos.front;
-      return require("../assets/images" + frontPath);
+      return require("../assets/images/store" + frontPath);
     },
     calculatePrice (item) {
       return item.price * item.quantity;

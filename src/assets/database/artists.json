@@ -346,7 +346,7 @@
           }
         },
         "photos": {
-          "front": "/",
+          "front": "/Irene.jpg",
           "side": "..",
           "back": ".."
         }
@@ -366,7 +366,7 @@
           }
         },
         "photos": {
-          "front": "..",
+          "front": "/Gabo.jpg",
           "side": "..",
           "back": ".."
         }
@@ -386,7 +386,7 @@
           }
         },
         "photos": {
-          "front": "..",
+          "front": "/Jauront-defeat.jpg",
           "side": "..",
           "back": ".."
         }
@@ -457,6 +457,26 @@
         "socialMedia": "@gdeheer",
         "description": "Gloria Brito de Heer, es una Artista Visual canaria nacida en el año 1992 en S/C de Tenerife. Ha realizado Bachillerato de Artes en la Escuela de Arte y Superior de Diseño Fernando Estévez y a continuación estudios Universitarios en La Facultad de Bellas Artes de la Universidad de La Laguna. Su trabajo se centra en el estudio del cuerpo como medio de expresión y conducto emocional a través de técnicas pictóricas empleadas sobre soporte de papel y tinta china, mayormente. Ha participado en diferentes exposiciones colectivas realizadas en Santa Cruz de Tenerife y en el Programa Merkarte para Jóvenes Artistas emergentes durante cuatro años consecutivos.",
         "lastContent": "elsa",
+        "events": {
+          "January": {
+            "1": "eEEEAE"
+          },
+          "February": {
+            "1": "ewewe"
+          }
+        },
+        "photos": {
+          "front": "..",
+          "side": "..",
+          "back": ".."
+        }
+      },
+      {
+        "name": "Pablo Falcón",
+        "urlName": "PabloFalcón",
+        "socialMedia": "@bloms.95",
+        "description": "Pablo Falcón es un artista plástico nacido en Tenerife en 1995, graduado en Bellas Artes en la Universidad de La laguna e interesado en la representación de la figura a través de la pintura acrílica y demás técnicas. Normalmente sus obras se centran en la figura humana acompañadas por diferentes representaciones de cuadros o esculturas relacionadas con la historia del arte, todo ello a partir de fondos oscuros y colores muy saturados, utilizando varios materiales compuestos entre sí.",
+        "lastContent": "círculo/1",
         "events": {
           "January": {
             "1": "eEEEAE"

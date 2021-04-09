@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
-    <img :src=getSource :alt=artistData.name>
-    <p>
+  <div @click="goToArtist" class="container flex flex-col justify-center items-center">
+    <img class="w-4/5 h-auto" :src=getSource :alt=artistData.name>
+    <p class="">
       {{artistData.name}}
-      @{{artistData.socialMedia}}
+      {{artistData.socialMedia}}
     </p>
   </div>
 </template>
@@ -18,10 +18,16 @@ export default {
       socialMedia: String,
     },
   },
+
+  methods: {
+    goToArtist () {
+      this.$router.push({ path: "/artist" });
+    },
+  },
   computed: {
     getSource () {
       const frontPath = this.$props.artistData.photos.front;
-      return require("../../assets/artists/illustrators" + frontPath);
+      return require("../../assets/images/artists/illustrators" + frontPath);
     },
   },
 };

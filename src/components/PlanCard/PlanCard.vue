@@ -31,7 +31,7 @@
         <p class="cart-text">AÑADIR AL CARRITO</p>
       </div>
       <div class="image-container">
-        <img src="../assets/images/suscription/plan-premium-plus.jpg" alt="Imagen del Plan Premium">
+        <img src="../../assets/images/suscription/plan-premium-plus.jpg" alt="Imagen del Plan Premium">
       </div>
     </div>
   </div>
