@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <router-link to="/error404"> Hola mundo</router-link>
     <TopBar> </TopBar>
     <div class="bg-image">
       <div class="flex w-screen">
