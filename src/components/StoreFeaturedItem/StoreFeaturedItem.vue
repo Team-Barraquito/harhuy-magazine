@@ -1,11 +1,11 @@
 <template>
-  <div class="flex ml-20">
-    <img :src=getPhoto() class="w-116 h-116">
-    <div class="info-container w-116 h-116">
-      <div class="h-1/3 flex items-end">
-        <h1 class="text-3xl p-1 font-bold"> Producto destacado </h1>
+  <div class="flex m-20 items-center justify-content w-auto">
+    <img :src=getPhoto() class="w-1/2 h-80 object-cover">
+    <div class="info-container w-1/2 h-80 p-5 flex flex-col items-center justify-content">
+      <div class="h-auto flex flex-col items-center justify-center">
+        <h1 class="text-3xl p-1 font-bold text-center"> Producto destacado </h1>
       </div>
-      <p class="mt-4 p-1 text-2xl text-center"> {{ itemData.description }}  </p>
+      <p class="mt-4 p-1 text-1xl text-center"> {{ itemData.description }}  </p>
     </div>
   </div>
 </template>

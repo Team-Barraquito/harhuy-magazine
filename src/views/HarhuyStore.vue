@@ -1,11 +1,11 @@
 <template>
   <div class="store">
     <TopBar> </TopBar>
-    <div class="container w-screen flex">
+    <div class=" w-screen flex">
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-      <div class="content flex flex-col items-end ">
+      <div class="w-full content flex flex-col flex-wrap items-center justify-content">
         <StoreFeaturedItem> </StoreFeaturedItem>
         <div class="grid grid-rows-2 grid-cols-3 gap-4">
           <StoreItem v-for="(item, index) in items" :key="index" :item="item"> </StoreItem>
