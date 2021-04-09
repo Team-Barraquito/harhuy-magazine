@@ -4,7 +4,7 @@
     <div class="flex object-contain">
       <SideMenu> </SideMenu>
       <div class="box-border flex flex-wrap flex-row justify-center items-center overflow-hidden w-full place-items-center">
-        <PlanCard title="Plan Premium Plus" price="14,99€" class="flex1 w-1/3 transform scale-75"> </PlanCard>
+        <PlanCard title="Plan Premium Plus" price="14,99€" class="flex1 w-1/3 transform sm:scale-50 xl:scale-100"> </PlanCard>
         <PlanCard title="Plan Plus" price="10,99€" class="flex1 w-1/3"> </PlanCard>
         <PlanCard title="Suscripción Revista" price="8,99€" class="flex1 w-1/3"> </PlanCard>
       </div>
