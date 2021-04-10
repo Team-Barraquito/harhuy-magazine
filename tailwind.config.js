@@ -26,6 +26,10 @@ module.exports = {
       fontSize: {
         xss: "0.1rem",
       },
+      scale: {
+        200: "2",
+        400: "4",
+      },
     },
   },
   variants: {
