@@ -4,10 +4,10 @@
      <router-link to="/denied"> Denied</router-link>
     <router-link to="/sucess">  Sucess</router-link>
     <div class="bg-image bg-center bg-no-repeat bg-cover bg-fixed">
-      <TopBar> </TopBar>
+      <TopBarTransparent> </TopBarTransparent>
       <div class="flex w-screen">
         <div class="nav-container">
-          <SideMenu :color=textColor> </SideMenu>
+          <SideMenu> </SideMenu>
         </div>
         <div class=" flex flex-col items-end justify-center w-screen">
           <div class="content flex flex-col items-end justify-center w-6/12 px-8 ">
@@ -19,7 +19,7 @@
               ut labore et dolore magna aliqua. </p>
             <div class="flex flex-col items-start w-full py-6">
               <div class="border-t-4 border-harhuy w-full py-1"></div>
-              <p class="text-sm text-harhuy py-1">Leer entrevista completa</p>
+              <p class="text-sm text-gray-70000 text-shadow py-1">Leer entrevista completa</p>
             </div>
           </div>
         </div>
@@ -30,19 +30,14 @@
 
 <script>
 // @ is an alias to /src
-import TopBar from "@/components/TopBar/TopBar.vue";
+import TopBarTransparent from "@/components/TopBarTransparent/TopBarTransparent.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 
 export default {
   name: "Home",
   components: {
-    TopBar,
+    TopBarTransparent,
     SideMenu,
-  },
-  data () {
-    return {
-      textColor: "",
-    };
   },
 };
 
@@ -51,5 +46,10 @@ export default {
 <style scoped>
 .bg-image {
   background-image: url(../assets/images/index/home-bg-image.jpg);
+
+}
+
+.text-shadow {
+  text-shadow: -1px -1px ;
 }
 </style>

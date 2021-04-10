@@ -12,6 +12,9 @@
         </div>
       </div>
     </div>
+    <div class="footer-container">
+      <Footer> </Footer>
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,7 @@ import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import StoreItem from "@/components/StoreItem/StoreItem.vue";
 import StoreFeaturedItem from "@/components/StoreFeaturedItem/StoreFeaturedItem.vue";
+import Footer from "@/components/Footer/Footer.vue";
 import { mapState } from "vuex";
 
 export default {
@@ -29,6 +33,7 @@ export default {
     SideMenu,
     StoreFeaturedItem,
     StoreItem,
+    Footer,
   },
   computed: {
     ...mapState(["items"]),
