@@ -54,9 +54,21 @@ const routes = [
   },
 
   {
+    path: "/illustration/:name",
+    name: "Illustrator",
+    component: () => import("../views/Illustrator.vue"),
+  },
+
+  {
     path: "/photography",
     name: "Fotografía",
     component: () => import("../views/Photography.vue"),
+  },
+
+  {
+    path: "/photography/:name",
+    name: "Photographer",
+    component: () => import("../views/Photographer.vue"),
   },
 
   {
@@ -66,8 +78,20 @@ const routes = [
   },
 
   {
-    path: "/video",
-    name: "Vídeo",
+    path: "/music/:name",
+    name: "Músician",
+    component: () => import("../views/Musician.vue"),
+  },
+
+  {
+    path: "/filmaking",
+    name: "Filmaking",
+    component: () => import("../views/Video.vue"),
+  },
+
+  {
+    path: "/filmaking/:name",
+    name: "Filmaker",
     component: () => import("../views/Video.vue"),
   },
 
