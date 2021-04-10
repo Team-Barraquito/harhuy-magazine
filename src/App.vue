@@ -44,6 +44,15 @@
        url(./assets/fonts/MonumentExtended-Regular.otf);
 }
 
+@font-face {
+  font-family: "Monument Extended";
+  font-weight: 800;
+  font-style: normal;
+  src: url(./assets/fonts/MonumentExtended-Ultrabold.woff),
+       url(./assets/fonts/MonumentExtended-Ultrabold.woff2),
+       url(./assets/fonts/MonumentExtended-Ultrabold.otf);
+}
+
 #app {
   font-family: "Monument Extended";
   -moz-osx-font-smoothing: grayscale;
