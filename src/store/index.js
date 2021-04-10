@@ -17,7 +17,7 @@ export default new Vuex.Store({
     photographyArtists: artistsDatabase.categories.photography,
     musicArtists: artistsDatabase.categories.music,
     videoArtists: artistsDatabase.categories.video,
-    desingArtists: artistsDatabase.categories.design,
+    designArtists: artistsDatabase.categories.design,
 
   },
 
