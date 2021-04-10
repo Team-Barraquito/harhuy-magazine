@@ -66,7 +66,7 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     "vue/max-len": ["error", {
       code: 90,
-      template: 95,
+      template: 120,
       tabWidth: 2,
       comments: 80,
       ignorePattern: "",
