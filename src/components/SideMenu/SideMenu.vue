@@ -6,7 +6,7 @@
   <div class="vertical-line" :style="{'border-left': `1px solid ${color}`}"></div>
   <router-link to="/music" class="uppercase text-xs p-2"> música</router-link>
   <div class="vertical-line" :style="{'border-left': `1px solid ${color}`}"></div>
-  <router-link to="/video" class="uppercase text-xs p-2"> vídeo</router-link>
+  <router-link to="/filmaking" class="uppercase text-xs p-2"> vídeo</router-link>
   <div class="vertical-line" :style="{'border-left': `1px solid ${color}`}"></div>
   <router-link to="/design" class="uppercase text-xs p-2"> diseño</router-link>
   <div class="vertical-line last" :style="{'border-left': `1px solid ${color}`}"></div>
