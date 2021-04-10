@@ -1,10 +1,9 @@
 <template>
-  <div @click="goToArtist" class="container flex flex-col justify-center items-center">
-    <img class="w-4/5 h-auto" :src=getSource :alt=artistData.name>
-    <p class="">
-      {{artistData.name}}
-      {{artistData.socialMedia}}
-    </p>
+  <div class=" b w-full h-full flex flex-col justify-center items-center">
+    <div @click="goToArtist" class="w-11/12 h-11/12 flex flex-col justify-center items-center">
+      <img class="w-11/12 h-auto" :src=getSource :alt=artistData.name>
+      <p class="">{{artistData.name}} {{artistData.socialMedia}}</p>
+    </div>
   </div>
 </template>
 
@@ -16,18 +15,20 @@ export default {
       name: String,
       photos: Object,
       socialMedia: String,
+      urlName: String,
     },
+    path: String,
   },
 
   methods: {
     goToArtist () {
-      this.$router.push({ path: "/artist" });
+      this.$router.push({ path: `${this.$props.path}/${this.artistData.urlName}` });
     },
   },
   computed: {
     getSource () {
       const frontPath = this.$props.artistData.photos.front;
-      return require("../../assets/images/artists/illustrators" + frontPath);
+      return require("../../assets/images/artists/" + this.$props.path + frontPath);
     },
   },
 };
