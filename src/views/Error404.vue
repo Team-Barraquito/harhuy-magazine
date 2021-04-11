@@ -3,12 +3,12 @@
   <TopBar> </TopBar>
   <div class="flex flex-column bg-yellow-400">
     <SideMenu> </SideMenu>
-    <div class="flex items-center justify-center w-full text-left">
-      <div>
-        <p>Fck*!</p>
-        <p>/ ERROR 404/</p>
+    <div class="flex items-center justify-center w-full text-left text-black">
+        <div >
+        <p class="text-3xl font-extrabold text-right">Fck*!</p>
+      <p>/ ERROR 404 /</p>
       </div>
-      <img src="" />
+      <img src="../assets/images/error404/grave.svg"/>
       <div class="error">
         <p>The page you're looking</p>
         <p>for is now beyond our</p>
