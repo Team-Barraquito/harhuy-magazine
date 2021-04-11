@@ -14,7 +14,7 @@
       <h1 class="title">{{title}}</h1>
       <div class="price-box">
         <h2 class="price">{{price}}</h2>
-        <p class="iva">IVA incluido incluye <strong>3</strong> meses</p>
+        <p class="iva">IVA incluido incluye <strong>{{duration}}</strong> meses</p>
       </div>
       <div class="cart">
         <div cart-icon>
@@ -40,7 +40,7 @@
 <script>
 export default {
   name: "PlanCard",
-  props: ["title", "price"],
+  props: ["title", "price", "duration"],
 };
 </script>
 
