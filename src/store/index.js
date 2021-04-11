@@ -73,6 +73,10 @@ export default new Vuex.Store({
     numberOfCartItems: (state) => {
       return state.cart.length;
     },
+
+    illustrators: (state) => (name) => {
+      return state.illustrationArtists.find((illustrator) => illustrator.urlName === name);
+    },
   },
   modules: {
   },
