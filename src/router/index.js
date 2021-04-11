@@ -102,6 +102,12 @@ const routes = [
   },
 
   {
+    path: "/design/:name",
+    name: "Designer",
+    component: () => import("../views/Designer.vue"),
+  },
+
+  {
     path: "/suscripcion",
     name: "Suscripción",
     component: () => import("../views/SubscriptionPlans.vue"),
