@@ -1,11 +1,10 @@
 <template>
-  <div class="illustration w-screen h-screen">
+  <div class="illustration">
     <TopBar> </TopBar>
-    <div class="content flex mt-6">
-      <div class="side-container w-36">
+    <div class="w-screen flex">
+      <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-      <div class="flex justify-between pr-20 pl-20">
         <div class="column w-96 h-full grid gap-3 justify-items-center">
         <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist :path="path"/>
         </div>
@@ -16,7 +15,6 @@
           <ShowcaseArtist v-for="(artist,index) in thirdThree" :key="index" :artistData=artist :path="path"/>
         </div>
       </div>
-    </div>
   </div>
 </template>
 
