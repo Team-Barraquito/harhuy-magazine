@@ -8,6 +8,7 @@
       "size": "L",
       "rating": 4.9,
       "price": 15,
+      "priceId": "price_1IdlcoLav5xUnjDzSjSypBlT",
       "photos":{
         "front":"/harhuyTeeLogoWhite.jpg",
         "closeup": "/harhuyTeeLogoWhiteClose.jpg",
@@ -21,6 +22,7 @@
       "size": "M",
       "rating": 5,
       "price": 15,
+      "priceId": "price_1IdldcLav5xUnjDzGS8Cdj2T",
       "photos": {
         "front": "/harhuyTeeLogoYellow.jpg",
         "closeup": "/harhuyTeeLogoYellowClose.jpg",
@@ -33,6 +35,7 @@
       "isInStock": false,
       "rating": 4.7,
       "price": 9,
+      "priceId": "price_1IdlrxLav5xUnjDzXzLZKjw1",
       "photos": {
         "front": "/harhuyToteBagLandscape.jpg",
         "close": "/harhuyToteBagLandscapeClose.jpg",
@@ -45,6 +48,7 @@
       "isInStock": true,
       "rating": 4.7,
       "price": 9,
+      "priceId": "price_1IdlurLav5xUnjDzjn5ivnHi",
       "photos": {
         "front": "/harhuyToteBag.jpg",
         "close": "/harhuyToteBagClose.jpg",
