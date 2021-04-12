@@ -1,31 +1,50 @@
 <template>
-  <div>
-      <h1>Cart</h1>
-    <ul class="cart-list">
-      <li class="flex-col cart-list__item" v-for="item in cartItems" :key=item.name>
-        <img :src="getSource(item)" class="thumbnail" :alt=item.name>
-        <div class="flex-col cart-list__item__details">
-          <div>
-            <p>{{ item.name }}</p>
-            <p>Quantity: {{ item.quantity }}</p>
-            <p>Size: {{ item.size }}</p>
-          </div>
-          <p>${{ calculatePrice(item) }}</p>
-          <button
-            @click=removeFromCart(item.name)
-            class="btn cart-list__btn-remove">
-            Remove
-          </button>
-        </div>
-      </li>
-    </ul>
+  <div class="cart">
+
+    <!-- TopBar + SideMenu --->
+    <TopBar> </TopBar>
+    <div class="w-screen flex">
+      <div class="nav-container">
+        <SideMenu> </SideMenu>
+      </div>
+    <!-- End of TopBar + SideMenu -->
+
+      <div class="w-full content flex flex-col items-center">
+       <ul class="cart-list">
+         <li class="flex-col cart-list__item" v-for="item in cartItems" :key=item.name>
+           <img :src="getSource(item)" class="thumbnail" :alt=item.name>
+           <div class="flex-col cart-list__item__details">
+             <div>
+               <p>{{ item.name }}</p>
+               <p>Quantity: {{ item.quantity }}</p>
+               <p>Size: {{ item.size }}</p>
+             </div>
+             <p>${{ calculatePrice(item) }}</p>
+             <button
+               @click=removeFromCart(item.name)
+               class="btn cart-list__btn-remove">
+               Remove
+             </button>
+           </div>
+         </li>
+       </ul>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import TopBar from "@/components/TopBar/TopBar.vue";
+import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import { mapGetters, mapActions } from "vuex";
+
 export default {
   name: "Cart",
+  components: {
+    TopBar,
+    SideMenu,
+  },
+
   methods: {
     ...mapActions(["removeFromCart"]),
     getSource (item) {
