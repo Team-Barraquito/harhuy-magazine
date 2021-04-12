@@ -18,6 +18,7 @@ module.exports = {
         116: "28.125rem",
         128: "31rem",
         large: "31.25rem",
+        150: "40rem",
         "11.5/12": "95%",
       },
       width: {
@@ -32,6 +33,11 @@ module.exports = {
       fontSize: {
         xss: "0.1rem",
       },
+      scale: {
+        200: "2",
+        400: "4",
+      },
+
     },
   },
   variants: {
