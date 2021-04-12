@@ -1,27 +1,20 @@
 <template>
-  <div class="illustration w-screen h-screen">
+  <div class="illustration">
     <TopBar> </TopBar>
-    <div class="content flex mt-6">
-      <div class="side-container w-36">
+    <div class="w-screen flex">
+      <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-      <div class="container flex justify-between pr-20 pl-20">
-        <div class="column w-96 h-full bg-red-500 grid gap-3 justify-items-center">
-        <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist />
+        <div class="column w-96 h-full grid gap-3 justify-items-center">
+        <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist :path="path"/>
         </div>
-        <div class="column w-96 h-full bg-red-500 grid gap-12 justify-items-center pt-14">
-          <div class="item"></div>
-          <div class="item"></div>
-          <div class="item"></div>
+        <div class="column w-96 h-full grid gap-12 justify-items-center pt-14">
+          <ShowcaseArtist v-for="(artist,index) in secondThree" :key="index" :artistData=artist :path="path"/>
         </div>
-        <div class="column w-96 h-full bg-red-500 grid gap-3 justify-items-center">
-          <div class="item"></div>
-          <div class="item"></div>
-          <div class="item"></div>
+        <div class="column w-96 h-full grid gap-3 justify-items-center">
+          <ShowcaseArtist v-for="(artist,index) in thirdThree" :key="index" :artistData=artist :path="path"/>
         </div>
       </div>
-    </div>
-
   </div>
 </template>
 
@@ -47,6 +40,10 @@ export default {
   },
   computed: {
     ...mapState(["illustrationArtists"]),
+    path () {
+      const path = this.$route.path.replace("/", "");
+      return path;
+    },
   },
   methods: {
     setArraysContent () {
@@ -64,13 +61,8 @@ export default {
 <style scoped>
 
 .column {
-  grid-template-rows: repeat(3, 350px);
+  grid-template-rows: repeat(3);
 
-}
-.item {
-  width: 350px;
-  height: 350px;
-  background: green;
 }
 
 </style>

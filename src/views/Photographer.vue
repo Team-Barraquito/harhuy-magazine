@@ -1,15 +1,14 @@
 <template>
-  <div> {{ e }}</div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: "Artist",
-  props: ["e"],
+  name: "Photographer.vue",
 
 };
 </script>
 
-<style>
+<style scoped>
 
 </style>
