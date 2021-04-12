@@ -24,8 +24,15 @@
         </div>
         <!-- end of name and description -->
 
-        <div class="slider w-9/12 h-2/5 bg-black mt-1 mb-1">
+        <div class="slider-container w-9/12 h-2/5 bg-black mt-1 mb-1">
         <!-- Carousel -->
+            <div class="w-1/2 h-full bg bg-green-500">
+              <carousel :navigationEnabled=carouselData.navigation :perPage=carouselData.pages paginatoinActiveColor="#FFEC02">
+                <slide> <img :src="getFront" :alt="illustrator.name" /></slide>
+                <slide> <img :src="getSide" :alt="illustrator.name" /> </slide>
+                <slide> <img :src="getBack" :alt="illustrator.name"> </slide>
+              </carousel>
+            </div>
           <!-- End of carousel -->
         </div>
       </div>
@@ -38,18 +45,24 @@
 import { mapGetters } from "vuex";
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import { Carousel, Slide } from "vue-carousel";
 
 export default {
   name: "Illustrator",
   components: {
     TopBar,
     SideMenu,
-
+    Carousel,
+    Slide,
   },
 
   data () {
     return {
       illustrator: {},
+      carouselData: {
+        pages: 1,
+        navigation: true,
+      },
     };
   },
 
