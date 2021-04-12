@@ -31,8 +31,8 @@
           <QuantitySelector> </QuantitySelector>
           <div class="flex my-4 justify-start">
           <!-- Cada boton es un compo -->
-           <button @click=addToCart(itemData) class="w-72  h-14 border-2 border-black my-5 text-xs"> Añadir al carrito </button>
-           <button class="w-72 h-14 border-2 border-black text-white bg-black my-5 text-xs" > Pagar con Paypal </button>
+           <button @click=addToCart(itemData) class="w-72  h-14 border-2 border-black uppercase"> Añadir al carrito </button>
+           <button class="w-72 h-14 border-2 border-black text-white bg-black uppercase" > Comprar ya! </button>
           </div>
         </div>
         <!-- Final botones-->

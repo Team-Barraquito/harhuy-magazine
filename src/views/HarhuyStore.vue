@@ -1,7 +1,7 @@
 <template>
   <div class="store">
     <TopBar> </TopBar>
-    <div class=" w-screen flex">
+    <div class="w-screen flex">
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>

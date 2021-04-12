@@ -17,7 +17,7 @@ export default new Vuex.Store({
     photographyArtists: artistsDatabase.categories.photography,
     musicArtists: artistsDatabase.categories.music,
     videoArtists: artistsDatabase.categories.video,
-    desingArtists: artistsDatabase.categories.design,
+    designArtists: artistsDatabase.categories.design,
 
   },
 
@@ -72,6 +72,10 @@ export default new Vuex.Store({
     },
     numberOfCartItems: (state) => {
       return state.cart.length;
+    },
+
+    illustrators: (state) => (name) => {
+      return state.illustrationArtists.find((illustrator) => illustrator.urlName === name);
     },
   },
   modules: {

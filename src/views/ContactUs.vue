@@ -30,7 +30,7 @@
             </div>
             <div class="mb-4">
               <label for="message"></label>
-              <p> <textarea name="user_message" placeholder="Escriba su mensaje" v-model = "message" class="block text-white font-bold mb-2 text-white text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3" required></textarea></p>
+              <p> <textarea name="user_message" placeholder="Escriba su mensaje" v-model = "message" class="block font-bold mb-2 text-white text-xs w-full h-24 border border-white bg-black rounded-xl py-2 px-3" required></textarea></p>
             </div>
             <div class="flex justify-center">
               <input type="checkbox" id="terms" name="terms" required>
