@@ -1,4 +1,3 @@
-
 <template>
   <div class="card-container">
     <div class="card-bg">
