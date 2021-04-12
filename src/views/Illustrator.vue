@@ -6,20 +6,22 @@
         <SideMenu> </SideMenu>
       </div>
       <!-- content -->
-      <div class="content flex flex-col w-full bg-pink-500 justify-center items-center">
+      <div class="content flex flex-col w-screen h-2/5 bg-pink-500 justify-center items-center py-10">
         <!-- image, name and text -->
-        <div class="image-and-text flex w-11/12 h-3/5 mt-1 mb-1">
+        <div class="image-and-text flex w-9/12 h-full my-1 justify-center items-center">
 
           <!-- image -->
-          <div class="h-full w-3/12 image flex justify-center items-center">
-            <img :src="getFront" :alt=illustrator.name >
+          <div class="h-full w-1/2 image flex justify-center items-center bg-gray-600">
+            <div class="w-full h-full bg-black object-contain">
+              <img :src="getFront" :alt=illustrator.name class="object-cover h-full w-full">
+            </div>
           </div>
           <!-- end of image -->
 
           <!-- name and description -->
-          <div class="h-full w-3/5 bg-red-500 flex flex-col justify-start">
-            <h1 class="pt-2 pb-2 m-0 text-3xl w-8/12 text-center"> {{illustrator.name}}</h1>
-            <p class="text-base w-4/5 h-5/6 m-0 text "> {{illustrator.description}}</p>
+          <div class="h-full w-1/2 flex flex-col justify-start p-10">
+            <h1 class="pt-2 pb-2 my-2 text-3xl w-full text-center font-bold leading-none"> {{illustrator.name}}</h1>
+            <p class="w-full h-full my-5 text-left text-xs leading-4"> {{illustrator.description}}</p>
           </div>
         </div>
         <!-- end of name and description -->
