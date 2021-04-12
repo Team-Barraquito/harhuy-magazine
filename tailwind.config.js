@@ -18,6 +18,7 @@ module.exports = {
         116: "28.125rem",
         128: "31rem",
         large: "31.25rem",
+        "11.5/12": "95%",
       },
       width: {
         90: "21.875rem",
@@ -26,6 +27,7 @@ module.exports = {
         116: "28.125rem",
         128: "31rem",
         large: "31.25rem",
+        "11.5/12": "95%",
       },
       fontSize: {
         xss: "0.1rem",
