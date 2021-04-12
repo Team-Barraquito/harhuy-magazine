@@ -30,8 +30,8 @@
           <QuantitySelector> </QuantitySelector>
           <div class="flex mt-4 justify-around">
           <!-- Cada boton es un compo -->
-           <button @click=addToCart(itemData) class="w-72  h-14 border-2 border-black"> Añadir al carrito </button>
-           <button class="w-72 h-14 border-2 border-black text-white bg-black" > Pagar con Paypal </button>
+           <button @click=addToCart(itemData) class="w-72  h-14 border-2 border-black uppercase"> Añadir al carrito </button>
+           <button class="w-72 h-14 border-2 border-black text-white bg-black uppercase" > Comprar ya! </button>
           </div>
         </div>
         <!-- Final botones-->
