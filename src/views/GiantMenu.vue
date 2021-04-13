@@ -61,9 +61,9 @@
   <!-- bottom zone-->
     <div class=" w-full h-auto flex my-5">
       <div class="w-5/6 flex">
-        <div class="uppercase w-1/3 flex justify-center items-center text-white"><a target="_blank" rel="noopener noreferrer">instagram</a></div>
-        <div class="uppercase w-1/3 flex justify-center items-center text-white"><a href="#" target="_blank">facebook</a></div>
-        <div class="uppercase w-1/3 flex justify-center items-center text-white"><a href="#" target="_blank" >twitter</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center text-black"><a target="_blank" rel="noopener noreferrer">instagram</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center text-black"><a href="#" target="_blank">facebook</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center text-black"><a href="#" target="_blank" >twitter</a></div>
       </div>
       <div class="w-1/6 flex justify-center items-center">
           <!-- TODO preguntarle a manz como unirlo en un contenedor-->
