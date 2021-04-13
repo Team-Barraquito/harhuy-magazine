@@ -10,8 +10,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Highkili.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Highkili2.jpg",
+          "back": "/Highkili3.jpg"
         }
       },
       {
@@ -22,8 +22,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Sara-socas.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Sara-socas2.jpg",
+          "back": "/Sara-socas3.jpg"
         }
       },
 
@@ -35,8 +35,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Abhir-hathi.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Abhir-hathi2.jpg",
+          "back": "/Abhir-hathi3.jpg"
         }
       },
       {
@@ -47,8 +47,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Ana-guerra.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Ana-guerra2.jpg",
+          "back": "/Ana-guerra3.jpg"
         }
       },
       {
@@ -59,8 +59,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Wos-laspalmas.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Wos-laspalmas2.jpg",
+          "back": "/Wos-laspalma3.jpg"
         }
       },
       {
@@ -71,8 +71,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Eva-ruiz.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Eva-ruiz2.jpg",
+          "back": "/Eva-ruiz3.jpg"
         }
       },
       {
@@ -83,8 +83,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Maikel-delaCalle.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Maikel-delaCalle2.jpg",
+          "back": "/Maikel-delaCalle3.jpg"
         }
       },
       {
@@ -95,8 +95,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Daniela-garsal.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Daniela-garsal2.jpg",
+          "back": "/Daniela-garsal3.jpg"
         }
       },
       {
@@ -107,8 +107,8 @@
         "lastContent": "aaaaaaa",
         "photos": {
           "front": "/Della-du.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Della-du2.jpg",
+          "back": "/Della-du3.jpg"
         }
       }
     ],
@@ -121,8 +121,8 @@
         "lastContent": "sabina-1",
         "photos": {
           "front": "/Ivan.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Ivan-beach.jpg",
+          "back": "/Ivan-bed.jpg"
         }
       },
       {
@@ -133,8 +133,8 @@
         "lastContent": "water",
         "photos": {
           "front": "/Cris-plants.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Cris-breakfast.jpg",
+          "back": "/Cris-whales.jpg"
         }
       },
       {
@@ -145,8 +145,8 @@
         "lastContent": "volcán",
         "photos": {
           "front": "/Daniel.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Daniel-gorge.jpg",
+          "back": "/Daniel-taburiente.jpg"
         }
       },
       {
@@ -157,8 +157,8 @@
         "lastContent": "teide",
         "photos": {
           "front": "/Leo.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Leo-girl.jpg",
+          "back": "/Leo-red.jpg"
         }
       },
       {
@@ -169,8 +169,8 @@
         "lastContent": "teide",
         "photos": {
           "front": "/Saioa.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Saioa-clouds.jpg",
+          "back": "/Saioa-lighthouse.jpg"
         }
       },
       {
@@ -181,8 +181,8 @@
         "lastContent": "blondi",
         "photos": {
           "front": "/Juanjo-reflection.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Juanjo-dog.jpg",
+          "back": "/Juanjo-cat.jpg"
         }
       },
 
@@ -193,9 +193,21 @@
         "description": "Adrián Medina es un fotógrafo español que se ha visto interesado en la fotografía desde muy joven. No es un profesional pero lo considera como Hobbie, sus Fotografías se centran en paisajes y diseños que se encuentra en el dia a dia. Es un chico creativo con mucha imaginación a la hora de fotografiar con ganas de seguir aprendiendo.",
         "lastContent": "caminar",
           "photos": {
-            "front": "/Ivan.jpg",
-            "side": "..",
-            "back": ".."
+            "front": "/Adrian.jpg",
+            "side": "/Adrian-atardecer.jpg",
+            "back": "/Adrian-caminar.jpg"
+          }
+        },
+        {
+          "name": "Sladjana Apostolovski",
+          "urlName": "SladjanaApostolovski",
+          "socialMedia" : "@s.apostolovski",
+          "description": "",
+          "lastContent": "gomera",
+          "photos": {
+            "front": "/Sladjana-apostolovski.jpg",
+            "side": "/Sladjana-gomera.jpg",
+            "back": "/Sladjana-anochecer.jpg"
           }
         },
         {
@@ -205,21 +217,9 @@
           "description": "A los dieciséis años tuve la oportunidad de trabajar y vivir en el Parque Nacional del Teide. Aquí empezó mi fascinación por el paisaje, la naturaleza, los cambios de luz, aunque nunca como para reflejarlo a través de la fotografía.",
           "lastContent": "senderismo",
           "photos": {
-            "front": "/Ivan.jpg",
-            "side": "..",
-            "back": ".."
-          }
-        },
-        {
-          "name": "Pedro Hernández Rodriguez",
-          "urlName": "PedroHernándezRodriguez",
-          "socialMedia" : "@rincones_de_canarias",
-          "description": "A los dieciséis años tuve la oportunidad de trabajar y vivir en el Parque Nacional del Teide. Aquí empezó mi fascinación por el paisaje, la naturaleza, los cambios de luz, aunque nunca como para reflejarlo a través de la fotografía.",
-          "lastContent": "senderismo",
-          "photos": {
-            "front": "/Ivan.jpg",
-            "side": "..",
-            "back": ".."
+            "front": "/Pedro-hernández.jpg",
+            "side": "/Pedro-hermigua.jpg",
+            "back": "/Pedro-senderismo.jpg"
           }
         }
     ],
@@ -244,8 +244,8 @@
         "lastContent": "mamaQuilla",
         "photos": {
           "front": "/Gabo.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Gabo-snail.jpg",
+          "back": "/Gabo-chamaleon.jpg"
         }
       },
       {
@@ -256,8 +256,9 @@
         "lastContent": "grizzly",
         "photos": {
           "front": "/Jauront-defeat.jpg",
-          "side": "",
-          "back": ".."
+          "side": "/Jauront-shield.jpg",
+          "back": "/Jauront-werewolf.jpg"
+
         }
       },
       {
@@ -268,8 +269,8 @@
         "lastContent": "atardeciendo",
         "photos": {
           "front": "/Sofia.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Sofia-palmtrees.jpg",
+          "back": "/Sofia-street.jpg"
         }
       },
       {
@@ -280,8 +281,8 @@
         "lastContent": "sentimientosEscondidos",
         "photos": {
           "front": "/Polola.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Polola-girl1.jpg",
+          "back": "/Polola-girl2.jpg"
         }
       },
       {
@@ -292,8 +293,8 @@
         "lastContent": "últimamente",
         "photos": {
           "front": "/Hector-yellow.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Hector-blue.jpg",
+          "back": "/Hector-green.jpg"
         }
       },
       {
@@ -304,8 +305,8 @@
         "lastContent": "elsa",
         "photos": {
           "front": "/Gloria.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Gloria-person.jpg",
+          "back": "/Gloria-selfportrait.jpg"
         }
       },
       {
@@ -316,20 +317,20 @@
         "lastContent": "círculo/1",
         "photos": {
           "front": "/Pablo.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Pablo-girl.jpg",
+          "back": "/Pablo-medusa.jpg"
         }
       },
       {
-        "name": "Pablo Falcón",
-        "urlName": "PabloFalcón",
-        "socialMedia": "@bloms.95",
-        "description": "Pablo Falcón es un artista plástico nacido en Tenerife en 1995, graduado en Bellas Artes en la Universidad de La laguna e interesado en la representación de la figura a través de la pintura acrílica y demás técnicas. Normalmente sus obras se centran en la figura humana acompañadas por diferentes representaciones de cuadros o esculturas relacionadas con la historia del arte, todo ello a partir de fondos oscuros y colores muy saturados, utilizando varios materiales compuestos entre sí.",
-        "lastContent": "círculo/1",
+        "name": "Laura Díaz",
+        "urlName": "LauraDíaz",
+        "socialMedia": "@_lauradgarcia_",
+        "description": "",
+        "lastContent": "cuatro/paredes",
         "photos": {
-          "front": "/Pablo.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Laura-diaz.jpg",
+          "side": "/Laura-puñaladas.jpg",
+          "back": "/Laura-cuatroparedes.jpg"
         }
       }
     ],
@@ -341,9 +342,9 @@
         "description": "Paula Blanco, de nombre artístico La grammateus, se dedica a la caligrafía y a la rotulacion tradicional la apasionan las letras y por ello intenta que sus diseños combinen la parte más tradicional de creación tipográfica con la vertiente más comoda.",
         "lastContent": "pala",
         "photos": {
-          "front": "/Irina-papa.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Grammateus-Anger.jpg",
+          "side": "/Grammateus-b.jpg",
+          "back": "/Grammateus-c.jpg"
         }
       },
       {
@@ -352,9 +353,9 @@
         "description": "Este joven diseñador de 32 años nacido en Alicante y criado desde niño en Tenerife, logró alzarse con el segundo premio del certamen con su coleccion DEEP ROSE. Es maquillador y estilista de profesión. Dice que la moda y el arte las ha llevado innatas en la sangre, y recuerda que su infancia jugaba con las muñecas de su hermana. Es la primera vez que participa en un certamen de nuevas promesas del diseño, al cual optó en la edición anterior aunque sin la suerte de quedar entre los finalistas.",
         "lastContent": "deepRose",
         "photos": {
-          "front": "/Irina-papa.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Marc-phillippe.jpg",
+          "side": "/Marc-guerin1.jpg",
+          "back": "/Marc-guerin2.jpg"
         }
       },
       {
@@ -364,9 +365,9 @@
         "description": "Diseñador gráfico autónomo con formación en arquitectura. Creando identidades sistemáticas y experiencias de marca inmersivas. Ofreciendo un enfoque estético diverso desde una perspectiva contemporánea.",
         "lastContent": "petitJardí",
         "photos": {
-          "front": "/Irina-papa.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Gabriela-hernandez.jpg",
+          "side": "/Gabriela-objects.jpg",
+          "back": "/Gabriela-petit-jardi.jpg"
         }
       },
       {
@@ -377,8 +378,8 @@
         "lastContent": "romería",
         "photos": {
           "front": "/Oscar-fall.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Oscar-girl.jpg",
+          "back": "/Oscar-smile.jpg"
         }
       },
       {
@@ -389,8 +390,8 @@
         "lastContent": "xxxxx",
         "photos": {
           "front": "/Irina-papa.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Irina-nature.jpg",
+          "back": "/Irina-delladu.jpg"
         }
       },
       {
@@ -400,9 +401,9 @@
         "description": "xxxxx",
         "lastContent": "xxxxx",
         "photos": {
-          "front": "/Ale-gofio.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Ale.jpg",
+          "side": "/Ale-gofio.jpg",
+          "back": "/Ale-duck.jpg"
         }
       },
       {
@@ -410,11 +411,11 @@
         "urlName": "StudioGabbbah",
         "socialMedia": "@studiogabbbah",
         "description": "Jovén Diseñador gráfico & fotografía",
-        "lastContent": "xxxxx",
+        "lastContent": "card",
         "photos": {
           "front": "/Gabbah-sheet.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Gabbah-card.jpg",
+          "back": "/Gabbah-taleguita.jpg"
         }
       },
       {
@@ -422,23 +423,23 @@
         "urlName": "IrisPérez",
         "socialMedia": "@i.ps.dsgn",
         "description": "Diseño de moda e Ilustración",
-        "lastContent": "xxxxx",
+        "lastContent": "jackeet",
         "photos": {
           "front": "/Iris-profile.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Iris-jacket.jpg",
+          "back": "/Iris-profile2.jpg"
         }
       },
       {
-        "name": "Iris Pérez",
-        "urlName": "IrisPérez",
-        "socialMedia": "@i.ps.dsgn",
-        "description": "Diseño de moda e Ilustración",
-        "lastContent": "xxxxx",
+        "name": "Lorena Bonilla",
+        "urlName": "LorenaBonilla",
+        "socialMedia": "@lorenabonart",
+        "description": "Artista e Ilustración",
+        "lastContent": "octopus",
         "photos": {
-          "front": "/Irina-papa.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Lorena-bonilla.jpg",
+          "side": "/Lorena-bubilla.jpg",
+          "back": "/Lorena-palmeral-de-san-andres.jpg"
         }
       }
     ],
@@ -451,8 +452,8 @@
         "lastContent": "creadorasDelpresente",
         "photos": {
           "front": "/Maria-sky.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Maria-rain.jpg",
+          "back": "/Maria-cartel.jpg"
         }
       },
       {
@@ -463,8 +464,8 @@
         "lastContent": "elMilagroDePaula",
         "photos": {
           "front": "/Denis-bed.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Denis-frame.jpg",
+          "back": "/Denis-frame2.jpg"
         }
       },
       {
@@ -475,8 +476,8 @@
         "lastContent": "noNecesitoElMarParaAhogarme",
         "photos": {
           "front": "/Sara-frame1.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Sara-frame2.jpg",
+          "back": "/Sara-frame3.jpg"
         }
       },
       {
@@ -487,8 +488,8 @@
         "lastContent": "mirame",
         "photos": {
           "front": "/Alejandro-ellegas.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Alejandro-people.jpg",
+          "back": "/Alejandro-skate.jpg"
         }
       },
       {
@@ -499,8 +500,8 @@
         "lastContent": "eduFilmingTheory",
         "photos": {
           "front": "/Edu-frame1.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Edu-frame2.jpg",
+          "back": "/Edu-frame3.jpg"
         }
       },
       {
@@ -511,8 +512,8 @@
         "lastContent": "queSiempreNosGananLasGanas",
         "photos": {
           "front": "/Aaron-landslide.jpg",
-          "side": "..",
-          "back": ".."
+          "side": "/Aaron-girl.jpg",
+          "back": "/Aaron-trees.jpg"
         }
       },
       {
@@ -522,9 +523,9 @@
         "description": "Juan Carlos Fresnadillo nacío el 05 de diciembre de 1967 en Santa Cruz de Tenerife. Es un guionista y director de cine español. En 1985, Fresnadillo se trasladó a Madrid desde su ciudad natal. Estudio Sociología en la Universidad Complutense. Comenzó los estudios de fotografía y cine en la Escuela Universitaria de Artes TAI, y realizó sus primeros pinitos en los cortometrajes. ",
         "lastContent": "intacto-1",
         "photos": {
-          "front": "/Denis-bed.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Juan-carlos.jpg",
+          "side": "/Juan-intacto2.jpg",
+          "back": "/Juan-intacto.jpg"
         }
       },
       {
@@ -534,9 +535,9 @@
         "description": "David Cánovas es un director y realizador de televisión canario. Nació en Santa Cruz de Tenerife de 1971. Estudió en la facultad de Ciencias de la Información de la Universidad Complutense de Madrid en la misma clase que Alejandro Amenábar y Mateo Gil entre otros. A su vuelta a Tenerife empieza a trabajar en televisiones locales, mientras realiza sus primeros cortos con cierto éxito local.",
         "lastContent": "el-intruso",
         "photos": {
-          "front": "/Denis-bed.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/David-canovas.jpg",
+          "side": "/David-canovas-el-contra-tiempo.jpg",
+          "back": "/David-la-punta-del-iceberg.jpg"
         }
       },
       {
@@ -546,9 +547,9 @@
         "description": "Alba González de Molina nació en Las Palmas de Gran Canaria en 1989. Comenzó sus andanzas en el mundo del cine social en el 2012 codirigiendo su primer largometraje documental ‘Stop! con Blanca Ordóñez de Tena. De ahí surgió el Colectivo La Semilla, asociación formada por seis mujeres que comienzan a crear cine como herramienta de transformación social.",
         "lastContent": "julie",
         "photos": {
-          "front": "/Denis-bed.jpg",
-          "side": "..",
-          "back": ".."
+          "front": "/Alba.jpg",
+          "side": "/Alba-julie.jpg",
+          "back": "/Alba-julie2.jpg"
         }
       }
     ]
