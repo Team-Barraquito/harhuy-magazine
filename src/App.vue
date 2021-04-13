@@ -10,54 +10,56 @@
 @tailwind utilities;
 
 .text-stroke-1 {
- -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
 }
 
 .text-stroke-2 {
- -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .text-stroke-3 {
- -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 3px;
 }
 
 .text-stroke-4 {
- -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-width: 4px;
 }
 
 .text-stroke-5 {
- -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-width: 5px;
 }
 
 .text-stroke-color-black {
   -webkit-text-stroke-color: black;
 }
 
-.text-stroke-color-white{
+.text-stroke-color-white {
   -webkit-text-stroke-color: white;
 }
 
 @font-face {
   font-family: "Monument Extended";
-  src: url(./assets/fonts/MonumentExtended-Regular.woff),
-       url(./assets/fonts/MonumentExtended-Regular.woff2),
-       url(./assets/fonts/MonumentExtended-Regular.otf);
+  src:
+    url(./assets/fonts/MonumentExtended-Regular.woff),
+    url(./assets/fonts/MonumentExtended-Regular.woff2),
+    url(./assets/fonts/MonumentExtended-Regular.otf);
 }
 
 @font-face {
   font-family: "Monument Extended";
   font-weight: 800;
   font-style: normal;
-  src: url(./assets/fonts/MonumentExtended-Ultrabold.woff),
-       url(./assets/fonts/MonumentExtended-Ultrabold.woff2),
-       url(./assets/fonts/MonumentExtended-Ultrabold.otf);
+  src:
+    url(./assets/fonts/MonumentExtended-Ultrabold.woff),
+    url(./assets/fonts/MonumentExtended-Ultrabold.woff2),
+    url(./assets/fonts/MonumentExtended-Ultrabold.otf);
 }
 
 #app {
   font-family: "Monument Extended";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000;
 }
 
 #nav {

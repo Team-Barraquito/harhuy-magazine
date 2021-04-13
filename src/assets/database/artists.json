@@ -228,7 +228,7 @@
         "name": "Irene Morales",
         "urlName": "IreneMorales",
         "socialMedia": "@irene_moralm",
-        "description": "Irene Morales, nacida el 2 de junio de 1998 en Las Palmas de Gran Canaria, está en el mundo del arte desde pequeña, debido a sus estudios musicales desde los 5 años hasta los 18. Inicia su interés por las artes gráficas desde la entrada a la E.S.O decidiendo, desde el 3º año de este, hacer el bachillerato artístico en la Escuela de Arte y Diseño Superior de Gran Canaria. Desde finales del año 2018 en adelante, realiza exposiciones colectivas, empezando por sus primeras en el Craft Gastrobar Coffee de La Laguna, siguiendo por la Asociación del Tanque por el Tank Festival en Santa Cruz y, finalmente en la exposición realizada en la Universidad de La Laguna por la XXIII edición del premio de Pintura Nacional de Enrique Lite 2019, donde obtiene el 3º premio.",
+        "description": "Irene Morales, nacida el 2 de junio de 1998 en Las Palmas de Gran Canaria, está en el mundo del arte desde pequeña, debido a sus estudios musicales desde los 5 años hasta los 18.",
         "lastContent": "simbiosis",
         "photos": {
           "front": "/Irene.jpg",
@@ -428,7 +428,7 @@
           "side": "..",
           "back": ".."
         }
-      }, 
+      },
       {
         "name": "Iris Pérez",
         "urlName": "IrisPérez",
