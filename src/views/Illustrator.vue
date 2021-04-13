@@ -8,10 +8,10 @@
       <!-- content -->
       <div class="content flex flex-col w-screen h-2/5 bg-pink-500 justify-center items-center py-10">
         <!-- image, name and text -->
-        <div class="image-and-text flex w-9/12 h-full my-1 justify-center items-center">
+        <div class="image-and-text flex w-9/12 h-full my-5 justify-center items-center">
 
           <!-- image -->
-          <div class="h-full w-1/2 image flex justify-center items-center bg-gray-600">
+          <div class="h-80 w-1/2 image flex justify-center items-center bg-gray-600">
             <div class="w-full h-full bg-black object-contain">
               <img :src="getFront" :alt=illustrator.name class="object-cover h-full w-full">
             </div>
