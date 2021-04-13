@@ -77,6 +77,9 @@ export default new Vuex.Store({
     illustrators: (state) => (name) => {
       return state.illustrationArtists.find((illustrator) => illustrator.urlName === name);
     },
+    iQuantity: (state) => {
+      return state.itemQuantity;
+    },
   },
   modules: {
   },

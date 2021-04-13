@@ -31,8 +31,9 @@
           <QuantitySelector> </QuantitySelector>
           <div class="flex my-4 justify-start">
           <!-- Cada boton es un compo -->
-           <button @click=addToCart(itemData) class="w-72  h-14 border-2 border-black uppercase"> Añadir al carrito </button>
-           <button class="w-72 h-14 border-2 border-black text-white bg-black uppercase" > Comprar ya! </button>
+           <button @click=addToCart(itemData) id="addToCart" class="w-72  h-14 border-2 border-black uppercase"> Añadir al carrito </button>
+           <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
+           <button @click=submit id="buyNow" class="w-72 h-14 border-2 border-black text-white bg-black uppercase" > Comprar ya! </button>
           </div>
         </div>
         <!-- Final botones-->
@@ -89,8 +90,7 @@ import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import QuantitySelector from "@/components/QuantitySelector/QuantitySelector.vue";
 import StarRating from "vue-dynamic-star-rating";
 import { mapGetters, mapActions } from "vuex";
-
-// TODO deshabilitar botones si no hay stock
+import { StripeCheckout } from "@vue-stripe/vue-stripe";
 
 export default {
   name: "ProductSheet",
@@ -99,8 +99,10 @@ export default {
     SideMenu,
     QuantitySelector,
     StarRating,
+    StripeCheckout,
   },
   data () {
+    this.publishableKey = "pk_test_51IdHovLav5xUnjDzK3aPFqXRLDNCruUugBriLDajPnHuyuM8qjtJj9zZC7Ingh0e4dBAqw2umPE6mUiUa4MAKW1e00onBnTjju";
     return {
       itemData: {},
       style: {
@@ -109,6 +111,15 @@ export default {
         starWidth: 20,
         starHeight: 20,
       },
+
+      lineItems: [
+        {
+          price: 0,
+          quantity: 0,
+        },
+      ],
+      successURL: "https://www.harhuymag.com/sucess",
+      cancelURL: "https://www.harhuymag.com/denied",
     };
   },
 
@@ -121,26 +132,59 @@ export default {
     },
     ...mapActions(["addToCart", "resetQuantity"]),
 
-    setRating () {
-      this.config.rating = this.itemData.rating;
+    setPrice () {
+      this.lineItems[0].price = this.itemData.priceId;
+    },
+
+    setQuantity () {
+      this.lineItems[0].quantity = this.iQuantity;
+    },
+
+    CheckIfStock () {
+      const addToCart = this.$el.querySelector("#addToCart");
+      const buyNow = this.$el.querySelector("#buyNow");
+
+      if (!this.itemData.isInStock) {
+        addToCart.setAttribute("disabled", "true");
+        buyNow.setAttribute("disabled", "true");
+        addToCart.classList.add("disabled");
+        buyNow.classList.add("disabled");
+      }
+    },
+
+    submit () {
+      this.$refs.checkoutRef.redirectToCheckout();
     },
   },
 
   computed: {
-    ...mapGetters(["items"]),
+    ...mapGetters(["items", "iQuantity"]),
 
     price () {
       return this.itemData.price + "€";
     },
   },
-
+  watch: {
+    iQuantity (newValue) {
+      this.setQuantity(newValue);
+    },
+  },
   beforeMount () {
     this.getData();
     this.resetQuantity();
   },
+  mounted () {
+    this.setPrice();
+    this.CheckIfStock();
+  },
 };
 </script>
 
-<style>
+<style scoped>
+
+.disabled {
+  color: rgba(185, 28, 28,1);
+
+}
 
 </style>
