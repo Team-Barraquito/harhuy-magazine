@@ -26,14 +26,15 @@
         </div>
         <!-- Final nombre y precio -->
         <!-- Inicio botones -->
-        <div class="buttons-container my-10">
+        <div class="buttons-container flex flex-col justify-center items-center my-10 w-full bg-green-300">
           <!-- corregir esto -->
-          <QuantitySelector> </QuantitySelector>
-          <div class="flex my-4 justify-start">
-          <!-- Cada boton es un compo -->
-           <button @click=addToCart(itemData) id="addToCart" class="w-72  h-14 border-2 border-black uppercase"> Añadir al carrito </button>
-           <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
-           <button @click=submit id="buyNow" class="w-72 h-14 border-2 border-black text-white bg-black uppercase" > Comprar ya! </button>
+          <div class="quantity-container w-full">
+            <QuantitySelector> </QuantitySelector>
+          </div>
+          <div class="flex my-4 justify-evenly w-3/4 bg-red-500">
+            <button @click=addToCart(itemData) id="addToCart" class="w-2.5/5 h-2/5 border-2 border-black uppercase"> Añadir al carrito </button>
+            <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
+            <button @click=submit id="buyNow" class="w-2.5/5 h-2/5 border-2 border-black text-white bg-black uppercase" > Comprar ya! </button>
           </div>
         </div>
         <!-- Final botones-->
@@ -77,9 +78,11 @@
           </div>
         </div>
         <!-- Final social media-->
-
         </div>
       </div>
+    </div>
+    <div class="footer-container">
+      <Footer> </Footer>
     </div>
   </div>
 </template>
@@ -90,7 +93,8 @@ import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import QuantitySelector from "@/components/QuantitySelector/QuantitySelector.vue";
 import StarRating from "vue-dynamic-star-rating";
 import { mapGetters, mapActions } from "vuex";
-import { StripeCheckout } from "@vue-stripe/vue-stripe";
+// Import { StripeCheckout } from "@vue-stripe/vue-stripe";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   name: "ProductSheet",
@@ -99,7 +103,8 @@ export default {
     SideMenu,
     QuantitySelector,
     StarRating,
-    StripeCheckout,
+    // StripeCheckout,
+    Footer,
   },
   data () {
     this.publishableKey = "pk_test_51IdHovLav5xUnjDzK3aPFqXRLDNCruUugBriLDajPnHuyuM8qjtJj9zZC7Ingh0e4dBAqw2umPE6mUiUa4MAKW1e00onBnTjju";
