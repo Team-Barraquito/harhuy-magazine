@@ -121,13 +121,13 @@ const routes = [
 
   {
     path: "/sucess",
-    name: "Sucess",
+    name: "sucess",
     component: () => import("../views/Sucess.vue"),
   },
 
   {
     path: "/denied",
-    name: "Denied",
+    name: "denied",
     component: () => import("../views/Denied.vue"),
   },
 ];
