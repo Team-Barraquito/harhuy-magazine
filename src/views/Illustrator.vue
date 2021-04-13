@@ -24,14 +24,15 @@
         </div>
         <!-- end of name and description -->
 
-        <div class="slider-container w-9/12 h-2/5 bg-black mt-1 mb-1">
-        <!-- Carousel -->
-            <div class="w-1/2 h-full bg bg-green-500">
-              <carousel :navigationEnabled=carouselData.navigation :perPage=carouselData.pages paginatoinActiveColor="#FFEC02">
-                <slide> <img :src="getFront" :alt="illustrator.name" /></slide>
-                <slide> <img :src="getSide" :alt="illustrator.name" /> </slide>
-                <slide> <img :src="getBack" :alt="illustrator.name"> </slide>
-              </carousel>
+        <div class="slider-container w-9/12 h-2/5 bg-black mt-1 mb-1 flex">
+          <div class="w-1/2 h-full bg bg-blue-500 overflow-hidden"> </div>
+            <!-- Carousel -->
+            <div class="w-1/2 h-full overflow-hidden">
+              <Carousel3d :controlsVisible=visibility :controlsWidth=controlsWidth :controlsHeight=controlsHeight>
+                <Slide :index=i><img :src="getFront" :alt="illustrator.name"></Slide>
+                <Slide :index=i2><img :src="getSide" :alt="illustrator.name"></Slide>
+                <Slide :index=i3><img :src="getBack" :alt="illustrator.name"></Slide>
+              </Carousel3d>
             </div>
           <!-- End of carousel -->
         </div>
@@ -45,24 +46,26 @@
 import { mapGetters } from "vuex";
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
-import { Carousel, Slide } from "vue-carousel";
+import { Carousel3d, Slide } from "vue-carousel-3d";
 
 export default {
   name: "Illustrator",
   components: {
     TopBar,
     SideMenu,
-    Carousel,
+    Carousel3d,
     Slide,
   },
 
   data () {
     return {
       illustrator: {},
-      carouselData: {
-        pages: 1,
-        navigation: true,
-      },
+      i: 0,
+      i2: 1,
+      i3: 2,
+      visibility: true,
+      controlsWidth: 25,
+      controlsHeight: 25,
     };
   },
 
@@ -91,6 +94,10 @@ export default {
 </script>
 
 <style scoped>
+
+img {
+  object-fit: cover;
+}
 
 .text {
   max-width: 50ch;
