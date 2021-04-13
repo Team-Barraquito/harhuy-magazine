@@ -33,7 +33,6 @@
     <div class="w-96 h-full flex flex-col items-center">
       <div class="w-full h-2/4 flex items-center justify-evenly">
       <router-link to="/store" class="p-2 uppercase text-harhuy">Tienda</router-link>
-      <StoreBadge> </StoreBadge>
       </div>
       <!-- end of first right zone -->
     </div>
