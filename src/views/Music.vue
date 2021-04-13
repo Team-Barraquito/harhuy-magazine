@@ -17,6 +17,9 @@
         </div>
       </div>
     </div>
+    <div class="footer-container">
+      <Footer> </Footer>
+    </div>
   </div>
 </template>
 
@@ -24,6 +27,7 @@
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import ShowcaseArtist from "@/components/ShowcaseArtist/ShowcaseArtist.vue";
+import Footer from "@/components/Footer/Footer.vue";
 import { mapState } from "vuex";
 
 export default {
@@ -39,6 +43,7 @@ export default {
     TopBar,
     SideMenu,
     ShowcaseArtist,
+    Footer,
   },
   computed: {
     ...mapState(["musicArtists"]),

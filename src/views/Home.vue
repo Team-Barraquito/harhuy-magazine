@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <div class="bg-image bg-center bg-no-repeat bg-cover bg-fixed">
+  <div class="home overflow-hidden">
+    <div class="h-screen bg-image bg-center bg-no-repeat bg-cover bg-fixed overflow-hidden">
       <TopBarTransparent> </TopBarTransparent>
       <div class="flex w-screen h-screen overflow-x-hidden overflow-y-hidden">
         <div class="nav-container">
