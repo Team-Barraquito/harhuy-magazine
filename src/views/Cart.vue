@@ -28,7 +28,10 @@
            </div>
          </li>
        </ul>
+       <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"> </stripe-checkout>
+       <button @click=submit class="rounded bg-black text-white w-14 h-14"> kyle keta </button>
       </div>
+      <!-- Final content -->
     </div>
   </div>
 </template>
@@ -37,12 +40,22 @@
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import { mapGetters, mapActions } from "vuex";
+import { StripeCheckout } from "@vue-stripe/vue-stripe";
 
 export default {
   name: "Cart",
   components: {
     TopBar,
     SideMenu,
+    StripeCheckout,
+  },
+  data () {
+    this.publishableKey = "pk_test_51IdHovLav5xUnjDzK3aPFqXRLDNCruUugBriLDajPnHuyuM8qjtJj9zZC7Ingh0e4dBAqw2umPE6mUiUa4MAKW1e00onBnTjju";
+    return {
+      lineItems: [],
+      successURL: "https://www.harhuymag.com/sucess",
+      cancelURL: "https://www.harhuymag.com/denied",
+    };
   },
 
   methods: {
@@ -54,10 +67,23 @@ export default {
     calculatePrice (item) {
       return item.price * item.quantity;
     },
+    populateCart () {
+      this.lineItems = this.cartItems.map((item) => {
+        return {
+          price: item.priceId,
+          quantity: item.quantity,
+        };
+      });
+    },
+    submit () {
+      this.$refs.checkoutRef.redirectToCheckout();
+    },
   },
   computed: {
     ...mapGetters(["cartItems"]),
-
+  },
+  mounted () {
+    this.populateCart();
   },
 };
 </script>
