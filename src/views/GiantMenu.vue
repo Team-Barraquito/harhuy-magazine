@@ -52,9 +52,9 @@
   <!-- end top zone -->
   <!-- middle zone -->
     <div class="w-full h-3/6 grid grid-cols-1 grid-rows-3">
-      <div class="flex justify-center items-center"><router-link to="/aboutUs" class="text-8xl uppercase text-stroke-4 text-stroke-color-black text-transparent">El proyecto</router-link></div>
-      <div class="flex justify-center items-center"><router-link to="/contactUs" class="text-8xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Contacto</router-link></div>
-      <div class="flex justify-center items-center"><router-link to="/suscripcion" class="text-8xl uppercase text-stroke-4 text-stroke-color-black text-transparent">Suscripción</router-link></div>
+      <div class="flex justify-center items-center"><router-link to="/aboutUs" class="text-7xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150" >El proyecto</router-link></div>
+      <div class="flex justify-center items-center"><router-link to="/contactUs" class="text-7xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150">Contacto</router-link></div>
+      <div class="flex justify-center items-center"><router-link to="/suscripcion" class="text-7xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150">Suscripción</router-link></div>
     </div>
   <!-- end middle zone -->
   <!-- bottom zone-->
