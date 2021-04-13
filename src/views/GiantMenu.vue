@@ -43,7 +43,6 @@
       <div class="w-32 h-auto flex flex-col m-10 overflow-hidden justify-start items-center">
         <div class="w-full h-2/4 flex items-start justify-center">
         <router-link to="/store" class="uppercase text-black">Tienda</router-link>
-        <StoreBadge> </StoreBadge>
         </div>
         <!-- end of top right zone -->
       </div>

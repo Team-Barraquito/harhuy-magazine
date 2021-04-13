@@ -41,6 +41,9 @@
       </div>
       <!-- End of content -->
     </div>
+    <div class="footer-container">
+      <Footer> </Footer>
+    </div>
   </div>
 </template>
 
@@ -49,6 +52,7 @@ import { mapGetters } from "vuex";
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import { Carousel3d, Slide } from "vue-carousel-3d";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   name: "Illustrator",
@@ -57,6 +61,7 @@ export default {
     SideMenu,
     Carousel3d,
     Slide,
+    Footer,
   },
 
   data () {
