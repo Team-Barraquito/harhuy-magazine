@@ -51,6 +51,9 @@
       </div>
     </div>
   </div>
+  <div class="footer-container">
+      <Footer> </Footer>
+  </div>
 </div>
 </template>
 
@@ -60,6 +63,7 @@ import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import emailjs from "emailjs-com";
 import VueRecaptcha from "vue-recaptcha";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   data () {
@@ -75,6 +79,7 @@ export default {
     TopBar,
     SideMenu,
     VueRecaptcha,
+    Footer,
   },
   methods: {
     resetInput () {

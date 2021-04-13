@@ -5,16 +5,22 @@
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-        <div class="column w-96 h-full grid gap-3 justify-items-center">
-        <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist :path="path"/>
-        </div>
-        <div class="column w-96 h-full grid gap-12 justify-items-center pt-14">
-          <ShowcaseArtist v-for="(artist,index) in secondThree" :key="index" :artistData=artist :path="path"/>
-        </div>
-        <div class="column w-96 h-full grid gap-3 justify-items-center">
-          <ShowcaseArtist v-for="(artist,index) in thirdThree" :key="index" :artistData=artist :path="path"/>
-        </div>
-      </div>
+      <!-- End of top side -->
+        <div class="w-full flex justify-evenly px-4 ">
+          <div class="column w-96 h-full grid gap-3 justify-items-center">
+            <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist :path="path"/>
+          </div>
+          <div class="column w-96 h-full grid gap-12 justify-items-center pt-14">
+            <ShowcaseArtist v-for="(artist,index) in secondThree" :key="index" :artistData=artist :path="path"/>
+          </div>
+          <div class="column w-96 h-full grid gap-3 justify-items-center">
+           <ShowcaseArtist v-for="(artist,index) in thirdThree" :key="index" :artistData=artist :path="path"/>
+          </div>
+       </div>
+    </div>
+    <div class="footer-container">
+      <Footer> </Footer>
+    </div>
   </div>
 </template>
 
@@ -23,6 +29,7 @@ import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import ShowcaseArtist from "@/components/ShowcaseArtist/ShowcaseArtist.vue";
 import { mapState } from "vuex";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   name: "Illustration",
@@ -37,6 +44,7 @@ export default {
     TopBar,
     SideMenu,
     ShowcaseArtist,
+    Footer,
   },
   computed: {
     ...mapState(["illustrationArtists"]),
