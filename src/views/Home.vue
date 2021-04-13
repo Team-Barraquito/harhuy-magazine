@@ -1,16 +1,13 @@
 <template>
-  <div class="home">
-    <router-link to="/error404"> Error</router-link>
-     <router-link to="/denied"> Denied</router-link>
-    <router-link to="/sucess">  Sucess</router-link>
-    <div class="bg-image bg-center bg-no-repeat bg-cover bg-fixed">
+  <div class="home overflow-hidden">
+    <div class="h-screen bg-image bg-center bg-no-repeat bg-cover bg-fixed overflow-hidden">
       <TopBarTransparent> </TopBarTransparent>
-      <div class="flex w-screen">
+      <div class="flex w-screen h-screen overflow-x-hidden overflow-y-hidden">
         <div class="nav-container">
           <SideMenu> </SideMenu>
         </div>
-        <div class=" flex flex-col items-end justify-center w-screen">
-          <div class="content flex flex-col items-end justify-center w-6/12 px-8 ">
+        <div class=" flex flex-col items-end justify-center w-screen overflow-x-hidden overflow-y-hidden">
+          <div class="content flex flex-col items-end justify-center w-6/12 px-8 text-black">
             <p class="text-right">Nº / 001</p>
             <h1 class="text-6xl font-bold text-right">GIGI <br> RELLS </h1>
             <p class="text-right">Lorem ipsum dolor sit amet,
@@ -19,7 +16,7 @@
               ut labore et dolore magna aliqua. </p>
             <div class="flex flex-col items-start w-full py-6">
               <div class="border-t-4 border-harhuy w-full py-1"></div>
-              <p class="text-sm text-gray-70000 text-shadow py-1">Leer entrevista completa</p>
+              <p class="text-sm text-black py-1">Leer entrevista completa</p>
             </div>
           </div>
         </div>

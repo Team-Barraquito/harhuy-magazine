@@ -114,22 +114,23 @@ const routes = [
   },
 
   {
-    path: "/error404",
-    name: "Error",
-    component: () => import("../views/Error404.vue"),
-  },
-
-  {
     path: "/sucess",
-    name: "Sucess",
+    name: "sucess",
     component: () => import("../views/Sucess.vue"),
   },
 
   {
     path: "/denied",
-    name: "Denied",
+    name: "denied",
     component: () => import("../views/Denied.vue"),
   },
+
+  {
+    path: "*",
+    name: "Error",
+    component: () => import("../views/Error404.vue"),
+  },
+
 ];
 
 const router = new VueRouter({
