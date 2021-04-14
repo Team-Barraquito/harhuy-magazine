@@ -5,7 +5,7 @@
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-      <div class="flex items-center justify-center w-full text-right w-1/2 m-10">
+      <div class="flex items-center justify-center  text-right m-10">
         <div class="w-1/2 h-full py-10 px-5">
           <h1 class="text-6xl font-bold leading-none"> DÓNDE <br/> NACE <br /> HARHUY </h1>
           <br />
