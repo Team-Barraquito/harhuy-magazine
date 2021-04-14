@@ -40,7 +40,7 @@ module.exports = {
         "11.5/12": "95%",
       },
       fontSize: {
-        xss: "0.1rem",
+        xxs: "0.1rem",
       },
       scale: {
         200: "2",
