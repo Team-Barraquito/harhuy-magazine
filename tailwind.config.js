@@ -2,6 +2,13 @@ module.exports = {
   purge: [],
   darkMode: false, // Or 'media' or 'class'
   theme: {
+    screens: {
+      mobile: "320px",
+      tablet: "481px",
+      laptop: "769px",
+      desktop: "1025px",
+      xl: "1201px",
+    },
     extend: {
       colors: {
         harhuy: "#FFEC02",
@@ -38,6 +45,15 @@ module.exports = {
       scale: {
         200: "2",
         400: "4",
+      },
+      keyframes: {
+        cross: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(45deg)" },
+        },
+      },
+      animations: {
+        cross: "cross 2s ease-in-out ",
       },
 
     },
