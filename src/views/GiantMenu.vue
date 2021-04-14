@@ -12,12 +12,12 @@
         <div class=" h-32 flex justify-center items-center">
           <button @click=goToBefore class=" h-full flex flex-col items-center justify-center text-xs outline">
             <div class="h-1/2">
-              <svg width="44" height="55" viewBox="0 0 44 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(0.699963 0.709914 -0.704254 0.714266 0 7.21875)" stroke="black" stroke-width="7"/>
-                <line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(-0.699963 0.709914 0.704254 0.714266 43.8906 7.33984)" stroke="black" stroke-width="7"/>
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.05888 43.8406L43.9497 4.94975L39 0L0.109128 38.8909L5.05888 43.8406Z" fill="black" class="transform rotate-0 hover:rotate-45 duration-500 ease-in-out"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M38.8908 43.8406L-4.07696e-05 4.94975L4.94971 0L43.8406 38.8909L38.8908 43.8406Z" fill="black"/>
               </svg>
             </div>
-            <div class="h-1/2 w-full flex justify-center items-center m-2">
+            <div class="h-1/2 w-full flex justify-center items-center m-2 transform translate-y-0 hover:translate-y-4 duration-500 ease-in-out">
               <div class=" text-black uppercase font-extrabold tracking-wide rotate w-full align-buttom text-center m-0"> volver</div>
             </div>
           </button>
@@ -42,7 +42,7 @@
     <div class="w-1/3 flex justify-end">
       <div class="w-32 h-auto flex flex-col m-10 overflow-hidden justify-start items-center">
         <div class="w-full h-2/4 flex items-start justify-center">
-        <router-link to="/store" class="uppercase text-black">Tienda</router-link>
+        <router-link to="/store" class="uppercase text-black hover:text-base ease-in-out transform hover:scale-110 transition duration-150">Tienda</router-link>
         </div>
         <!-- end of top right zone -->
       </div>
@@ -60,18 +60,18 @@
   <!-- bottom zone-->
     <div class=" w-full h-auto flex my-5">
       <div class="w-5/6 flex">
-        <div class="uppercase w-1/3 flex justify-center items-center text-black"><a target="_blank" rel="noopener noreferrer">instagram</a></div>
-        <div class="uppercase w-1/3 flex justify-center items-center text-black"><a href="#" target="_blank">facebook</a></div>
-        <div class="uppercase w-1/3 flex justify-center items-center text-black"><a href="#" target="_blank" >twitter</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center text-black transition duration-500 ease-in-out hover:underline"><a target="_blank" rel="noopener noreferrer">instagram</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center text-black transition duration-500 ease-in-out hover:underline"><a href="#" target="_blank">facebook</a></div>
+        <div class="uppercase w-1/3 flex justify-center items-center text-black transition duration-500 ease-in-out hover:underline"><a href="#" target="_blank" >twitter</a></div>
       </div>
       <div class="w-1/6 flex justify-center items-center">
           <!-- TODO preguntarle a manz como unirlo en un contenedor-->
         <div class="h-full w-1/2 flex justify-end items-center p-2">
-          <router-link to="/contactUs" class="uppercase font-bold leading-none"> contact us </router-link>
+          <router-link to="/contactUs" class="uppercase font-bold leading-none hover:text-xl ease-in-out transform hover:scale-110 transition duration-150"> contact us </router-link>
         </div>
-        <div class="h-full w-1/2 flex  items-center">
-          <svg id="arrow" viewBox="0 0 61 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M55.1324 28.6798L55.1098 28.6573L36.8042 46.9629L31.8544 42.0132L46.8676 27H0V20H46.4526L31.4023 4.94975L36.3521 0L60.0822 23.7301L55.1324 28.6798Z" fill="black"/>
+        <div class="h-full w-1/2 flex items-center ">
+          <svg class="animate-bounce transform rotate-90 " id="arrow" viewBox="0 0 61 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M55.1324 28.6798L55.1098 28.6573L36.8042 46.9629L31.8544 42.0132L46.8676 27H0V20H46.4526L31.4023 4.94975L36.3521 0L60.0822 23.7301L55.1324 28.6798Z" fill="black" />
           </svg>
         </div>
       </div>
