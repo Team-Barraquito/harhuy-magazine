@@ -13,19 +13,21 @@
       <img src="../assets/images/denied/denied.svg"/>
     </div>
   </div>
+  <div class="footer-container"> <Footer> </Footer> </div>
 </div>
-
 </template>
 
 <script>
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   name: "Denied",
   components: {
     TopBar,
     SideMenu,
+    Footer,
   },
 };
 </script>
