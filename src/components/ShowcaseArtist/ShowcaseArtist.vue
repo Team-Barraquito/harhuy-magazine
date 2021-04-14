@@ -1,8 +1,11 @@
 <template>
-  <div class=" b w-full h-full flex flex-col justify-center items-center">
+  <div class="w-full h-full flex flex-col justify-center items-center">
     <div @click="goToArtist" class="w-11/12 h-11/12 flex flex-col justify-center items-center">
       <img class="w-11/12 h-auto" :src=getSource :alt=artistData.name>
-      <p class="">{{artistData.name}} {{artistData.socialMedia}}</p>
+      <div class="text-left w-full pl-4">
+        <p class="font-semibold tracking-wide">{{artistData.name}}</p>
+        <p class="text-gray-600">{{artistData.socialMedia}}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -35,5 +38,7 @@ export default {
 </script>
 
 <style scoped>
-
+img:hover{
+  opacity: 0.4;
+}
 </style>
