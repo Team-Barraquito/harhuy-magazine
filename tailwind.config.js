@@ -40,11 +40,20 @@ module.exports = {
         "11.5/12": "95%",
       },
       fontSize: {
-        xss: "0.1rem",
+        xxs: "0.1rem",
       },
       scale: {
         200: "2",
         400: "4",
+      },
+      keyframes: {
+        cross: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(45deg)" },
+        },
+      },
+      animations: {
+        cross: "cross 2s ease-in-out ",
       },
 
     },
