@@ -42,11 +42,7 @@ export default {
 
 <style scoped>
 .bg-image {
-  background-image: url(../assets/images/index/home-bg-image.jpg);
+  background-image: url(../../public/index/home-bg-image.jpg);
 
-}
-
-.text-shadow {
-  text-shadow: -1px -1px ;
 }
 </style>
