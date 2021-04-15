@@ -35,7 +35,7 @@
             <QuantitySelector> </QuantitySelector>
           </div>
 
-          <div class="flex my-4 justify-between w-full h-10 bg-pink-400">
+          <div class="flex my-4 justify-between w-full h-10">
             <button @click=checkIfQuantityisZero id="addToCart" class="w-2/5 h-full border-2 border-black uppercase rounded-sm bg-white"> Añadir al carrito </button>
             <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
             <button @click=submit id="buyNow" class="w-2/5 h-full border-2 border-black text-white bg-black uppercase rounded-sm" > Comprar ya! </button>
