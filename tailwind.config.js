@@ -2,6 +2,13 @@ module.exports = {
   purge: [],
   darkMode: false, // Or 'media' or 'class'
   theme: {
+    screens: {
+      mobile: "320px",
+      tablet: "481px",
+      laptop: "769px",
+      desktop: "1025px",
+      xl: "1201px",
+    },
     extend: {
       colors: {
         harhuy: "#FFEC02",
