@@ -1,7 +1,7 @@
 <template>
   <div>
     <TopBar> </TopBar>
-    <div class="flex w-screen overflow-x-hidden ">
+    <div class="flex object-contain">
       <SideMenu> </SideMenu>
 
       <!-- inicio contenedor fotos -->
@@ -190,8 +190,7 @@ export default {
 <style scoped>
 
 .disabled {
-  color: rgba(185, 28, 28,1);
-
+  color: rgba(185, 28, 28, 1);
 }
 
 </style>

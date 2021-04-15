@@ -10,7 +10,7 @@
     <div class="w-1/3 flex items-start justify-start overflow-hidden">
       <div class="h-full flex flex-col overflow-hidden justify-start items-start">
         <div class="w-full h-full flex justify-start items-start">
-          <button @click=goToBefore class=" h-full w-full flex flex-col items-start justify-start text-xs outline ">
+          <button @click=goToBefore class=" h-full w-full flex flex-col items-center justify-start text-xs outline ">
             <div class="transform scale-75 laptop:scale-50 mb-2 w-auto flex items-center justify-center">
               <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.05888 43.8406L43.9497 4.94975L39 0L0.109128 38.8909L5.05888 43.8406Z" fill="black" class="transform rotate-0 hover:rotate-45 duration-500 ease-in-out"/>
@@ -39,10 +39,10 @@
     <!-- end of top middle zone -->
 
     <!-- start top right zone -->
-    <div class="w-1/3 flex justify-end">
-      <div class="w-full h-auto flex flex-col overflow-hidden justify-start items-start">
-        <div class="w-full h-2/4 flex items-start justify-end mr-5">
-         <router-link to="/store" class="text-xs tablet:text-base uppercase text-black hover:text-base ease-in-out transform hover:scale-110 transition duration-150">Tienda</router-link>
+    <div class="w-1/3 flex justify-end object-contain">
+      <div class="w-auto h-auto flex flex-col overflow-hidden justify-start items-start object-contain">
+        <div class="w-full h-2/4 flex items-start justify-end mr-5 p-2 object-contain">
+         <router-link to="/store" class="w-full px-5 text-right text-xxs tablet:xs tablet:text-base uppercase text-black hover:text-base ease-in-out transform hover:scale-110 transition duration-150">Tienda</router-link>
         </div>
         <!-- end of top right zone -->
       </div>
