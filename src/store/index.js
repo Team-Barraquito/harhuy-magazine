@@ -77,6 +77,23 @@ export default new Vuex.Store({
     illustrators: (state) => (name) => {
       return state.illustrationArtists.find((illustrator) => illustrator.urlName === name);
     },
+
+    designers: (state) => (name) => {
+      return state.designArtists.find((designer) => designer.urlName === name);
+    },
+
+    photographers: (state) => (name) => {
+      return state.photographyArtists.find((photographer) => photographer.urlName === name);
+    },
+
+    musicians: (state) => (name) => {
+      return state.musicArtists.find((musician) => musician.urlName === name);
+    },
+
+    filmakers: (state) => (name) => {
+      return state.videoArtists.find((filmaker) => filmaker.urlName === name);
+    },
+
     iQuantity: (state) => {
       return state.itemQuantity;
     },
