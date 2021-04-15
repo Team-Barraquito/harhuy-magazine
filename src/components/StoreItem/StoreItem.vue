@@ -1,5 +1,5 @@
 <template>
-  <div @click="goToProductSheet"  class="prueba relative text-black">
+  <div @click="goToProductSheet" class="item relative text-black">
     <img :src="getSource" :alt=item.name>
     <div class="absolute bottom-2 left-2 text-xs"> {{ item.name }}</div>
     <div class="overlay absolute bottom-0 left-0 right-0 bg-harhuy overflow-hidden w-full h-0">
@@ -51,7 +51,7 @@ export default {
   -ms-transform: translate(-50%,-50%);
 }
 
-.prueba:hover .overlay{
+.item:hover .overlay{
   height: 100%;
 }
 </style>

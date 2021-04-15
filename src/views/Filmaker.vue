@@ -1,5 +1,5 @@
 <template>
-  <div class="illustrator">
+  <div class="filmaker">
     <TopBar> </TopBar>
     <div class="w-screen flex">
       <div class="nav-container">
@@ -13,15 +13,15 @@
           <!-- image -->
           <div class="h-80 w-1/2 image flex justify-center items-center bg-gray-600">
             <div class="w-full h-full bg-black object-contain">
-              <img :src="getFront" :alt=illustrator.name class="object-cover h-full w-full">
+              <img :src="getFront" :alt=filmaker.name class="object-cover h-full w-full">
             </div>
           </div>
           <!-- end of image -->
 
           <!-- name and description -->
           <div class="h-full w-1/2 flex flex-col justify-start p-10">
-            <h1 class="pt-2 pb-2 my-2 text-3xl w-full text-center font-bold leading-none"> {{illustrator.name}}</h1>
-            <p class="w-full h-full my-5 text-left text-xs leading-4"> {{illustrator.description}}</p>
+            <h1 class="pt-2 pb-2 my-2 text-3xl w-full text-center font-bold leading-none"> {{filmaker.name}}</h1>
+            <p class="w-full h-full my-5 text-left text-xs leading-4"> {{filmaker.description}}</p>
           </div>
         </div>
         <!-- end of name and description -->
@@ -30,7 +30,7 @@
           <div class="w-2.5/5 h-full flex mx-3">
             <div class="w-full h-11.5/12 flex flex-col items-center py-4">
               <h2 class="text-xl font-semibold tracking-wide my-1">¡Encuentra al artista en sus redes!</h2>
-                <p class="text-lg my-1">{{illustrator.socialMedia}}</p>
+                <p class="text-lg my-1">{{filmaker.socialMedia}}</p>
                 <div class="icons-container w-4/5 flex justify-evenly py-6">
 
                   <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center">
@@ -78,9 +78,9 @@
             <!-- Carousel -->
             <div class="w-1/2 h-full overflow-hidden mx-3">
               <Carousel3d :controlsVisible=visibility :controlsWidth=controlsWidth :controlsHeight=controlsHeight >
-                <Slide :index=i><img :src="getFront" :alt="illustrator.name"></Slide>
-                <Slide :index=i2><img :src="getSide" :alt="illustrator.name"></Slide>
-                <Slide :index=i3><img :src="getBack" :alt="illustrator.name"></Slide>
+                <Slide :index=i><img :src="getFront" :alt="filmaker.name"></Slide>
+                <Slide :index=i2><img :src="getSide" :alt="filmaker.name"></Slide>
+                <Slide :index=i3><img :src="getBack" :alt="filmaker.name"></Slide>
               </Carousel3d>
             </div>
           <!-- End of carousel -->
@@ -102,7 +102,7 @@ import { Carousel3d, Slide } from "vue-carousel-3d";
 import Footer from "@/components/Footer/Footer.vue";
 
 export default {
-  name: "Illustrator",
+  name: "Filmaker",
   components: {
     TopBar,
     SideMenu,
@@ -113,7 +113,7 @@ export default {
 
   data () {
     return {
-      illustrator: {},
+      filmaker: {},
       i: 0,
       i2: 1,
       i3: 2,
@@ -124,25 +124,25 @@ export default {
   },
 
   computed: {
-    ...mapGetters(["illustrators"]),
+    ...mapGetters(["filmakers"]),
     getFront () {
-      return require("../assets/images/artists/illustration" + this.illustrator.photos.front);
+      return require("../assets/images/artists/filmaking" + this.filmaker.photos.front);
     },
     getSide () {
-      return require("../assets/images/artists/illustration" + this.illustrator.photos.side);
+      return require("../assets/images/artists/filmaking" + this.filmaker.photos.side);
     },
     getBack () {
-      return require("../assets/images/artists/illustration" + this.illustrator.photos.back);
+      return require("../assets/images/artists/filmaking" + this.filmaker.photos.back);
     },
   },
   methods: {
-    getDesigner () {
-      this.illustrator = this.illustrators(this.$route.params.name);
+    getFilmaker () {
+      this.filmaker = this.filmakers(this.$route.params.name);
     },
   },
 
   beforeMount () {
-    this.getDesigner();
+    this.getFilmaker();
   },
 };
 </script>

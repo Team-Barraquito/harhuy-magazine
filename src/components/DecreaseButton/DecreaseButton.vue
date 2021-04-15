@@ -1,5 +1,5 @@
 <template>
-  <button @click=reduceQuantity class="w-10 h-10 bg-black text-white ">-</button>
+  <button @click=reduceQuantity class="w-1/5 h-10 bg-black text-white ">-</button>
 </template>
 
 <script>

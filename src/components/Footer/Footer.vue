@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-16 bg-black flex justify-center">
+  <div class="w-screen h-16 bg-black flex justify-center overflow-x-hidden">
       <div class="icons-and-copy w-2/4 h-full flex justify-center items-center flex-col">
         <div class="icons h-2/3 w-1/2 flex justify-center items-center">
           <button class="rounded-full border-2 border-white w-8 h-8 mr-1 ml-1 flex justify-center items-center">

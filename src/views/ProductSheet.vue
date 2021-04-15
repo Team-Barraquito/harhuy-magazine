@@ -11,40 +11,40 @@
       </div>
       <!-- Final contenedor fotos -->
 
-      <div class="info-container w-1/2 m-10 overflow-x-hidden">
-        <div class="content-container w-11/12 bg-blue-300">
+      <div class="info-container w-1/2 m-10 px-16 overflow-x-hidden">
+        <div class="content-container w-11/12">
          <!-- Inicio estrellas y stock -->
-          <div class="stars-and-stock flex w-full h-auto bg-gray-400 ">
-            <div class="stars w-3/4 text-sm flex items-center content-center">
+          <div class="stars-and-stock flex w-full h-1/6 ">
+            <div class="stars flex w-3/4 justify-start items-center text-sm space-x-10">
               <star-rating :rating="itemData.rating" :starStyle="style"> </star-rating>
             </div>
             <div v-if=itemData.isInStock class="text-stock flex w-3/12 justify-end "> En stock </div>
-            <div v-else class="text-red-700 flex w-1/2 justify-end items-center"> Sin stock </div>
+            <div v-else class="text-red-700 flex w-3/12 justify-end"> Sin stock </div>
           </div>
           <!-- Final estrellas y stock -->
+
           <!-- Inicio nombre y precio -->
-          <div class="name-and-price mt-9 text-left w-full h-1/5 bg-yellow-500">
+          <div class="name-and-price mt-7 text-left w-full h-1/6">
             <h1 class="text-4xl font-extrabold"> {{ itemData.name }} </h1>
             <div class="text-3xl mt-6"> {{ price }}</div>
           </div>
           <!-- Final nombre y precio -->
-          <!-- Inicio botones -->
-          <div class="buttons-container flex flex-col justify-center items-center my-10 w-full h-1/5 bg-green-300">
-            <!-- corregir esto -->
-            <div class="quantity-container w-full">
-              <QuantitySelector> </QuantitySelector>
-            </div>
 
-            <div class="flex my-4 justify-evenly w-3/4 bg-red-500">
-              <button @click=addToCart(itemData) id="addToCart" class="w-2.5/5 h-2/5 border-2 border-black uppercase"> Añadir al carrito </button>
-              <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
-              <button @click=submit id="buyNow" class="w-2.5/5 h-2/5 border-2 border-black text-white bg-black uppercase" > Comprar ya! </button>
-            </div>
+          <!-- Inicio botones -->
+          <div class="flex flex-col justify-center items-center my-10 mt-10  mb-8 w-full h-1/6">
+            <QuantitySelector> </QuantitySelector>
           </div>
+
+          <div class="flex my-4 justify-between w-full h-10">
+            <button @click=checkIfQuantityisZero id="addToCart" class="w-2/5 h-full border-2 border-black uppercase rounded-sm bg-white"> Añadir al carrito </button>
+            <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
+            <button @click=submit id="buyNow" class="w-2/5 h-full border-2 border-black text-white bg-black uppercase rounded-sm" > Comprar ya! </button>
+          </div>
+
           <!-- Final botones-->
 
           <!-- Inicio descripción-->
-          <div class="description-and-media w-full h-2.3/5 bg-purple-400">
+          <div class="description-and-media w-full h-2/6">
             <p class="text-left text-xs text-gray-500"> {{ itemData.description }} </p>
           <!-- fin descripción-->
           <!-- Inicio  social media -->
@@ -91,7 +91,7 @@ import SideMenu from "@/components/SideMenu/SideMenu.vue";
 import QuantitySelector from "@/components/QuantitySelector/QuantitySelector.vue";
 import StarRating from "vue-dynamic-star-rating";
 import { mapGetters, mapActions } from "vuex";
-// Import { StripeCheckout } from "@vue-stripe/vue-stripe";
+import { StripeCheckout } from "@vue-stripe/vue-stripe";
 import Footer from "@/components/Footer/Footer.vue";
 
 export default {
@@ -101,7 +101,7 @@ export default {
     SideMenu,
     QuantitySelector,
     StarRating,
-    // StripeCheckout,
+    StripeCheckout,
     Footer,
   },
   data () {
@@ -134,6 +134,10 @@ export default {
       return require("../assets/images/store" + photo);
     },
     ...mapActions(["addToCart", "resetQuantity"]),
+
+    checkIfQuantityisZero () {
+      if (this.iQuantity > 0) { this.addToCart(this.itemData); }
+    },
 
     setPrice () {
       this.lineItems[0].price = this.itemData.priceId;

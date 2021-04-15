@@ -34,4 +34,9 @@ export default {
   .last {
     height: 200px;
   }
+
+  a.router-link-exact-active {
+  color: #e6d200;
+}
+
 </style>
