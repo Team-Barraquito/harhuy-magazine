@@ -1,4 +1,1 @@
-<svg width="44" height="55" viewBox="0 0 44 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(0.699963 0.709914 -0.704254 0.714266 0 7.21875)" stroke="black" stroke-width="7"/>
-<line y1="-3.5" x2="55.5613" y2="-3.5" transform="matrix(-0.699963 0.709914 0.704254 0.714266 43.8906 7.33984)" stroke="black" stroke-width="7"/>
-</svg>
+<svg width="44" height="55" fill="none" xmlns="http://www.w3.org/2000/svg"><path transform="matrix(.69996 .70991 -.70425 .71427 0 7.219)" stroke="#000" stroke-width="7" d="M0-3.5h55.561"/><path transform="matrix(-.69996 .70991 .70425 .71427 43.89 7.34)" stroke="#000" stroke-width="7" d="M0-3.5h55.561"/></svg>
