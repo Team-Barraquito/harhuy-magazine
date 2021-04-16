@@ -1,13 +1,13 @@
 <template>
-  <div class="store">
+  <div class="store w-screen">
     <TopBar> </TopBar>
     <div class="w-screen flex">
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-      <div class="w-full content flex flex-col flex-wrap items-center justify-content">
+      <div class="w-full flex flex-col flex-wrap items-center justify-content">
         <StoreFeaturedItem> </StoreFeaturedItem>
-        <div class="grid grid-rows-2 grid-cols-3 gap-4">
+        <div class="my-grid">
           <StoreItem v-for="(item, index) in items" :key="index" :item="item"> </StoreItem>
         </div>
       </div>
@@ -42,6 +42,9 @@ export default {
 
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
+.my-grid {
+  @apply grid grid-rows-2 grid-cols-3 gap-4;
+}
 
 </style>
