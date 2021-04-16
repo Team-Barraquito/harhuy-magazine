@@ -1,5 +1,5 @@
 <template>
-<div role="none" class="h-10 w-10 bg-white absolute rounded-full init"></div>
+<div role="none" class="h-12 w-12 bg-white absolute rounded-full init"></div>
 </template>
 
 <script>
