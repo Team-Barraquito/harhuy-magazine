@@ -8,6 +8,7 @@ module.exports = {
       laptop: "769px",
       desktop: "1025px",
       xl: "1201px",
+      xxl: "1920px",
     },
     extend: {
       colors: {
@@ -27,6 +28,7 @@ module.exports = {
         large: "31.25rem",
         150: "40rem",
         "2.3/5": "43.333333%",
+        "4.5/6": "70%",
         "11.5/12": "95%",
       },
       width: {
@@ -38,9 +40,11 @@ module.exports = {
         large: "31.25rem",
         "2.5/5": "45%",
         "11.5/12": "95%",
+        "11.6/12": "96%",
+        "11.8/12": "98%",
       },
       fontSize: {
-        xxs: "0.1rem",
+        xxs: "0.625rem",
       },
       scale: {
         200: "2",
