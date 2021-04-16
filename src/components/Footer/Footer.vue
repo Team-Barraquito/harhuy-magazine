@@ -1,17 +1,19 @@
 <template>
   <div class="w-screen h-16 bg-black flex justify-center overflow-x-hidden">
-      <div class="icons-and-copy w-2/4 h-full flex justify-center items-center flex-col">
+      <div class="icons-and-copy w-2.5/5 h-full flex justify-end items-center">
+        <div class="w-11.6/12 h-full  flex flex-col justify-center items-center">
         <div class="icons h-2/3 w-1/2 flex justify-center items-center">
-          <button class="rounded-full border-2 border-white w-8 h-8 mr-1 ml-1 flex justify-center items-center">
-            <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram w-5 h-5">
+
+          <a class="rounded-full border-2 border-white w-7 h-7 mr-1 ml-1 flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram w-4 h-4">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
               <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
             </svg>
-          </button>
+          </a>
 
-          <button class="rounded-full border-2 border-white w-8 h-8 mr-1 ml-1 flex justify-center items-center">
-            <svg viewBox="0 0 20 14" class="w-5 h-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <a class="rounded-full border-2 border-white w-7 h-7 mr-1 ml-1 flex justify-center items-center">
+            <svg viewBox="0 0 20 14" class="w-4 h-4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7442.000000)" fill="#fff">
                   <g id="icons" transform="translate(56.000000, 160.000000)">
@@ -20,18 +22,18 @@
                 </g>
               </g>
             </svg>
-          </button>
+          </a>
 
-          <button class="rounded-full border-2 border-white w-8 h-8 mr-1 ml-1 flex justify-center items-center">
-            <svg viewBox="0 0 256 209" version="1.1" class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+          <a class="rounded-full border-2 border-white w-7 h-7 mr-1 ml-1 flex justify-center items-center">
+            <svg viewBox="0 0 256 209" version="1.1" class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
               <g>
                 <path d="M256,25.4500259 C246.580841,29.6272672 236.458451,32.4504868 225.834156,33.7202333 C236.678503,27.2198053 245.00583,16.9269929 248.927437,4.66307685 C238.779765,10.6812633 227.539325,15.0523376 215.57599,17.408298 C205.994835,7.2006971 192.34506,0.822 177.239197,0.822 C148.232605,0.822 124.716076,24.3375931 124.716076,53.3423116 C124.716076,57.4586875 125.181462,61.4673784 126.076652,65.3112644 C82.4258385,63.1210453 43.7257252,42.211429 17.821398,10.4359288 C13.3005011,18.1929938 10.710443,27.2151234 10.710443,36.8402889 C10.710443,55.061526 19.9835254,71.1374907 34.0762135,80.5557137 C25.4660961,80.2832239 17.3681846,77.9207088 10.2862577,73.9869292 C10.2825122,74.2060448 10.2825122,74.4260967 10.2825122,74.647085 C10.2825122,100.094453 28.3867003,121.322443 52.413563,126.14673 C48.0059695,127.347184 43.3661509,127.988612 38.5755734,127.988612 C35.1914554,127.988612 31.9009766,127.659938 28.694773,127.046602 C35.3777973,147.913145 54.7742053,163.097665 77.7569918,163.52185 C59.7820257,177.607983 37.1354036,186.004604 12.5289147,186.004604 C8.28987161,186.004604 4.10888474,185.75646 0,185.271409 C23.2431033,200.173139 50.8507261,208.867532 80.5109185,208.867532 C177.116529,208.867532 229.943977,128.836982 229.943977,59.4326002 C229.943977,57.1552968 229.893412,54.8901664 229.792282,52.6381454 C240.053257,45.2331635 248.958338,35.9825545 256,25.4500259" fill="#fff"></path>
               </g>
             </svg>
-          </button>
+          </a>
 
-          <button class="rounded-full border-2 border-white w-8 h-8 mr-1 ml-1 flex justify-center items-center">
-            <svg  class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#fff">
+          <a class="rounded-full border-2 border-white w-7 h-7 mr-1 ml-1 flex justify-center items-center">
+            <svg  class="w-4 h-4" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#fff">
               <g>
                 <g>
                   <g>
@@ -40,9 +42,10 @@
                 </g>
               </g>
             </svg>
-          </button>
+          </a>
         </div>
-        <p class="copy pb-2 text-sm h-1/3 w-10/12 m-0 uppercase whitespace-nowrap text-gray-600">copyright 2021 © - barraquito's team - all rights reserved </p>
+        <p class="copy pb-2 text-xs h-1/3 w-10/12 m-0 uppercase whitespace-nowrap text-gray-600">copyright 2021 © - barraquito's team - all rights reserved </p>
+        </div>
       </div>
   </div>
 </template>

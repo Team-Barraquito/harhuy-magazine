@@ -96,6 +96,9 @@ export default {
     goToBefore () {
       this.$router.go(-1);
     },
+    goToIndex () {
+      this.$router.push("/");
+    },
   },
 
   mounted () {

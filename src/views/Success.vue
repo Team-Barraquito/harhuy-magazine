@@ -1,8 +1,9 @@
 <template>
-<div class="global">
+<div class="success h-screen">
+
      <!-- TopBar + SideMenu --->
     <TopBar> </TopBar>
-    <div class="w-screen flex">
+    <div class="w-screen h-4.5/6 flex bg-harhuy">
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
@@ -16,7 +17,7 @@
         Tu compra se ha realizado</p>
       <p>correctamente</p>
       </div>
-      <img src="../assets/images/sucess/sucess.svg"/>
+      <img src="../assets/images/success/success.svg"/>
     </div>
   </div>
   <div class="footer-container"> <Footer> </Footer> </div>

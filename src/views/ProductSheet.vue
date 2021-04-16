@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="product h-screen">
     <TopBar> </TopBar>
     <div class="flex object-contain">
       <SideMenu> </SideMenu>
