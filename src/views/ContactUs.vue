@@ -1,8 +1,13 @@
 <template>
-<div class="contact">
-  <TopBar> </TopBar>
-  <div class= "flex flex-column bg-black">
-  <SideMenu> </SideMenu>
+<div class="contact h-screen">
+  <!-- TopBar + SideMenu --->
+    <TopBar> </TopBar>
+    <div class="w-screen h-4.5/6  flex bg-harhuy">
+      <div class="nav-container">
+        <SideMenu color="white"> </SideMenu>
+      </div>
+    <!-- End of TopBar + SideMenu -->
+
     <div class="flex flex-column bg-black">
       <div class="flex flex-row">
         <div class="w-2/4 mr-24 bg-black">
@@ -51,9 +56,7 @@
       </div>
     </div>
   </div>
-  <div class="footer-container">
-      <Footer> </Footer>
-  </div>
+  <div class="footer-container"> <Footer> </Footer> </div>
 </div>
 </template>
 
