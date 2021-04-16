@@ -114,9 +114,9 @@ const routes = [
   },
 
   {
-    path: "/sucess",
-    name: "sucess",
-    component: () => import("../views/Sucess.vue"),
+    path: "/success",
+    name: "success",
+    component: () => import("../views/Success.vue"),
   },
 
   {
