@@ -24,6 +24,7 @@
       "rating": 5,
       "price": 15,
       "priceId": "price_1IdldcLav5xUnjDzGS8Cdj2T",
+      "description": "Se trata de construir tu vida, en eso estás a diario,y mientras, cada decisión que tomas, ayuda a construir tu presente. Esta súper bolsa la vas a amar, en color negro combina con todo y está preparada para contener todo lo que necesites y acompañarte hasta el fin del mundo.",
       "photos": {
         "front": "/harhuyTeeLogoYellow.jpg",
         "closeup": "/harhuyTeeLogoYellowClose.jpg",
@@ -37,6 +38,7 @@
       "rating": 4.7,
       "price": 9,
       "priceId": "price_1IdlrxLav5xUnjDzXzLZKjw1",
+      "description": "Nuestro Bolso de Harhuy que está diseñado para guardar o trasladar tus pertenencias. Este bolso está diseñado para ti",
       "photos": {
         "front": "/harhuyToteBagLandscape.jpg",
         "close": "/harhuyToteBagLandscapeClose.jpg",
@@ -50,6 +52,7 @@
       "rating": 4.7,
       "price": 9,
       "priceId": "price_1IdlurLav5xUnjDzjn5ivnHi",
+      "description": "Bolso de Harhuy de tela dónde podrás guardar tus pertenencias. No te lo pierdas!! Este bolso está diseñado para ti",
       "photos": {
         "front": "/harhuyToteBag.jpg",
         "close": "/harhuyToteBagClose.jpg",
@@ -62,6 +65,7 @@
       "isInStock": false,
       "rating": 5,
       "price": 11,
+      "description": "Ya esta disponible nuestra revista Digital del mes de Febrero, dónde podras conocer a tus artistas favoritos de Canarias, cómpralo y descubre las sorpresas que tenemos para ti!!",
       "photos": {
         "front": "/harhuyMagFebruary.jpg",
         "close": "/harhuyMagFebruaryClose.jpg",
@@ -74,6 +78,7 @@
       "isInStock": false,
       "rating": 5,
       "price": 11,
+      "description": "No te pierdas de las sorpresas que tenemos para ti de nuestra revista para el mes de Marzo, dónde podrás conocer del arte, ilustración, de artistas y diseño de Canarias. Cómpralo y descúbrelo por ti mismo!!",
       "photos": {
         "front": "/harhuyMagMarch.jpg",
         "close": "/harhuyMagMarchClose.jpg",
