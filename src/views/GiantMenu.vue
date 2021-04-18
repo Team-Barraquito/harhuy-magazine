@@ -4,7 +4,7 @@
     <CircularCursor id="customCursor" class="z-40"> </CircularCursor>
 
   <!-- start top zone -->
-  <div class=" flex justify-between w-screen h-1/6 laptop:h-2/6 bg-harhuy overflow-hidden mt-2 mx-2">
+  <div class=" flex justify-between w-full h-1/6 laptop:h-1/4/6 bg-harhuy overflow-hidden mt-2 mx-2 ">
 
     <!-- start top left zone -->
     <div class="w-1/3 flex items-start justify-start overflow-hidden">
@@ -27,7 +27,7 @@
     <!-- end top left zone -->
 
     <!-- start top middle zone -->
-    <div class="w-1/3 h-full flex items-start justify-start my-2 tablet:my-5 laptop:my-10 desktop:my-5 px:2 tablet:px-2 desktop:px-10 xl:px-20 object-contain ">
+    <div class="w-1/3 h-full flex items-start justify-start my-2 tablet:my-5 laptop:my-10 desktop:my-5 px:2 tablet:px-2 desktop:px-10 xl:px-24 object-contain ">
       <div class="w-full h-full flex justify-start items-start object-contain">
         <div class="w-full h-full flex justify-start items-start object-contain">
           <svg @click=goToIndex class="w-auto h-auto object-contain " viewBox="0 0 218 117"  xmlns="http://www.w3.org/2000/svg">
@@ -51,14 +51,14 @@
   </div>
   <!-- end top zone -->
   <!-- middle zone -->
-    <div class="w-full h-3/6 grid grid-cols-1 grid-rows-3">
-      <div class="flex justify-center items-center"><router-link to="/aboutUs" class="px-5 text-4xl tablet:text-5xl laptop:text-6xl desktop:text-7xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150" >El proyecto</router-link></div>
-      <div class="flex justify-center items-center"><router-link to="/contactUs" class="px-5 text-4xl tablet:text-5xl laptop:text-6xl desktop:text-7xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150">Contacto</router-link></div>
-      <div class="flex justify-center items-center"><router-link to="/suscripcion" class="px-5 text-4xl tablet:text-5xl laptop:text-6xl desktop:text-7xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150">Suscripción</router-link></div>
+    <div class="w-full h-3/6 xl:h-4/6 grid grid-cols-1 grid-rows-3">
+      <div class="flex justify-center items-end"><router-link to="/aboutUs" class="px-5 text-4xl tablet:text-5xl laptop:text-6xl desktop:text-7xl xl:text-8xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150" >El proyecto</router-link></div>
+      <div class="flex justify-center items-center"><router-link to="/contactUs" class="px-5 text-4xl tablet:text-5xl laptop:text-6xl desktop:text-7xl xl:text-8xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150">Contacto</router-link></div>
+      <div class="flex justify-center items-start"><router-link to="/suscripcion" class="px-5 text-4xl tablet:text-5xl laptop:text-6xl desktop:text-7xl xl:text-8xl uppercase text-stroke-3 text-stroke-color-black text-transparent hover:text-black hover:text-8xl ease-in-out transform hover:scale-110 transition duration-150">Suscripción</router-link></div>
     </div>
   <!-- end middle zone -->
   <!-- bottom zone-->
-    <div class=" w-full h-auto flex my-5">
+    <div class=" w-full h-auto xl:h-1/6 flex my-5">
       <div class="w-3/6 tablet:w-4/6 laptop:w-5/6 flex ">
         <div class="text-xxs tablet:text-xs uppercase w-1/3 flex justify-center items-center text-black transition duration-500 ease-in-out hover:underline "><a target="_blank" rel="noopener noreferrer">instagram</a></div>
         <div class="text-xxs tablet:text-xs uppercase w-1/3 flex justify-center items-center text-black transition duration-500 ease-in-out hover:underline"><a href="#" target="_blank">facebook</a></div>
