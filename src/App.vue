@@ -73,10 +73,6 @@
   color: #2c3e50;
 }
 
-a.router-link-exact-active {
-  color: #42b983;
-}
-
 .fade-enter, .fade-leave-to {
     opacity: 0.3;
     transform: translanteX(4em);
