@@ -1,6 +1,6 @@
 import { render, getByRole } from "@testing-library/vue";
-import ShowcaseArtist from "../ShowcaseArtist.vue";
+import Footer from "../Footer.vue";
 
 test("Should render the component", async () => {
-  const { getByRole } = render(ShowcaseArtist);
+  const { getByRole } = render(Footer);
 });
