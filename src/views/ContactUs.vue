@@ -3,7 +3,7 @@
   <TopBar> </TopBar>
   <div class= "flex flex-column bg-black">
   <SideMenu> </SideMenu>
-    <div class="flex flex-column bg-black">
+    <div class="flex flex-column mobile:flex-row bg-red-600">
       <div class="flex flex-row">
         <div class="w-2/4 mr-24 bg-black">
           <h1 class="uppercase font-black text-right text-6xl text-white mt-5"> Contacta con
@@ -114,8 +114,11 @@ export default {
 
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
   button {
     outline: 0;
+  }
+  .phone {
+    @apply mobile:flex tablet:flex-col
   }
 </style>

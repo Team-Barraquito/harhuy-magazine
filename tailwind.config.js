@@ -1,7 +1,15 @@
 module.exports = {
   purge: [],
   darkMode: false, // Or 'media' or 'class'
-  theme: {
+  theme: {  
+    screens: {
+      mobile: "320px",
+      tablet: "480px",
+      laptop: "768px",
+      desktop: "1024px",
+      xl: "1201px",
+      xxl: "1440px",
+    },
     extend: {
       colors: {
         harhuy: "#FFEC02",
@@ -39,7 +47,6 @@ module.exports = {
         200: "2",
         400: "4",
       },
-
     },
   },
   variants: {

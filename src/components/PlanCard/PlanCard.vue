@@ -1,5 +1,5 @@
 <template>
-  <div class="card-container">
+  <div class="card-container" role="contentinfo">
     <div class="card-bg">
       <a href="#middle">
         <svg width="370" height="615" viewBox="0 0 370 615" fill="none" xmlns="http://www.w3.org/2000/svg">
