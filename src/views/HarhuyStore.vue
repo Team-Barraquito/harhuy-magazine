@@ -7,7 +7,7 @@
       </div>
       <div class="w-full flex flex-col flex-wrap items-center justify-content">
         <StoreFeaturedItem> </StoreFeaturedItem>
-        <div class="my-grid">
+        <div class="items-grid mb-2">
           <StoreItem v-for="(item, index) in items" :key="index" :item="item"> </StoreItem>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-.my-grid {
+.items-grid {
   @apply grid grid-rows-2 grid-cols-3 gap-4;
 }
 

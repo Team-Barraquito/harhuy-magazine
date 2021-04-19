@@ -1,7 +1,7 @@
 module.exports = {
   purge: [],
   darkMode: false, // Or 'media' or 'class'
-  theme: {  
+  theme: {
     screens: {
       mobile: "320px",
       tablet: "480px",
