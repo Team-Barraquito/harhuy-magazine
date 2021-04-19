@@ -25,7 +25,7 @@
       </div>
       <div class="w-full h-2/4 flex flex-col justify-center items-center text-white">
         <div class="w-full h-2/4 uppercase font-extrabold text-5xl flex justify-center items-center pl-36">{{ $route.name }}</div>
-        <div class="w-full h-2/4 uppercase flex justify-end"> nº / 0424 </div>
+        <div class="w-full h-2/4 uppercase flex justify-end"> nº / 0001 </div>
       </div>
     </div>
     <!-- end of middle zone -->

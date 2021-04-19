@@ -26,8 +26,8 @@
         </div>
         <!-- end of name and description -->
 
-        <div class="slider-container w-9/12 h-1/2 mt-1 mb-1 flex tablet:flex-col tablet:items-center">
-          <div class="w-2.5/5 h-full flex mx-3 laptop:w-full">
+        <div class="slider-container w-9/12 h-full mt-1 mb-1 flex tablet:flex-col tablet:items-center">
+          <div class="w-2.5/5 h-3/4 flex mx-3 laptop:w-full">
             <div class="w-full h-11.5/12 flex flex-col items-center py-4">
               <h2 class="text-xl font-semibold tracking-wide my-1 laptop:text-2xl">¡Encuentra al artista en sus redes!</h2>
                 <p class="text-lg my-1">{{illustrator.socialMedia}}</p>
@@ -76,8 +76,8 @@
             </div>
           </div>
             <!-- Carousel -->
-            <div class="w-1/2 h-full overflow-hidden mx-3 tablet:w-full">
-              <Carousel3d :controlsVisible=visibility :controlsWidth=controlsWidth :controlsHeight=controlsHeight >
+            <div class="w-1/2 h-full tablet:w-full">
+              <Carousel3d :controlsVisible=visibility :controlsWidth=controlsWidth :controlsHeight=controlsHeight :height=height >
                 <Slide :index=i><img :src="getFront" :alt="illustrator.name"></Slide>
                 <Slide :index=i2><img :src="getSide" :alt="illustrator.name"></Slide>
                 <Slide :index=i3><img :src="getBack" :alt="illustrator.name"></Slide>
@@ -120,6 +120,7 @@ export default {
       visibility: true,
       controlsWidth: 25,
       controlsHeight: 25,
+      height: 350,
     };
   },
 

@@ -6,10 +6,10 @@
         <SideMenu> </SideMenu>
       </div>
       <!-- content -->
-      <div class="content flex flex-col w-screen justify-center items-center py-10">
+      <div class="content flex flex-col w-screen justify-center items-center py-10 laptop:py-0">
 
         <!-- image, name and text -->
-        <div class="image-and-text flex w-9/12 h-1/2 my-5 justify-center items-center">
+        <div class="image-and-text flex w-9/12 h-1/2 my-5 justify-center items-center tablet:w-11.5/12 tablet:h-auto ">
           <!-- image -->
           <div class="h-80 w-1/2 image flex justify-center items-center bg-gray-600">
             <div class="w-full h-full bg-black object-contain">
@@ -19,30 +19,30 @@
           <!-- end of image -->
 
           <!-- name and description -->
-          <div class="h-full w-1/2 flex flex-col justify-start p-10">
-            <h1 class="pt-2 pb-2 my-2 text-3xl w-full text-center font-bold leading-none"> {{designer.name}}</h1>
-            <p class="w-full h-full my-5 text-left text-xs leading-4"> {{designer.description}}</p>
+          <div class="h-full w-1/2 flex flex-col justify-start p-10 tablet:p-7">
+            <h1 class="pt-2 pb-2 my-2 text-3xl w-full text-center font-bold leading-none laptop:text-4xl"> {{designer.name}}</h1>
+            <p class="w-full h-full my-5 text-left text-xs leading-4 tablet:text-xs laptop:text-sm"> {{designer.description}}</p>
           </div>
         </div>
         <!-- end of name and description -->
 
-        <div class="slider-container w-9/12 h-1/2 mt-1 mb-1 flex">
-          <div class="w-2.5/5 h-full flex mx-3">
+        <div class="slider-container w-9/12 h-3/4 mt-1 mb-1 flex tablet:flex-col tablet:items-center">
+          <div class="w-2.5/5 h-full flex mx-3 laptop:w-full">
             <div class="w-full h-11.5/12 flex flex-col items-center py-4">
-              <h2 class="text-xl font-semibold tracking-wide my-1">¡Encuentra al artista en sus redes!</h2>
+              <h2 class="text-xl font-semibold tracking-wide my-1 laptop:text-2xl">¡Encuentra al artista en sus redes!</h2>
                 <p class="text-lg my-1">{{designer.socialMedia}}</p>
                 <div class="icons-container w-4/5 flex justify-evenly py-6">
 
-                  <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram w-10 h-10">
+                  <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center tablet:w-12 tablet:h-12">
+                    <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram w-10 h-10 tablet:w-7 tablet:h-7">
                       <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                       <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
                     </svg>
                   </a>
 
-                  <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center">
-                    <svg viewBox="0 0 20 14" class="w-10 h-10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center tablet:w-12 tablet:h-12">
+                    <svg viewBox="0 0 20 14" class="w-10 h-10 tablet:h-7 tablet:w-7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7442.000000)" fill="#000">
                           <g id="icons" transform="translate(56.000000, 160.000000)">
@@ -53,16 +53,16 @@
                     </svg>
                   </a>
 
-                  <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center">
-                    <svg viewBox="0 0 256 209" version="1.1" class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                  <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center tablet:w-12 tablet:h-12">
+                    <svg viewBox="0 0 256 209" version="1.1" class="w-10 h-10 tablet:w-7 tablet:h-7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                       <g>
                         <path d="M256,25.4500259 C246.580841,29.6272672 236.458451,32.4504868 225.834156,33.7202333 C236.678503,27.2198053 245.00583,16.9269929 248.927437,4.66307685 C238.779765,10.6812633 227.539325,15.0523376 215.57599,17.408298 C205.994835,7.2006971 192.34506,0.822 177.239197,0.822 C148.232605,0.822 124.716076,24.3375931 124.716076,53.3423116 C124.716076,57.4586875 125.181462,61.4673784 126.076652,65.3112644 C82.4258385,63.1210453 43.7257252,42.211429 17.821398,10.4359288 C13.3005011,18.1929938 10.710443,27.2151234 10.710443,36.8402889 C10.710443,55.061526 19.9835254,71.1374907 34.0762135,80.5557137 C25.4660961,80.2832239 17.3681846,77.9207088 10.2862577,73.9869292 C10.2825122,74.2060448 10.2825122,74.4260967 10.2825122,74.647085 C10.2825122,100.094453 28.3867003,121.322443 52.413563,126.14673 C48.0059695,127.347184 43.3661509,127.988612 38.5755734,127.988612 C35.1914554,127.988612 31.9009766,127.659938 28.694773,127.046602 C35.3777973,147.913145 54.7742053,163.097665 77.7569918,163.52185 C59.7820257,177.607983 37.1354036,186.004604 12.5289147,186.004604 C8.28987161,186.004604 4.10888474,185.75646 0,185.271409 C23.2431033,200.173139 50.8507261,208.867532 80.5109185,208.867532 C177.116529,208.867532 229.943977,128.836982 229.943977,59.4326002 C229.943977,57.1552968 229.893412,54.8901664 229.792282,52.6381454 C240.053257,45.2331635 248.958338,35.9825545 256,25.4500259" fill="#000"></path>
                       </g>
                     </svg>
                   </a>
 
-                 <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center">
-                  <svg  class="w-10 h-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#000">
+                 <a href="#" class="rounded-full border-4 border-black w-16 h-16 mr-1 ml-1 flex justify-center items-center tablet:h-12 tablet:w-12">
+                  <svg  class="w-10 h-10 tablet:w-7 tablet:h-7" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#000">
                     <g>
                       <g>
                         <g>
@@ -76,8 +76,8 @@
             </div>
           </div>
             <!-- Carousel -->
-            <div class="w-1/2 h-full overflow-hidden mx-3">
-              <Carousel3d :controlsVisible=visibility :controlsWidth=controlsWidth :controlsHeight=controlsHeight >
+            <div class="w-1/2 h-full tablet:w-full">
+              <Carousel3d :controlsVisible=visibility :controlsWidth=controlsWidth :controlsHeight=controlsHeight :height=height >
                 <Slide :index=i><img :src="getFront" :alt="designer.name"></Slide>
                 <Slide :index=i2><img :src="getSide" :alt="designer.name"></Slide>
                 <Slide :index=i3><img :src="getBack" :alt="designer.name"></Slide>
@@ -88,9 +88,7 @@
       </div>
       <!-- End of content -->
     </div>
-    <div class="footer-container">
-      <Footer> </Footer>
-    </div>
+    <div class="footer-container"> <Footer> </Footer> </div>
   </div>
 </template>
 
@@ -120,6 +118,7 @@ export default {
       visibility: true,
       controlsWidth: 25,
       controlsHeight: 25,
+      height: 350,
     };
   },
 
