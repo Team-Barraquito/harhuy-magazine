@@ -1,17 +1,19 @@
 <template>
 <div class="contact">
   <TopBar> </TopBar>
-  <div class= "flex flex-column bg-black">
-  <SideMenu> </SideMenu>
-    <div class="flex flex-column mobile:flex-row bg-red-600">
-      <div class="flex flex-row">
+    <div class="w-screen flex">
+      <div class="nav-container bg-black">
+        <SideMenu color="white"> </SideMenu>
+      </div>
+    <div class="flex flex-column bg-black w-full">
+      <div class="flex flex-row pt-16">
         <div class="w-2/4 mr-24">
-          <h1 class="uppercase font-black text-right text-6xl text-white mt-5"> Contacta con
-            nosotros <br> </h1>
-          <p class="text-right text-white"> Esto es un ejemplo <br>
-          de como se veria nuestra pagina web <br>
-          espero que se vea bastante bien <br>
-          sino, voy a llorar demasiado <br>
+          <p class="uppercase font-black text-right text-6xl text-white mt-5"> Contacta <br>
+            con nosotros </p>
+          <p class="text-right text-white"> ¡No dudes en contactar con nosotros! <br>
+          ¡Usa este formulario porfavor! <br>
+          Pero si tienes alguna duda sobre algo <br>
+          Nuestro correo es: harhuycanarias@gmail.com <br>
           </p>
         </div>
         <div class="w-full max-w-xs">
@@ -34,14 +36,14 @@
             </div>
             <div class="flex justify-center">
               <input type="checkbox" id="terms" name="terms" required>
-              <label for="" class="text-white text-tiny ml-2">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
+              <label for="" class="text-white text-xxs ml-2">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
             </div>
             <div class="mt-3 w-4/12 h-4/12">
               <div>
                 <VueRecaptcha sitekey ="6LeEBJsaAAAAAIGOz44t3i4HgBHk3ASI__atgfvd" :loadRecaptchaScript="true" />
               </div>
-              <button type="submit" id="submit">
-                  <svg height="46.96" width="60.08" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button type="submit" id="submit" class="mt-4 -ml-8">
+                  <svg height="46.96" width="60.08" fill="none" xmlns="http://www.w3.org/2000/svg" class="-ml-4">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="m55.132 28.68-.022-.023-18.306 18.306-4.95-4.95L46.868 27H0v-7h46.453L31.403 4.95 36.352 0l23.73 23.73-4.95 4.95z" fill="#fff"/>
                   </svg>
               </button>
@@ -116,7 +118,5 @@ export default {
   button {
     outline: 0;
   }
-  .phone {
-    @apply mobile:flex tablet:flex-col
-  }
+
 </style>
