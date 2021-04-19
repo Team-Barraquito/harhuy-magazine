@@ -1,5 +1,5 @@
 <template>
-<button role="button" @click=increaseQuantity class="w-10 h-10 bg-black text-white " >+</button>
+<button role="button" @click=increaseQuantity class="w-1/5 h-full bg-black text-white " >+</button>
 </template>
 
 <script>

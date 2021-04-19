@@ -1,5 +1,5 @@
 <template>
-  <div class="cart">
+  <div class="cart w-screen">
 
     <!-- TopBar + SideMenu --->
     <TopBar> </TopBar>
@@ -9,33 +9,31 @@
       </div>
     <!-- End of TopBar + SideMenu -->
 
-      <div class="w-full content flex flex-col items-center">
+      <div class="w-full flex flex-col items-center h-5/6">
         <!-- List -->
 
-       <ul class="w-4/6 mt-4">
+       <ul class="xxl:w-4/6 desktop:w-5/6 laptop:w-11/12 tablet:w-11.5/12 mt-4">
          <li class="cart-list__item my-2" v-for="item in cartItems" :key=item.name>
            <div class="w-full flex">
-             <img :src="getSource(item)" class="thumbnail w-1/4 bg-contain" :alt=item.name>
-              <div class=" flex flex-col w-3/4 justify-center items-center">
-                <div class="w-7/12 ml-3 text-left flex flex-col text-lg">
-                 <p class="font-bold text-xl">{{ item.name }}</p>
-                 <p class="text-gray-500">Quantity: {{ item.quantity }}</p>
-                 <p class="text-gray-500" v-if="hasSize(item)">Size: {{ item.size }}</p>
-                 <p class="text-black">{{ calculatePrice(item) }}€</p>
-                 <button @click=removeFromCart(item.name) class="cart-list__btn-remove"> Eliminar </button>
+             <img :src="getSource(item)" class="thumbnail xxl:w-1/4 tablet:w-2/6 object-cover h-auto" :alt=item.name>
+              <div class=" flex flex-col w-3/4 tablet:w-4/6 justify-center items-center">
+                <div class="xxl:w-7/12 ml-3 text-left flex flex-col text-lg">
+                 <p class="font-bold xxl:text-xl tablet:text-base">{{ item.name }}</p>
+                 <p class="text-gray-500 xxl:text-lg laptop:text-base tablet:text-sm">Quantity: {{ item.quantity }}</p>
+                 <p class="text-gray-500 xxl:text-lg laptop:text-base tablet:text-sm" v-if="hasSize(item)">Size: {{ item.size }}</p>
+                 <p class="text-black xxl:text-lg tablet:text-base">{{ calculatePrice(item) }}€</p>
+                 <button @click=removeFromCart(item.name) class="cart-list__btn-remove laptop:text-base tablet:text-base xxl:text-lg"> Eliminar </button>
                </div>
              </div>
            </div>
          </li>
        </ul>
        <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"> </stripe-checkout>
-       <button @click=submit class=" btn rounded-md bg-black text-white w-1/4 "> Comprar ya </button>
+       <button @click=submit class=" btn rounded-md bg-black text-white xxl:w-1/5 tablet:w-3/5"> Comprar ya </button>
       </div>
       <!-- Final content -->
     </div>
-    <div class="footer-container">
-      <Footer> </Footer>
-    </div>
+    <div class="footer-container"> <Footer> </Footer> </div>
   </div>
 </template>
 

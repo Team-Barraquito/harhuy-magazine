@@ -97,4 +97,5 @@ a.router-link-exact-active {
   opacity: 0.3;
   overflow: hidden;
 }
+
 </style>

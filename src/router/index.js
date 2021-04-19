@@ -86,13 +86,13 @@ const routes = [
   {
     path: "/filmaking",
     name: "Filmaking",
-    component: () => import("../views/Video.vue"),
+    component: () => import("../views/Filmaking.vue"),
   },
 
   {
     path: "/filmaking/:name",
     name: "Filmaker",
-    component: () => import("../views/Video.vue"),
+    component: () => import("../views/Filmaker.vue"),
   },
 
   {
@@ -114,9 +114,9 @@ const routes = [
   },
 
   {
-    path: "/sucess",
-    name: "sucess",
-    component: () => import("../views/Sucess.vue"),
+    path: "/success",
+    name: "success",
+    component: () => import("../views/Success.vue"),
   },
 
   {

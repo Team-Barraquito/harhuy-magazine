@@ -1,8 +1,14 @@
 <template>
-<div class="global">
-  <TopBar> </TopBar>
-  <div class="flex flex-column bg-yellow-400">
-    <SideMenu> </SideMenu>
+<div class="success h-screen">
+
+     <!-- TopBar + SideMenu --->
+    <TopBar> </TopBar>
+    <div class="w-screen h-4.5/6 flex bg-harhuy">
+      <div class="nav-container">
+        <SideMenu> </SideMenu>
+      </div>
+    <!-- End of TopBar + SideMenu -->
+
     <div class="flex items-center justify-center w-full text-right text-black">
       <div >
         <p class="text-3xl font-extrabold">COMPRA</p>
@@ -11,22 +17,24 @@
         Tu compra se ha realizado</p>
       <p>correctamente</p>
       </div>
-      <img src="../assets/images/sucess/sucess.svg"/>
+      <img src="../assets/images/success/success.svg"/>
     </div>
   </div>
+  <div class="footer-container"> <Footer> </Footer> </div>
 </div>
-
 </template>
 
 <script>
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   name: "Sucess",
   components: {
     TopBar,
     SideMenu,
+    Footer,
   },
 };
 </script>

@@ -51,9 +51,7 @@
       </div>
     </div>
   </div>
-  <div class="footer-container">
-      <Footer> </Footer>
-  </div>
+  <div class="footer-container"> <Footer> </Footer> </div>
 </div>
 </template>
 

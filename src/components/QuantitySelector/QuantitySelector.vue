@@ -1,7 +1,7 @@
 <template>
-  <div class="flex  w-64 h-10 bg-white border-1 border-black">
+  <div class="flex  w-4/6 h-10 bg-white border-1 border-black">
     <decrease-button> </decrease-button>
-    <div class="w-44 flex justify-center items-center" role="text"> {{itemQuantity}} </div>
+    <div class="w-3/5 flex justify-center items-center" role="text"> {{itemQuantity}} </div>
     <increase-button> </increase-button>
   </div>
 </template>

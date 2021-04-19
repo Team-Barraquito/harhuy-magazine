@@ -1,23 +1,24 @@
 <template>
- <div class="illustration w-screen h-screen">
+<div class="illustration overflow-x-hidden">
     <TopBar> </TopBar>
-    <div class="content flex mt-6">
-      <div class="side-container w-36">
+    <div class="w-screen flex overflow-x-hidden">
+      <div class="nav-container overflow-x-hidden">
         <SideMenu> </SideMenu>
       </div>
-      <div class="flex justify-between pr-20 pl-20">
-        <div class="column w-96 h-full grid gap-3 justify-items-center">
-        <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist :path="path"/>
-        </div>
-        <div class="column w-96 h-full grid gap-12 justify-items-center pt-14">
-          <ShowcaseArtist v-for="(artist,index) in secondThree" :key="index" :artistData=artist :path="path"/>
-        </div>
-        <div class="column w-96 h-full grid gap-3 justify-items-center">
-          <ShowcaseArtist v-for="(artist,index) in thirdThree" :key="index" :artistData=artist :path="path"/>
-        </div>
-      </div>
+      <!-- End of top side -->
+        <div class="w-full flex justify-evenly px-4 overflow-x-hidden">
+          <div class="column w-96 h-full grid gap-3 justify-items-center">
+            <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist :path="path"/>
+          </div>
+          <div class="column w-96 h-full grid gap-12 justify-items-center pt-14">
+            <ShowcaseArtist v-for="(artist,index) in secondThree" :key="index" :artistData=artist :path="path"/>
+          </div>
+          <div class="column w-96 h-full grid gap-3 justify-items-center">
+           <ShowcaseArtist v-for="(artist,index) in thirdThree" :key="index" :artistData=artist :path="path"/>
+          </div>
+       </div>
     </div>
-    <div class="footer-container">
+    <div class="footer-container overflow-x-hidden">
       <Footer> </Footer>
     </div>
   </div>
