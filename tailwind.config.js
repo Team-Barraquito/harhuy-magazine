@@ -1,14 +1,14 @@
 module.exports = {
   purge: [],
   darkMode: false, // Or 'media' or 'class'
-  theme: {
+  theme: {  
     screens: {
       mobile: "320px",
-      tablet: "481px",
-      laptop: "769px",
-      desktop: "1025px",
+      tablet: "480px",
+      laptop: "768px",
+      desktop: "1024px",
       xl: "1201px",
-      xxl: "1920px",
+      xxl: "1440px",
     },
     extend: {
       colors: {
@@ -59,7 +59,6 @@ module.exports = {
       animations: {
         cross: "cross 2s ease-in-out ",
       },
-
     },
   },
   variants: {
