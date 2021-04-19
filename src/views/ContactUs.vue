@@ -7,9 +7,9 @@
       </div>
     <div class="flex flex-column bg-black w-full">
       <div class="flex flex-row pt-16">
-        <div class="w-2/4 mr-24">
-          <p class="uppercase font-black text-right text-6xl text-white mt-5"> Contacta <br>
-            con nosotros </p>
+        <div class="w-3/4 mr-24">
+          <p class="uppercase font-black text-right text-6xl text-white mt-5"> Contacta con <br>
+          nosotros </p>
           <p class="text-right text-white"> ¡No dudes en contactar con nosotros! <br>
           ¡Usa este formulario porfavor! <br>
           Pero si tienes alguna duda sobre algo <br>
@@ -36,7 +36,7 @@
             </div>
             <div class="flex justify-center">
               <input type="checkbox" id="terms" name="terms" required>
-              <label for="" class="text-white text-xxs ml-2">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
+              <label for="" class="text-white text-xxs ml-2 privacy">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
             </div>
             <div class="mt-3 w-4/12 h-4/12">
               <div>
@@ -118,5 +118,7 @@ export default {
   button {
     outline: 0;
   }
-
+  .privacy {
+    font-size: 10px;
+  }
 </style>
