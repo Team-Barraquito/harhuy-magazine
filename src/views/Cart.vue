@@ -56,7 +56,7 @@ export default {
     this.publishableKey = "pk_test_51IdHovLav5xUnjDzK3aPFqXRLDNCruUugBriLDajPnHuyuM8qjtJj9zZC7Ingh0e4dBAqw2umPE6mUiUa4MAKW1e00onBnTjju";
     return {
       lineItems: [],
-      successURL: "https://www.harhuymag.com/sucess",
+      successURL: "https://www.harhuymag.com/success",
       cancelURL: "https://www.harhuymag.com/denied",
     };
   },

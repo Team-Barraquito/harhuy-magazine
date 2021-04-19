@@ -43,21 +43,24 @@
             Repellendus incidunt perferendis officiis aliquam dolor vero
             fugit labore saepe dignissimos e dignissimos reprehe, ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus inc facere quae, eanatus corporis, aliquid aperiam quia nulla autem?</p>
-
         </div>
       </div>
     </div>
+    <div class="footer-container"><Footer> </Footer></div>
   </div>
 </template>
 
 <script>
 import TopBar from "@/components/TopBar/TopBar.vue";
 import SideMenu from "@/components/SideMenu/SideMenu.vue";
+import Footer from "@/components/Footer/Footer.vue";
+
 export default {
   name: "AboutUs",
   components: {
     TopBar,
     SideMenu,
+    Footer,
   },
 };
 </script>

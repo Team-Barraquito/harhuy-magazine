@@ -1,9 +1,12 @@
 <template>
-  <div class="subscription">
+ <div class="illustration overflow-x-hidden">
     <TopBar> </TopBar>
-    <div class="flex object-contain">
-      <SideMenu> </SideMenu>
-      <div class="box-border flex flex-wrap flex-row justify-center items-center overflow-hidden w-full place-items-center">
+    <div class="w-screen flex overflow-x-hidden">
+      <div class="nav-container overflow-x-hidden">
+        <SideMenu> </SideMenu>
+      </div>
+
+      <div class="box-border flex flex-wrap items-start overflow-hidden w-full">
         <PlanCard title="Plan Premium Plus" price="14,99€" itemid="price_1Ier8jLav5xUnjDzfsDbGlYC" duration="3"> </PlanCard>
         <PlanCard title="Plan Plus" price="10,99€" duration="3" itemid="price_1Ier9wLav5xUnjDz87Dnckbd"> </PlanCard>
         <PlanCard title="Suscripción Revista" price="8,99€" duration="1" itemid="price_1IerGsLav5xUnjDzEtQMwR35"> </PlanCard>

@@ -17,8 +17,8 @@
         <stripe-checkout ref="checkoutRef" mode="subscription" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
           <button @click="submit" class="button">Compralo ya!</button>
       </div>
-      <div class="image-container mt-2">
-        <img class="tablet:full tablet:h-28 laptop:w-full laptop:h-44 xl:h-32 xxl:h-48"  src="../../assets/images/suscription/plan-premium-plus.jpg" alt="Imagen del Plan Premium">
+      <div class="image-container">
+        <img src="../../assets/images/suscription/plan-premium-plus.jpg" alt="Imagen del Plan Premium">
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ export default {
           quantity: 1,
         },
       ],
-      successURL: "https://www.harhuymag.com/sucess",
+      successURL: "https://www.harhuymag.com/success",
       cancelURL: "https://www.harhuymag.com/denied",
     };
   },
@@ -62,7 +62,7 @@ export default {
   grid-template-areas: all;
   justify-content: center;
   align-items: center;
-  padding: 4%;
+  padding: 2%;
   overflow: hidden;
   @apply xl:w-2/6
 }

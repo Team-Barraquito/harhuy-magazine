@@ -5,7 +5,7 @@
   <SideMenu> </SideMenu>
     <div class="flex flex-column mobile:flex-row bg-red-600">
       <div class="flex flex-row">
-        <div class="w-2/4 mr-24 bg-black">
+        <div class="w-2/4 mr-24">
           <h1 class="uppercase font-black text-right text-6xl text-white mt-5"> Contacta con
             nosotros <br> </h1>
           <p class="text-right text-white"> Esto es un ejemplo <br>
@@ -34,7 +34,7 @@
             </div>
             <div class="flex justify-center">
               <input type="checkbox" id="terms" name="terms" required>
-              <label for="" class="text-white text-xss ml-2">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
+              <label for="" class="text-white text-tiny ml-2">By subscribing, you agree to our Terms of Use and Privaciy Policy</label>
             </div>
             <div class="mt-3 w-4/12 h-4/12">
               <div>
