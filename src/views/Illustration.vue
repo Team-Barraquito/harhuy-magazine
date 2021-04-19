@@ -6,14 +6,14 @@
         <SideMenu> </SideMenu>
       </div>
       <!-- End of top side -->
-        <div class="w-full flex justify-evenly px-4 overflow-x-hidden">
-          <div class="column w-96 h-full grid gap-3 justify-items-center">
+        <div class="tablet:w-full tablet:flex tablet:flex-col tablet:mt-8 tablet:items-center desktop:justify-evenly desktop:flex-row desktop:items-start desktop:px-2 xl:px-4">
+          <div class="column tablet:w-90 tablet:h-full grid gap-3 laptop:w-96 desktop:w-64 desktop:h-64  justify-items-center xl:w-90 xl:h-full xxl:w-96">
             <ShowcaseArtist v-for="(artist,index) in firstThree" :key="index" :artistData=artist :path="path"/>
           </div>
-          <div class="column w-96 h-full grid gap-12 justify-items-center pt-14">
+          <div class="column tablet:w-90 tablet:h-full grid gap-12 laptop:w-96  desktop:w-64 desktop:h-64 justify-items-center tablet:pt-2 tablet:gap-10 desktop:pt-8 xl:w-90 xl:h-full xl:gap-12 xl:pt-14 xxl:w-96">
             <ShowcaseArtist v-for="(artist,index) in secondThree" :key="index" :artistData=artist :path="path"/>
           </div>
-          <div class="column w-96 h-full grid gap-3 justify-items-center">
+          <div class="column tablet:w-90 tablet:h-full grid gap-3 laptop:w-96 desktop:w-64 desktop:h-64  justify-items-center xl:w-90 xl:h-full xxl:w-96">
            <ShowcaseArtist v-for="(artist,index) in thirdThree" :key="index" :artistData=artist :path="path"/>
           </div>
        </div>
