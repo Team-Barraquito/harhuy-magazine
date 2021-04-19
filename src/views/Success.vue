@@ -1,27 +1,25 @@
 <template>
-<div class="success h-screen">
-
-     <!-- TopBar + SideMenu --->
+  <div class="success h-screen">
+    <!-- TopBar + SideMenu --->
     <TopBar> </TopBar>
-    <div class="w-screen h-4.5/6 flex bg-harhuy">
+    <div class="w-screen flex bg-harhuy">
       <div class="nav-container">
         <SideMenu> </SideMenu>
       </div>
-    <!-- End of TopBar + SideMenu -->
+      <!-- End of TopBar + SideMenu -->
 
-    <div class="flex items-center justify-center w-full text-right text-black">
-      <div >
-        <p class="text-3xl font-extrabold">COMPRA</p>
-        <p class="text-3xl font-extrabold">REALIZADA</p>
-      <p class ="text-left text-black text-1xl">
-        Tu compra se ha realizado</p>
-      <p>correctamente</p>
+      <div class="flex items-start justify-center w-full text-right text-black">
+        <div class="pt-48 -ml-36">
+          <p class="text-5xl font-extrabold">COMPRA</p>
+          <p class="text-5xl font-extrabold">REALIZADA</p>
+          <p class="text-left text-black text-2xl">Tu compra se ha realizado</p>
+          <p class="text-2xl">correctamente</p>
+        </div>
+        <img class="pt-28 w-100 h-400" src="../assets/images/success/success.svg" />
       </div>
-      <img src="../assets/images/success/success.svg"/>
     </div>
+    <div class="footer-container"><Footer> </Footer></div>
   </div>
-  <div class="footer-container"> <Footer> </Footer> </div>
-</div>
 </template>
 
 <script>
@@ -40,5 +38,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class=" flex justify-between w-screen h-60 bg-black overflow-x-hidden">
+  <div class=" flex justify-between w-screen h-60 bg-black">
 
     <!-- left zone -->
     <div class="w-32 h-auto flex flex-col m-10 overflow-hidden justify-center items-center">

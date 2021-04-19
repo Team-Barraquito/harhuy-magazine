@@ -1,6 +1,8 @@
 <template>
   <div id="app" class="antialiased">
-    <router-view class="w-screen"/>
+  <transition name="slide-fade" mode="out-in">
+    <router-view/>
+  </transition>
   </div>
 </template>
 
@@ -69,6 +71,31 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+}
+
+a.router-link-exact-active {
+  color: #42b983;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0.3;
+    transform: translanteX(4em);
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .3s ease;
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s linear;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(-20px);
+  opacity: 0.3;
+  overflow: hidden;
 }
 
 </style>

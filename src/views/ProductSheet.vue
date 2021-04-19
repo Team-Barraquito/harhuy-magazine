@@ -1,8 +1,13 @@
 <template>
   <div class="product h-screen">
+
+   <!-- TopBar + SideMenu --->
     <TopBar> </TopBar>
-    <div class="flex object-contain">
-      <SideMenu> </SideMenu>
+    <div class="w-screen flex">
+      <div class="nav-container">
+        <SideMenu> </SideMenu>
+      </div>
+    <!-- End of TopBar + SideMenu -->
 
       <!-- inicio contenedor fotos -->
       <div class="flex flex-col w-1/2 h-150 items-center my-10 overscroll-contain overflow-scroll">
@@ -36,9 +41,9 @@
           </div>
 
           <div class="flex my-4 justify-between w-full h-10">
-            <button @click=checkIfQuantityisZero id="addToCart" class="w-2/5 h-full border-2 border-black uppercase rounded-sm bg-white"> Añadir al carrito </button>
+            <button @click=checkIfQuantityisZero id="addToCart" class="w-2/5 h-full border-2 border-black uppercase rounded-sm bg-white text-sm"> Añadir al carrito </button>
             <stripe-checkout ref="checkoutRef" mode="payment" :pk="publishableKey" :line-items="lineItems" :success-url="successURL" :cancel-url="cancelURL" @loading="v => loading = v"/>
-            <button @click=submit id="buyNow" class="w-2/5 h-full border-2 border-black text-white bg-black uppercase rounded-sm" > Comprar ya! </button>
+            <button @click=submit id="buyNow" class="w-2/5 h-full border-2 border-black text-white bg-black uppercase rounded-sm text-sm" > Comprar ya! </button>
           </div>
 
           <!-- Final botones-->
@@ -79,9 +84,7 @@
       </div>
       </div>
     </div>
-    <div class="footer-container">
-      <Footer> </Footer>
-    </div>
+    <div class="footer-container"> <Footer> </Footer> </div>
   </div>
 </template>
 
@@ -121,7 +124,7 @@ export default {
           quantity: 0,
         },
       ],
-      successURL: "https://www.harhuymag.com/sucess",
+      successURL: "https://www.harhuymag.com/success",
       cancelURL: "https://www.harhuymag.com/denied",
     };
   },
