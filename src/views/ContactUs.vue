@@ -1,9 +1,12 @@
 <template>
 <div class="contact">
-  <TopBar> </TopBar>
-  <div class= "flex flex-column bg-black">
-  <SideMenu> </SideMenu>
-    <div class="flex flex-column mobile:flex-row bg-red-600">
+    <TopBar> </TopBar>
+    <div class="w-screen flex">
+      <div class="nav-container">
+        <SideMenu> </SideMenu>
+      </div>
+
+    <div class="flex w-full flex-column mobile:flex-row bg-red-600">
       <div class="flex flex-row">
         <div class="w-2/4 mr-24">
           <h1 class="uppercase font-black text-right text-6xl text-white mt-5"> Contacta con

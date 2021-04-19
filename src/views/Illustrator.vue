@@ -136,13 +136,13 @@ export default {
     },
   },
   methods: {
-    getDesigner () {
+    getIllustrator () {
       this.illustrator = this.illustrators(this.$route.params.name);
     },
   },
 
   beforeMount () {
-    this.getDesigner();
+    this.getIllustrator();
   },
 };
 </script>
