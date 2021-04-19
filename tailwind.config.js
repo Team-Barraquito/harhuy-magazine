@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     screens: {
       mobile: "320px",
-      tablet: "481px",
-      laptop: "769px",
-      desktop: "1025px",
+      tablet: "480px",
+      laptop: "768px",
+      desktop: "1024px",
       xl: "1201px",
-      xxl: "1920px",
+      xxl: "1440px",
     },
     extend: {
       colors: {
@@ -39,12 +39,14 @@ module.exports = {
         128: "31rem",
         large: "31.25rem",
         "2.5/5": "45%",
+        "4.5/6": "70%",
         "11.5/12": "95%",
         "11.6/12": "96%",
         "11.8/12": "98%",
       },
       fontSize: {
-        xxs: "0.625rem",
+        xxs: "0.75rem",
+        tiny: "0.625rem",
       },
       scale: {
         200: "2",
